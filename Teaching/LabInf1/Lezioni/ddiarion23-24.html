@@ -1,0 +1,1428 @@
+<html>
+<head>
+ <meta charset="utf-8">
+<style type="text/css">
+/* Add a black (#333) background color to the top navigation */
+.topnav {
+    background-color: #DAFDDA;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 22px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #99e699;
+    color: white;
+}
+</style>
+
+<div class="topnav">
+<!-- esempi
+  <a class="active" href="url_home">Home <br></a>
+
+  <a href="url_news">News</a>
+  <a href="url_contatti">Contatti</a>
+  <a href="url_info">Info</a>
+ -->
+ 
+ <a  HREF="../indexn.html" >
+<font size=+1 face="Georgia" color="#008000">
+Home page&nbsp;</FONT></A>
+ 
+
+<A HREF="../teston.html" ><font size=+1 color="#008000" face="Georgia">
+Libri di testo&nbsp;</font></a> 
+
+<A HREF="../syllabusn.html" ><font face="Georgia" size="+1" color="#008000">
+Programma&nbsp;</font></a>
+
+
+<A class="active"HREF="./diarion.html" ><font face="Georgia" size="+1" color="#800000">Diario lezioni
+</font></a>
+ 
+<A  HREF="../Laboratorio/labindexn.html" ><font face="Georgia" size="+1" color="#800000">Laboratorio</font></a>
+
+<A HREF="../Esami/esamindexn.html" ><font face="Georgia" size="+1" color="#800080">Test ed Esami
+</font></a>
+
+</div>
+</head>
+</html>
+  
+<HTML>
+<HEAD>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+   <TITLE> Informatica 1 </TITLE>
+
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#808080" VLINK="#551A8B" 
+ALINK="#FF0000" BACKGROUND="../sfondo00.bmp">
+
+<br>
+
+<A HREF="http://www.uniroma2.it/"TARGET="_blank">
+<IMG SRC="../Tor-Vergata_logo2.png"BORDER=0 HEIGHT=80  ></A> 
+
+
+<center>
+<h2> 
+<font color="#008000"> Laboratorio di Programmazione & Informatica 1</font><br>
+
+<font size="4" color="#008000">A.A. 2023-2024</font></b></h2>
+
+
+
+</center>
+<p>
+
+
+<H2 ALIGN=CENTER><B><font color="#800080">Diario delle lezioni</font></B><font color="#800080">
+</font>
+</H2>
+<hr>
+
+<p>
+In questa pagina sono elencati gli argomenti trattati in ogni
+	  lezione.<br>
+ I codici C mostrati come esempi e i file powerpoint mostrati a lezione si trovano nella scheda <b> file </b> del canale <b> Lezioni </b> del corso su Teams.
+ 
+ <!--
+I codici C mostrati come esempi si trovano nella
+seguente <b><a href="../CodiceLez/index.php">
+<font color="#FF0000">cartellaEsempi</font></a></b>.
+I nomi dei programmi contengono il riferimento al numero della lezione
+		  in cui sono stati mostrati.
+-->
+ <br> I testi degli esercizi
+		    assegnati in laboratorio si trovano nella sezione "Laboratorio".
+
+
+<br>
+<p>
+
+<!-- DA RICOPIARE
+
+<tr  BGCOLOR="lavender">
+<td><center>MAR 3/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab1 </b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 3/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab </b>
+
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 6/10/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez </b>
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 6/10/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab </b>
+
+
+</td>
+</tr>
+-->
+
+<!-- INIZIO -->
+
+<table BORDER CELLSPACING=2 CELLPADDING=2 WIDTH="100%" >
+
+<tr BGCOLOR="#63C768">
+<td width="50"><center><b><font size=+1> Data  </font></b></center></td>
+<td width="40"><center><b><font size=+1>Ora</font></b></center></td>
+<td><center><b><font size=+1>Argomento</font></b></center></td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>Mar 26/9/23  </center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez1 </b>
+Presentazione del corso.
+<br>
+Introduzione all'informatica e centralit&agrave; 
+del concetto di algoritmo. L'algoritmo di Euclide: dalla descrizione in linguaggio naturale alla codifica in linguaggio C. 
+
+
+<br>
+
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>Mar 26/9/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez2 </b>
+Analisi di semplici programmi in C. Il primo (classico!)
+	  programma in C: Scrivere  un messaggio sullo schermo.
+<br>Il concetto di variabile in un programma. Identificatori per le
+  variabili.
+<br>Il secondo programma: "Sommare due numeri interi e scrivere il risultato
+				  sullo schermo.
+<br>Il terzo programma (variante): "Richiedere due numeri
+  interi all'utente e stampare sullo  schermo la loro somma".
+<br>
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 29/9/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez3 </b>
+ Analisi dettagliata di un semplice programma. <br>
+Sintassi per gli identificatori e per la dichiarazione di
+variabili. Istruzione di assegnamento. Esempio: Scambiare il valore di
+				due variabili. <br> Rappresentazione dei dati in C. I 5 tipi elementari
+ <kbd> char, int, float, double </kbd> .
+Rappresentazione numeri in sistema binario, (decimale) e
+esadecimale. Occupazione in memoria dei vari tipi di dati. 
+<br> Operatore unario  <kbd> sizeof( ) </kbd>
+				Espressioni aritmetiche e logiche.
+Operatori aritmetici, condizionali e logici in C.
+</td> 
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>VEN 29/9/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez4 </b>
+ Sintassi dell'istruzione di selezione  <kbd> if
+   </kbd> Istruzioni composte. Esempi. Esercizi.
+
+</td>
+</tr>
+</td>
+</tr>
+
+<tr  BGCOLOR="lavender">
+<td><center>MAR 3/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+
+<b>Lab1 </b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab01  ">
+<font color="#FF0000">Codice Lab01</font></a></b>
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 3/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez5 </b>
+La programmazione strutturata e il controllo del flusso di un programma. Il <i>Teorema di Boehm e
+Jacopini.</i><br> La struttura di selezione     <kbd> if
+   </kbd>  e  la struttura di ripetizione  <kbd> while </kbd>: somiglianze e differenze. <br>
+   La struttura di selezione  <kbd> if ...else </kbd>. 
+Esempi di utilizzo di strutture <kbd> if ...else </kbd> nidificate. Il problema del 
+<i> dangling else (else appeso)</i>.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 6/10/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez6  </b>
+ La struttura di ripetizione  <kbd> do ...while </kbd>. 
+Equivalenza tra le due strutture di ripetizione introdotte. Operatori di incremento e decremento ++, --. 
+Operatori di assegnamento +=, -=, *=.<br>
+La ripetizione definita: la struttura   <kbd> for </kbd>. Esempi. Equivalenza tra le  strutture di ripetizione introdotte.<br> Correzione gli esercizi 3 e 4 del lab01.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 6/10/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab2</b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab02  ">
+<font color="#FF0000">Codice Lab02</font></a></b>
+
+</td>
+</tr>
+
+<tr  BGCOLOR="lavender">
+<td><center>MAR 10/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab3 </b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab03  ">
+<font color="#FF0000">Codice Lab03</font></a></b>
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 10/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 7</b>
+Correzione esercizi del lab02.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 13/10/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 8</b>
+Usi particolari dei cicli <kbd>for</kbd> quando mancano alcune condizioni. Esempi.
+ Uscita forzata da una istruzione: <kbd> break e continue </kbd>. Uscita forzata da un programma: <kbd> exit e return </kbd>.
+La struttura di selezione <kbd> switch </kbd>. Esempi.<br>
+Correzione esercizi  lab03_3/4.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 13/10/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 4 </b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab04  ">
+<font color="#FF0000">Codice Lab04</font></a></b>
+
+</td>
+</tr>
+
+<tr  BGCOLOR="lavender">
+<td><center>MAR 17/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 5 </b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab05  ">
+<font color="#FF0000">Codice Lab05</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 17/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 9</b>
+Parametri di conversione per printf e scanf per il tipo char. Funzioni getchar( ),putchar( ). Problemi possibili nell'input di caratteri alternato a input numerici [charInput1.c].
+ Codifica delle informazioni non numeriche: codice ASCII e sue estensioni. Esempi.
+ <br> Introduzione alle funzioni nei programmi in C. Sintassi. 
+Meccanismo del
+  passaggio dei parametri e variabili locali alle funzioni. Esempi.
+<br> Correzione degli esercizi del Lab 03 e 04. <br>
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 20/10/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 10 </b>
+ Definizione di funzioni nei programmi in C. Sintassi. 
+Meccanismo del
+  passaggio dei parametri e variabili locali alle funzioni. Esempio <kbd>quadratiVari.c </kbd>.
+<br> Funzioni della libreria matematica.
+Generatore di numeri casuali. Esempi: dado1.c, dado2.c,lancidado.c.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 20/10/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 6</b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab06  ">
+<font color="#FF0000">Codice Lab06</font></a></b>
+ 
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 24/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 7</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab07  ">
+<font color="#FF0000">Codice Lab07</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 24/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 11</b>
+Funzioni ricorsive. Esempi. Le torri di Hanoi: l'algoritmo ricorsivo e dimostrazione che la complessità è esponenziale. 
+<br> Correzione parziale degli esercizi del Lab 06 e 07. 
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 27/10/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 12</b>
+La struttura dati <tt>array</tt> in C. Dichiarazione e inizializzazione di array. Allocazione della memoria per una variabile di tipo array. Passaggio di array a
+funzioni. <br> Esempi.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 27/10/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 8</b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab08  ">
+<font color="#FF0000">Codice Lab08</font></a></b>
+ 
+
+</td>
+</tr>
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 31/10/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 9</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab09  ">
+<font color="#FF0000">Codice Lab09</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 31/10/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 13</b>
+Cenni su analisi della complessità di un algoritmo. Notazione O e &Omega; per indicare limiti superiori e inferiori della complessità di algoritmi e problemi. Esempi di tempi di calcolo in relazione alle funzioni f(n)= n, nlogn, n^2, n^3, 2^n.<br> Il gioco "indovina il numero" e un algoritmo di complessità logaritmica per risolverlo.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 3/11/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 14</b>
+ Il problema del <i> searching </i>. Operazioni di ricerca su un array:
+<i> ricerca sequenziale </i> e
+<i>ricerca binaria</i> (in versione iterativa e ricorsiva). Calcolo della
+complessitita' come numeri di  confronti effettuati nel caso peggiore.<br>
+Il problema dell'ordinamento. Algoritmi di ordinamento su vettori. Algoritmo  <i>SelectionSort</i> come iterazioni di ricerca del minimo o del massimo. Dimostrazione della correttezza e analisi della complessità a partire dalla complessità dell'algoritmo che calcola il minimo tra n numeri. <br> Algoritmo <i>BubbleSort</i>. Dimostrazione della correttezza e analisi della complessità. Valutazione sperimentale dell'algoritmo BubbleSort e nuova versione che riconosce quando il vettore è già ordinato.
+ <br> Algoritmo <i>InsertionSort</i>. Dimostrazione della correttezza e analisi della complessità. 
+<br>
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 3/11/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 10</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab10  ">
+<font color="#FF0000">Codice Lab10</font></a></b>
+
+</td>
+</tr>
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 7/11/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 11</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab11  ">
+<font color="#FF0000">Codice Lab11</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 7/11/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 15</b>
+Definizione di <i>lower bound di un problema</i>. Albero di decisione e 
+calcolo del lower bound per il problema del sorting.<br>
+La tecnica algoritmica del
+<i>divide et impera </i> e una sua applicazione al problema dell'ordinamento:
+l'algoritmo <i>MergeSort </i>. Descrizione informale, codice C e
+calcolo dei confronti effettuati.<br> Correzione esercizi laboratorio.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 10/11/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 16</b>
+L'algoritmo <i>QuickSort </i>. Descrizione informale e codice C. Array bidimensionali (matrici). Esempi.<br>
+Riflessioni e possibili soluzioni dell'esercizio MaxSum del laboratorio precedente <br>
+Introduzione alle variabili puntatore. Esempi.
+Operatori & e *. 
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 10/11/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 12</b>
+Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab12  ">
+<font color="#FF0000">Codice Lab12</font></a></b>
+
+</td>
+</tr>
+
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="LEMONCHIFFON">
+<td><center>MAR 14/11/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b><b>Pausa didattica</b></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="LEMONCHIFFON"> 
+<td><center>MAR 14/11/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Pausa didattica</b>
+
+</td>
+</tr>
+
+<tr  BGCOLOR="LEMONCHIFFON">
+<td><center>VEN 17/11/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Pausa didattica</b>
+
+</td>
+</tr>
+<tr  BGCOLOR="LEMONCHIFFON"> 
+<td><center>VEN 17/11/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Pausa didattica</b>
+
+
+</td>
+</tr>
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 21/11/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 13</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab13  ">
+<font color="#FF0000">Codice Lab13</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 21/11/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 17</b>
+Variabili puntatore. Esempi di variabili puntatore. Assegnazione di variabili puntatore. Funzioni <tt> malloc </tt> e <tt> free </tt>. Aritmetica sui puntatori.  Esempi di stampa degli indirizzi degli elementi di un array.  Esempi di definizione di array attraverso la funzione malloc.
+(file <tt>provapunt.c</tt> e <tt> vettoripunt.c </tt>)<br>
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 24/11/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 18</b>
+Puntatori e loro relazioni con gli array. Tipo di dati "stringhe" come array di <tt> char </tt>. Esempi di inizializzazione, stampa e copia.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 24/11/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 14</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab14  ">
+<font color="#FF0000">Codice Lab14</font></a></b>
+
+</td>
+</tr>
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 28/11/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 15</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab15  ">
+<font color="#FF0000">Codice Lab15</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 28/11/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 19</b>
+Le strutture in C: dichiarazioni di variabili tipo
+<i>struct </i>. Inizializzazioni di variabili struct. Operazioni
+su variabili struc, operatore punto e	operatore freccia. Parola
+chiave <i>typedef </i>. <br> Esempio di una struttura che rappresenta una carta da gioco. Programma che inizializza un mazzo di carte e poi lo "mescola". (file
+mazzoDiCarte.c</a>).<br>
+Correzione esercizi laboratorio.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 1/12/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 20</b>
+Strutture autoreferenzianti per creare strutture dati
+  dinamiche. Definizione di un nodo-lista. Definizione di una lista come puntatore ad un nodo-lista. Stampa di una lista. Operazioni di inserimento in testa e in coda in versione con lista passata per riferimento. Esempi.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 1/12/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 16</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab16">
+<font color="#FF0000">Codice Lab16</font></a></b>
+
+</td>
+</tr>
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 5/12/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 17</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab17  ">
+<font color="#FF0000">Codice Lab17</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr> 
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 5/12/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 21</b>
+Lettura e scrittura su file di testo e ascii.
+</td>
+</tr>
+
+<tr  BGCOLOR="LEMONCHIFFON">
+<td><center>VEN 8/12/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Festa dell'Immacolata</b>
+
+</td>
+</tr>
+<tr  BGCOLOR="LEMONCHIFFON"> 
+<td><center>VEN 8/12/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Festa dell'Immacolata</b>
+
+
+</td>
+</tr>
+
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 12/12/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 18</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab18  ">
+<font color="#FF0000">Codice Lab18</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr> 
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 12/12/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 22</b>
+Liste linkate. Operazioni di inserimento e cancellazione.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 15/12/23</center></td>
+<td><center> 9-11</center></td>
+<td>
+LEZIONE CANCELLATA
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>VEN 15/12/23</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 19</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab19  ">
+<font color="#FF0000">Codice Lab19</font></a></b>
+
+
+
+</td>
+</tr>
+
+<!-- settimana -->
+</td>
+</tr>
+<tr  BGCOLOR="lavender">
+<td><center>MAR 19/12/2023</center></td>
+<td><center> 9-11</center></td>
+<td>
+LEZIONE CANCELLATA
+<br>
+
+
+</td>
+</tr> 
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 19/12/2023</center></td>
+<td><center>14-16</center></td>
+<td>
+LEZIONE CANCELLATA
+
+</td>
+</tr>
+
+<tr  BGCOLOR="LEMONCHIFFON">
+<td><center>da VEN 22/12/23 fino VEN 12/1/24</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Vacanze di Natale</b>
+
+</td>
+</tr>
+
+<!-- settimana -->
+
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 09/01/2024</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 23</b>
+Riepilogo su definizione di una lista come puntatore ad un nodo-lista e alle operazioni di stampa e  inserimento in testa e in coda.  Funzione per inserire un elemento in una lista mantenendola ordinata. Operazioni di cancellazione di un elemento in versione con lista passata per riferimento o per valore. Esempi.
+ 
+<br>
+
+
+</td>
+</tr> 
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 09/01/2024</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 24</b>
+Analisi di esercizi su liste.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 12/01/24</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 25</b>
+Analisi di esercizi in preparazione al preappello.
+
+</td>
+</tr>
+<tr  BGCOLOR="orange"> 
+<td><center>VEN 12/01/24</center></td>
+<td><center>14:00-16:30</center></td>
+<td> 
+<b>PREAPPELLO</b>
+<br>
+ La prova (da svolgere esclusivamente sui computer dell'aula) consisterà in due esercizi rispettivamente su "vettori o matrici" e "stringhe e files". Per coloro che fanno il preappello, la parte sulle liste puntate sarà richiesta durante la prova orale.
+
+<br>
+<b>Questo è il testo proposto: <a href="../Esami23-24/Appello0.pdf">
+<font color="blue">Appello0</font></a></b>
+
+</td>
+</tr>
+
+<!-- settimana -->
+
+<tr  BGCOLOR="lavender"> 
+<td><center>MAR 16/01/2024</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lab 20</b>
+ Vedi Esercizi Proposti <a href="../Laboratorio/labindexn.html#lab20  ">
+<font color="#FF0000">Codice Lab20</font></a></b>
+ 
+<br>
+
+
+</td>
+</tr> 
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>MAR 16/01/2024</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 26</b> ULTIMA LEZIONE.
+Strutture dati astratte "pila" e
+"coda". Implementazioni in C usando strutture a puntatori e usando vettori. Esempi. <br>
+Esempi di utilizzo della struttura dati pila. Algoritmo di simulazione di una coda con due pile e complessità. (codice pile_coda.c). <br> Cenni su valutazione valore di verita' di semplici formule booleane. (codice formulaBooleanaconPila.c) <br> Forma postfissa per le espressioni aritmetiche. Cenni su valutazione di espressioni aritmetiche in forma postfissa usando una pila.
+<br> Correzione esercizi preappello.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>VEN 19/01/24</center></td>
+<td><center> 9-11</center></td>
+<td>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5"> 
+<td><center>VEN 19/01/24</center></td>
+<td><center>14-16</center></td>
+<td>
+
+
+</td>
+</tr>
+
+
+<!--
+
+
+Esercizi proposti con codice lab01_1,2,3,4.
+Correzione esercizi del Lab2.
+Rappresentazione dei dati in C. I 5 tipi elementari
+ <kbd> char, int, float, double </kbd> e i modificatori
+ <kbd> short, long, long long, signed, unsigned  </kbd>.
+Rappresentazione numeri in sistema binario, (decimale) e
+esadecimale. Occupazione in memoria dei vari tipi di dati. Problemi di
+approssimazione nella rappresentazione dei numeri reali.
+<br> Operatore unario  <kbd> sizeof( ) </kbd>
+ e costanti predefinite
+  sui limiti dei tipi elementari.
+<br>Esempio: visualizzazione occupazione in memoria dei vari tipi di
+ dati e dei valori max e min gestiti dal compilatore.[tipididati.c
+	sizetipididati.c]
+<br>Parametri di conversione per printf e scanf dei vari tipi di dati. Funzioni <kbd> getchar( ),putchar( )</kbd>. Problemi possibili nell'input di caratteri alternato a input numerici [charInput1.c]. <br>  Operatore di casting. 
+Codifica delle informazioni non numeriche: codice ASCII e sue
+				      estensioni.
+<br>Esempio: stampa dei valori char corrispondenti ai numeri da 0 ... 255.
+[tipochar3.c]
+<br>Esempio: conversione caratteri da maiuscolo a minuscolo operando
+ sul valore ASCII. [MaiusMinus.c] <br>
+La struttura di selezione  <kbd> if ...else </kbd>. 
+Esempi di utilizzo di strutture <kbd> if ...else </kbd> nidificate. Il problema del 
+<i> dangling else (else appeso)</i>. Problema: trovare il max tra 3 numeri utilizzando 2 confronti. Problema:  ordinare 3 numeri utilizzando 3 confronti.b>Lez </b>
+ 
+<br>
+
+
+
+<b>Lez4 </b>
+ La struttura di ripetizione  <kbd> do ...while </kbd>. 
+Equivalenza tra le due strutture di ripetizione introdotte. Operatori di incremento e decremento ++, --. 
+Operatori di assegnamento +=, -=, *=.
+La ripetizione definita: la struttura   <kbd> for </kbd>. Esempi. Equivalenza tra le  strutture di ripetizione introdotte.<br> Definire strutture di ripetizione nidificate. Esempi. 
+<br>
+</td>
+</tr>
+
+<b>Lab4 </b>
+Analisi di semplici programmi che utilizzano le strutture di ripetizione  <kbd> while, do..while, for.   </kbd> 
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+<br>
+
+
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 21/3/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 5</b>
+Usi particolari dei cicli <kbd>for</kbd> quando mancano alcune condizioni. Esempi.
+ Uscita forzata da una istruzione: <kbd> break e continue </kbd>. Uscita forzata da un programma: <kbd> exit e return </kbd>.
+La struttura di selezione <kbd> switch </kbd>. Esempi.<br>
+  Ordinare 3 numeri con max 3 confronti senza variabili ausiliarie. Calcolo del primo e secondo massimo tra n interi.  
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 21/3/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 5</b>
+Correzione esercizi del Lab3 e Lab4.<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+<br>
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 24/3/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez6 </b>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 24/3/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab6 </b>
+Esempi di programmi che utilizzano funzioni.
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 28/3/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez </b>
+ Lezione cancellata
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 28/3/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab </b>
+ Lezione cancellata
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 31/3/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 7</b>
+ Parametri e variabili locali di una funzione. Stack delle chiamate di funzione.<br>
+Funzioni ricorsive. Esempi. Le torri di Hanoi: l'algoritmo ricorsivo e dimostrazione che la complessità è esponenziale. Esempio di implementazione in C.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 31/3/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 7</b>
+Esempi di programmi che utilizzano funzioni ricorsive.
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+
+</td>
+</tr>
+
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 4/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 8</b>
+ 
+<br>
+Cenni su analisi della complessità di un algoritmo. Notazione O e &Omega; per indicare limiti superiori e inferiori della complessità di algoritmi e problemi. Esempi di tempi di calcolo in relazione alle funzioni f(n)= n, nlogn, n^2, n^3, 2^n.<br> Il gioco "indovina il numero" e un algoritmo di complessità logaritmica per risolverlo.
+<br>
+ Funzioni della libreria matematica.
+Generatore di numeri casuali. Esempi: dado1.c, dado2.c,lancidado.c.
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 4/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 8</b>
+Correzione degli esercizi del laboratorio 5 e 6. Esempi di programmi che utilizzano generatore random.
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 7/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 9  </b>
+La struttura dati <tt>array</tt> in C. Dichiarazione e inizializzazione di array. Allocazione della memoria per una variabile di tipo array. Passaggio di array a
+funzioni. <br> Esempi (codice <tt> vettore.c, dado2.c, questionario.c </tt>)
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 7/4/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 9 </b>
+Esercitazione di autovalutazione sul programma finora svolto. Primi esercizi su vettori. 
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+</td>
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 11/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 10 </b>
+ Il problema del <i> searching </i>. Operazioni di ricerca su un array:
+<i> ricerca sequenziale </i> e
+<i>ricerca binaria</i> (in versione iterativa e ricorsiva). Calcolo della
+complessitita' come numeri di  confronti effettuati nel caso peggiore.<br>
+Il problema dell'ordinamento. Algoritmi di ordinamento su vettori. Algoritmo  <i>SelectionSort</i> come iterazioni di ricerca del minimo o del massimo. Dimostrazione della correttezza e analisi della complessità a partire dalla complessità dell'algoritmo che calcola il minimo tra n numeri. <br> Algoritmo <i>BubbleSort</i>. Dimostrazione della correttezza e analisi della complessità. Valutazione sperimentale dell'algoritmo BubbleSort e nuova versione che riconosce quando il vettore è già ordinato.
+ <br> Algoritmo <i>InsertionSort</i>. Dimostrazione della correttezza e analisi della complessità. 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 11/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab  10</b>
+Correzione degli esercizi della settimana precedente sulla gestione degli array nelle funzioni.  La Congettura di Collatz.
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>MAR 12/4/22</center></td>
+<td><center> 11-13</center></td>
+<td>
+<b>Lez 11 (Scienza dei Media)</b>
+ Definizione di <i>lower bound di un problema</i>. Albero di decisione e 
+calcolo del lower bound per il problema del sorting.<br>
+La tecnica algoritmica del
+<i>divide et impera </i> e una sua applicazione al problema dell'ordinamento:
+l'algoritmo <i>MergeSort </i>. Descrizione informale, codice C e
+calcolo dei confronti effettuati. L'algoritmo <i>QuickSort </i>. Descrizione informale e codice C.
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>MAR 12/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 11 (Matematica)</b>
+Definizione di <i>lower bound di un problema</i>. Albero di decisione e 
+calcolo del lower bound per il problema del sorting.<br>
+La tecnica algoritmica del
+<i>divide et impera </i> e una sua applicazione al problema dell'ordinamento:
+l'algoritmo <i>MergeSort </i>. Descrizione informale, codice C e
+calcolo dei confronti effettuati. L'algoritmo <i>QuickSort </i>. Descrizione informale e codice C.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 14/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>  </b>
+Lezione sospesa per Vacanze di Pasqua
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 14/4/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b> </b>
+Lezione sospesa per Vacanze di Pasqua
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 18/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b> </b>
+ Lezione sospesa per Vacanze di Pasqua
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 18/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b> </b>
+Lezione sospesa per Vacanze di Pasqua
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 21/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 12</b>
+Definizione di variabili puntatore. Esempi.
+Operatori & e *.  Esempi di variabili puntatore. Stampa degli indirizzi di memoria mediante stampa con <tt>%p</tt>. Simulare il passaggio di parametri a
+funzioni per riferimento tramite puntatori. Funzioni <tt> malloc </tt>
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 21/4/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 12</b>
+Esercitazione su gestione vettori. 
+<a href="../Laboratorio/labindexn.html
+   ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 25/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b></b>
+ Lezione sospesa per Festa della Liberazione
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 25/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b> </b>
+ Lezione sospesa per Festa della Liberazione
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>MAR 26/4/22</center></td>
+<td><center> 11-13</center></td>
+<td>
+<b>Lez  13(Scienza dei Media)</b>
+Matrici bidimensionali in C. Proprietà ed esempi.
+Inizializzazioni con valori
+random e stampa di matrici in modo diretto o utilizzando utilizzando
+funzioni che gestiscono array unidimensionali. <br> Esame dettagliata del codice dei file array2dim.c e matriciCompleto.c. <br>
+Esercizio: rifare in autonomia e completare il codice di matriciCompleto.c
+
+<a href="../Laboratorio/labindexn.html  ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+</td>
+</tr>
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>MAR 26/4/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lez 13(Matematica) </b>
+Matrici bidimensionali in C. Proprietà ed esempi.
+Inizializzazioni con valori
+random e stampa di matrici in modo diretto o utilizzando utilizzando
+funzioni che gestiscono array unidimensionali.
+
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 28/4/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez  14</b>
+Operatori incremento e decremento sui puntatori. Relazione tra puntatori e array. (Esempi: <tt>
+provapunt.c,  vettori-punt.c</tt> .)<br>Stringhe come array di char. Immissione e stampa di stringhe. Esempi. La libreria string.h.  
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 28/4/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab  14</b>
+Esempi di definizione di stringhe usando puntatori.
+(Esempi: <tt>
+copiastringhe.c,  lunghezza.c</tt> .)<br> Esercizi su stringhe e array.
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 2/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 15</b>
+ Gestione dei file in C. Gestione di un file ad accesso
+sequenziale: apertura, chiusura, lettura e scrittura.   File di testo. Esempi (codici <tt>file1.c, file2.c,file2-w.c, file1-1.c, filecopia.c </tt>).
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 2/5/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 15 </b>
+Correzione degli esercizi <i>baricentro</i>  , <i>maxsum</i>, <i>bandiera</i>.
+</td>
+</tr>
+
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 2/5/22</center></td>
+<td><center>16-18</center></td>
+<td>
+<b>Lab 15 bis </b> (con Tutor)
+Esercizi su stringhe e matrici.
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 5/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 16</b>
+ 
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 5/5/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 16</b>
+<br> 
+Esempio e applicazione di array di <i>struct </i> e analisi del codice <tt> provaCampionato.c</tt> come base per il nuovo esercizio proposto.<br>
+<a href="../Laboratorio/labindexn.html  ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+
+</td>
+</tr>
+
+ 
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 9/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 17 </b>
+  Riepilogo su utilizzo della memoria tramite puntatori. Operatori <i> sizeof( ), malloc</i> e <i>free</i>. <br>
+Strutture autoreferenzianti per creare strutture dati
+  dinamiche. Definizione di un nodo-lista. Definizione di una lista come puntatore ad un nodo-lista. Stampa di una lista. Operazioni di inserimento in versione con lista passata per riferimento o per valore e ricorsiva. Esempi.
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 9/5/22</center></td>
+<td><center>14-16</center></td>
+<td>
+<b>Lab 17</b>
+Correzione esercizi " MatriceAmicizia, Campionato e CambiamoLeParole".
+</td>
+</tr>
+
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 9/5/22</center></td>
+<td><center>16-18</center></td>
+<td>
+<b>Lab 17 bis </b> (con Tutor)
+Esercizi di gestione e manipolazione stringhe. <a href="../Laboratorio/labindexn.html  ">
+<font color="#FF0000">Esercizi Proposti</font></a></b>
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 12/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 18 </b>
+Riepilogo su definizione di una lista come puntatore ad un nodo-lista e alle operazioni di stampa e  inserimento.  Funzione per inserire un elemento in una lista mantenendola ordinata. Operazioni di cancellazione di un elemento in versione con lista passata per riferimento o per valore. Esempi.
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 12/5/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 18</b>
+Esercizi su stringhe e matrici.
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 16/5/22</center></td>
+<td><center><b>9-11</b></center></td>
+<td>
+<b> </b> lezione cancellata
+ 
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 16/5/22</center></td>
+<td><center><b>14-16</b></center></td>
+<td>
+<b>Lez 19</b>
+ Correzione esercizi della settimana precedente
+<br>
+
+
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>LUN 16/5/22</center></td>
+<td><center>16-18</center></td>
+<td>
+<b>Lab 19</b> (con Tutor)
+Simulazione di una prova d'esame.
+</td>
+</tr>
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>GIO 19/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 20</b>
+Strutture dati astratte "pila" e
+"coda". Implementazioni in C usando strutture a puntatori e usando vettori. Esempi. (codici esePilanew.c e eseCodanew.c, esepila vettore.c, eselistavettore.c )
+</td>
+</tr>
+<tr  BGCOLOR="lavender"> 
+<td><center>GIO 19/5/22</center></td>
+<td><center>11-13</center></td>
+<td>
+<b>Lab 20</b>
+Esercizi su matrici e liste.
+
+</td>
+</tr>
+
+
+<tr  BGCOLOR="#EAFCE5">
+<td><center>LUN 23/5/22</center></td>
+<td><center> 9-11</center></td>
+<td>
+<b>Lez 21</b>
+ Esempi di esercizi sulle liste.
+<br>
+
+
+</td>
+</tr>
+<tr  B

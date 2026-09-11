@@ -1,0 +1,41 @@
+The main contribution of the paper is to construct a particular family of codes referred to as 
+“strong non-overlapping” that re "non-overlapping" with the additional constrain that no code word occurs inside another code word. The construction is based on Dyck path an it is mainly a variation of an analogous construction proposed in [1]. This variation assures the addition condition of beeing "strong".
+Moreover there is a technique to expand these codes and it is given an extimation of the cardinality of these family of codes.
+
+The paper is not really exciting regarding to the originality side. It is only a variation of results in [1]. Moreover it is not clear what are the  motivations and the scope underlying these results on the cardinality. There are no comparisons with existing literature to understand whether these results are significative. There is no announced goal for the properties of this new family and therefore it is difficult to judge whether the paper meets some
+
+Il lavoro contiene poi una tecnica per “espandere” questi codici e, 
+quindi una valutazione della cardinalità dei codici così ottenuti.
+
+Devo confessarti che il lavoro non mi entusiasma. Sembra anche scritto 
+con una certa sciatteria (forse scritto in fretta). Per quanto 
+riguarda la ”originalità” del risultato, si tratta in fondo solo di 
+una variante di una costruzione contenuta in un altro lavoro (cioè [1]).
+
+Ma, in generale, mi viene difficile dare una valutazione del paper. 
+Non si capisce (o non conosco io) le sue motivazioni e gli obiettivi 
+che si intendono raggiungere. E questo mi sembra il principale difetto 
+del lavoro. Tenendo conto che i temi trattati non sono fra quelli più 
+familiari alla comunità di DLT, la mancanza di obiettivi e motivazioni 
+mi sembra un difetto non secondario.
+
+Ad esempio, tutta la discussione sulla cardinalità dei codici 
+costruiti sembra essere un tema centrale in questa problematica. Ma 
+non viene indicato alcun “obiettivo” da raggiungere, per cui risulta 
+difficile valutare la “bontà” dei risultati. In realtà, per me è 
+impossibile capire se i risultati sulla cardinalità sono buoni o meno 
+(rispetto a che cosa?)
+
+Inoltre, non viene fatto alcun confronto esplicito con altri codici 
+presenti in letteratura (o con altri risultati analoghi), da cui uno 
+possa evincere che sono stati migliorati “risultati precedenti”.
+
+E’ probabile che queste mie perplessità derivino dalla mia ignoranza 
+della problematica specifica. Ma io penso di essere un rappresentante 
+“tipico” della comunità di DLT, per cui questa mia ignoranza 
+probabilmente è condivisa da gran parte dell’audience di DLT.
+
+Anche nella terminologia non è stato fatto alcuno sforzo per rendere 
+il paper facilmente accessibile alla comunità di DLT. Ad esempio, il 
+90%  di tale comunità usa il termine “unbordered word”, e non 
+“bifix-free word”.
