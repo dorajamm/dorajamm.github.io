@@ -1,0 +1,1080 @@
+<html>
+<head>
+ <meta charset="utf-8">
+<style type="text/css">
+/* Add a black (#333) background color to the top navigation */
+.topnav {
+    background-color: #DAFDDA;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 22px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #99e699;
+    color: white;
+}
+</style>
+
+<div class="topnav">
+<!-- esempi
+  <a class="active" href="url_home">Home <br></a>
+
+  <a href="url_news">News</a>
+  <a href="url_contatti">Contatti</a>
+  <a href="url_info">Info</a>
+ -->
+ 
+ <a  HREF="../indexn.html" >
+<font size=+1 face="Georgia" color="#008000">
+Home page&nbsp;</FONT></A>
+ 
+
+<A HREF="../teston.html" ><font size=+1 color="#008000" face="Georgia">
+Libri di testo&nbsp;</font></a> 
+
+<A HREF="../syllabusn.html" ><font face="Georgia" size="+1" color="#008000">
+Programma&nbsp;</font></a>
+
+
+<A HREF="../Lezioni/diarion.html" ><font face="Georgia" size="+1" color="#800000">Diario lezioni
+</font></a>
+ 
+<A class="active" HREF="./labindexn.html" ><font face="Georgia" size="+1" color="#800000">Laboratorio</font></a>
+
+<A HREF="../Esami/esamindexn.html" ><font face="Georgia" size="+1" color="#800080">Test ed Esami
+</font></a>
+
+</div>
+</head>
+</html>
+  
+<HTML>
+<HEAD>
+ <meta charset="utf-8">
+   <TITLE> Programmazione in C</TITLE>
+  
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#808080" VLINK="#551A8B" 
+ALINK="#FF0000" BACKGROUND="../sfondo00.bmp">
+
+<br>
+
+<A HREF="http://www.uniroma2.it/"TARGET="_blank">
+<IMG SRC="../Tor-Vergata_logo2.png"BORDER=0 HEIGHT=80  ></A> 
+
+
+<center>
+<h2> 
+<font color="#008000"> Laboratorio di Programmazione & Informatica 1</font><br>
+<font size="4" color="#008000">A.A. 2020-2021</font></b></h2>
+
+
+</center>
+<H2 ALIGN=CENTER><B><font color="#800080" size="4">ESERCITAZIONI IN LABORATORIO</font></B><font color="#800080">
+</font>
+</H2>
+
+<br>
+ Questa pagina contiene gli esercizi  proposti durante le lezioni di
+      laboratorio. 
+	  Gli esercizi di laboratorio possono essere consegnati nella cartella ConsegnaEsercizi della scheda File del canale Laboratorio. Ogni esercizio va scritto in un file distinto (no cartelle, no zip) e deve avere il nome del codice dell'esercizio seguito dal cognome, Ad esempio se io volessi consegnare l'esercizio 3 del Laboratorio 2 dovrei chiamare il file <tt>lab02_3Giammarresi.c</tt>. 
+	  
+	  
+	  <p>Alcuni degli esercizi consegnati verranno selezionati per essere discussi durante la lezione di laboratorio e poi trasferiti da me nella cartella eserciziCorrettiInAula del canale <b> Laboratorio </b> come riferimento per tutti gli studenti. 
+
+<hr>	  
+<!--	  <br>Le soluzioni degli esercizi (proposte da voi studenti e corrette in aula) si trovano nella scheda <b> file </b> del canale <b> Laboratorio </b> del corso su Teams.
+
+	  Di alcuni esercizi sono presenti delle
+      soluzioni  realizzate
+ dagli studenti che frequentano il corso 
+e raccolte in questa
+
+
+<a  style="color: #FF0000; font-weight: bold "href="
+https://drive.google.com/open?id=1XcZQ-QOk4LgRMXMEMkWxgp2pnDXNFOn0">   
+CARTELLA DELLE SOLUZIONI</a> (Scaricare su un'altra scheda usando il tasto destro del mouse). Il codice e il numero fanno
+      riferimento ai testi descritti.<p>	  
+-->	  
+<!--
+Le <b>
+<font color="#FF0000">REGOLE PER SPEDIRE GLI ESERCIZI</font></b> sono le seguenti:    
+    <ul>
+    <li>Per<font color="#FF0000"> ogni esercizio </font>    preparare<font color="#FF0000"> un file </font>    (in formato
+      word, pdf, html,<font color="#FF0000">...Si prega di non zipparlo!</font>).<font color="#FF0000"> </font>    Tale file 
+    dovrà
+      contenere le seguenti informazioni:
+      <font color="#FF0000">
+      <ul type="disc">
+      <li> nome e cognome dell'autore</li> 
+      <li> testo dell'esercizio&nbsp;</li>  
+      <li> soluzione dell'esercizio</li> </ul></font>    </li>
+  <li>
+  Il<font color="#FF0000"> nome del file </font>dovrà corrispondere al<font color="#FF0000"> 
+  proprio cognome seguito dal numero dell’esercizio. </font>Ad esempio se io 
+  stessa volessi sottomettere la soluzione dell’esercizio 2_23, dovrei chiamare 
+  il file <font face="Courier New" size="2"><b> giammarresi2_23</b></font>  </li>
+ <li> Spedire
+    il file (o i files, se sono più esercizi) come<font color="#FF0000"> allegati a <font face="Courier New" size="2"><b><a href="mailto:giammarr@mat.uniroma2.it">
+ <font color="#008000">giammarr@mat.uniroma2.it</font></a></b></font>
+  entro il sabato successivo</font></li>
+    </ul>
+
+</blockquote>
+
+
+<hr>
+-->
+<p>
+
+<p>
+
+
+<ul>
+<!-- DA RICOPIARE
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
+	    del <font  color="#800080">17 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab3_x):
+</font>
+<br>
+
+<ol>
+<li>
+<li>
+Scrivere un programma che produce in output (scritte una sotto l'altra) tutte le permutazioni dei numeri 1,2,3,4,5.
+</ol>
+<br>
+</li>
+-->
+
+<!--
+  Scrivere un programma che simula il gioco della morra cinese fra il computer e l'utente. 
+<br>Scrivere una funzione <kbd> char gioca()</kbd>
+in cui si genera in modo random un numero m che rappresenta uno dei tre valori “forbici”, “carta” e “sasso” . Senza scoprirlo, invita il giocatore a immettere la sua scelta corrispondente alle possibili lettere "f", "c" oppure "s".  A questo punto svela la sua scelta e restituisce 'u' se ha vinto l'utente, 'c' se ha vinto il computer oppure 'p' se la partita è pari. 
+<br>
+Il  main consiste nel dare le spiegazioni del gioco e poi
+ richiamare il metodo <kbd>gioca()</kbd>per giocare  una mano di gioco. 
+ Alla fine di ogni mano, il computer chiede all'utente se vuole 
+ continuare a giocare ed eventualmente si richiama la funzione <kbd>gioca()</kbd>.<br>
+ FACOLTATIVO: integrare l'esercizio sulla morra cinese con qualche elemento grafico (si fa per dire....). Questa è una 
+<a style="color: #990099; font-weight:
+bold" href="./sassocartaforbici.pdf"> proposta...</a>. 
+<br>
+NOTA: Si ricorda che “forbici” batte “carta”, “carta” batte “sasso” 
+e, infine,“sasso” batte “forbici”.
+
+
+
+
+<!--
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 22</b></font></a>
+	    del <font  color="#800080">28 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab22_x):
+</font>
+<br>
+<ol>
+  
+<li>  Svolgere l'<a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami17-18/1Appello.pdf"> 
+Esercizio 1 del 1 appello 2017-18</a>  
+<li> Svolgere l' <a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami17-18/2Appello.pdf"> 
+ Esercizio 1 del 2 appello 2017-18</a>  
+<li>  Svolgere l'<a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami18-19/1Appello.pdf"> 
+Esercizio 1 del 1 appello 2018-19</a>  
+
+
+<li>  Svolgere l'<a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami18-19/2Appello.pdf"> 
+Esercizio 1 del 2 appello 2018-19</a>  
+<li>Si scriva una programma C che prende in input dall'utente una stringa  a   e ne ricopia il contenuto in una stringa  b  sostituendo ciascuna occorrenza dei numeri da  0  a  9  con il corrispondente numero scritto a parole ("zero", "uno", ...., "nove"). Stampare poi la stringa  b . 
+
+<br>
+Ad esempio, se la stringa  a è la seguente:<br>
+<tt>
+   &nbsp; &nbsp; &nbsp;  Ho avvistato 3 aquile e 2 falchi.
+</tt><br>
+il programma deve inserire nella stringa  b  il testo<br>
+<tt>
+  &nbsp; &nbsp; &nbsp;   Ho avvistato tre aquile e due falchi.
+</tt><br>
+
+NOTA: Si assuma che nella stringa non compaiono mai numeri di due cifre o più.
+  <li> Ripetere l'esercizio precedente in modo che il programma chieda in input un file di testo, lo stampi sullo schermo  e poi lo riscriva cambiando i numeri da cifre a lettere. Alla fine il nuovo file dovrà essere  stampato sullo schermo.
+</ol> 
+-->
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 23</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab23_x):
+</font>
+<br>
+<ol>
+<li>  Svolgere gli <a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami19-20/Appello3.pdf"> 
+Esercizi del 3 appello 2019-20</a>  (il 
+<a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami19-20/ListeBase3App.c"> 
+file di base</a> 
+ per l'esercizio delle liste)
+</ol>
+<p>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 22</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab22_x):
+</font>
+<br>
+<ol>
+<li>  Svolgere gli <a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami19-20/Appello1.pdf"> 
+Esercizi del 1 appello 2019-20</a>  (il 
+<a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami19-20/ListeBase1App.c"> 
+file di base</a> 
+ per l'esercizio delle liste)
+</ol>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 21</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab21_x):
+</font>
+<br>
+<ol>
+<li><i> Operazioni su Insiemi </i><br>
+Scrivere un programma che utilizza le liste per rappresentare insiemi di interi e implementa, rispettivamente con due funzioni, le operazioni di unione  e intersezione tra due insiemi.
+In particolare il programma dovrà inizializzare due insiemi (=liste) con valori immessi dall'utente (o generati in modo random), stamparli sullo schermo e poi creare la lista per l'insieme intersezione e per l'insieme unione (e stamparle sullo schermo).
+<br> Nota: per definizione in un insieme non sono presenti elementi ripetuti.
+
+<li>
+A partire dal file formulaBooleanaconPila.c, estendere le capacità della funzione 
+<kbd>char boolformula(char *formula)</kbd>
+così che possa valutare anche formule con l'operatore NOT, rappresentato dal carattere '!'.
+
+Quindi, dovrebbe valutare formule come 
+F | ! ( T & ( ! F | F ) )
+
+<li> 
+A partire dal file formulaBooleanaconPila.c, modificare la funzione 
+<kbd>char boolformula(char *formula)</kbd>
+Per valutare semplici formule nell'aritmetica modulo 10.
+Tali formule sono formate dai caratteri '(', ')', '+', '*', '0', '1', ..., '9', dove gli operatori '+' e '*' sono la somma e la moltiplicazione modulo 10.
+
+Ad esempio, la formula 3 + (4*(2 + 6 + 9)*(1 + 9) + 6) ha valore 9.
+  
+  
+ <li> Modificare l'esercizio della classifica del campionato lab17_1 in modo che i nomi delle squadre vengano letti da un file di testo "squadre.txt" e che la classifica finale venga scritta in un file di testo di nome "classifica.txt".
+</ol>
+<p>
+<!--
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 20</b></font></a>
+	    del <font  color="#800080">21 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab20_x):
+</font>
+<br>
+<ol>
+<li><i> Anagrammi </i>
+L’anagramma è una parola o frase che composta dalle lettere di un’altra parola o frase disposte in un ordine diverso.
+Per esempio:<br>
+ COLTA e TALCO sono anagrammi; <br>
+ ATTORE è un anagramma di TEATRO; <br>
+ CONTARE ha come
+anagrammi CARTONE, ARCONTE, CONTER, CORNATE; <br>
+BIBLIOTECARIO è BEATO COI LIBRI;<br>
+I GELATI
+DI MORE sono la DIETA MIGLIORE 
+<br> il MAESTRO DI CANTO è il TORMENTO DI CASA.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe sono
+una l’anagramma dell’altra. Gli spazi bianchi vanno ignorati.
+Non è consentito utilizzare funzioni predefinite sulle stringhe.
+<li><i>
+Un gioco enigmistico: la cerniera</i><br>
+Nel linguaggio enigmistico una cerniera `e un gioco che consiste nel trovare due parole o frasi che hanno alcune lettere,
+agli estremi opposti, uguali; la terza parola o frase si ottiene con la scomparsa delle parti uguali e con l’accostamento
+delle parti restanti.
+Per esempio:<br>
+ &nbsp; &nbsp; &nbsp; MANICO/STAMANI = COSTA;<br>
+ &nbsp; &nbsp; &nbsp; GLI OSTI/MAGLIO = STIMA;<br>
+ &nbsp; &nbsp; &nbsp; FLAUTO/GOLF = L AUTOGOL.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe
+possono creare una cerniera. Gli spazi bianchi vanno ignorati. In caso affermativo, il programma scrive la cerniera
+formata dalle due parole (che ovviamente non deve necessariamente avere un senso come parola in italiano) .
+<li><i> Lista della spesa </i><br>Si scriva una programma C che richiede all'utente di inserire una lista di stringhe corrispondenti alla lista della spesa.
+L'immissione termina quando sono state inserite due stringhe consecutive uguali oppure quando è stato inserito "fine".  La lista viene scritta su un file listaspesa.txt. Al termine dell'immissione la lista anche ristampata sullo schermo,  tutta
+in lettere maiuscole.
+<li><i>Antichi sms</i><br>
+Si scriva un programma C che richiede all'utente di inserire una frase corrispondente ad un messaggio
+telefonico e riscrive il messaggio sostituendo:
+<br> per con x
+<br>ch con k 
+<br>Ad esempio, se il testo originale e: <tt>perche perdo sempre le chiavi?</tt>
+il testo compresso sarà: <tt>xke xrdo sempre le kiavi?</tt><br>
+NOTA: Non è consentito utilizzare funzioni prededenite sulle stringhe.
+</ol>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 19</b></font></a>
+	    del <font  color="#800080">19 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab19_x):
+</font>
+<br>
+<ol>
+<li>Si scriva una programma C che prende in input dall'utente una stringa  a   e ne ricopia il contenuto in una stringa  b  sostituendo ciascuna occorrenza dei numeri da  0  a  9  con il corrispondente numero scritto a parole ("zero", "uno", ...., "nove"). Stampare poi la stringa  b . 
+
+<br>
+Ad esempio, se la stringa  a è la seguente:<br>
+<tt>
+   &nbsp; &nbsp; &nbsp;  Ho avvistato 3 aquile e 2 falchi.
+</tt><br>
+il programma deve inserire nella stringa  b  il testo<br>
+<tt>
+  &nbsp; &nbsp; &nbsp;   Ho avvistato tre aquile e due falchi.
+</tt><br>
+
+NOTA: Si assuma che nella stringa non compaiono mai numeri di due cifre o più.
+  <li> Ripetere l'esercizio precedente in modo che il programma chieda in input un file di testo, lo stampi sullo schermo  e poi lo riscriva cambiando i numeri da cifre a lettere. Alla fine il nuovo file dovrà essere  stampato sullo schermo.
+ <li> Modificare l'esercizio della classifica del campionato lab17_1 in modo che i nomi delle squadre vengano letti da un file di testo "squadre.txt" e che la classifica finale venga scritta in un file di testo di nome "classifica.txt".
+ <li> <a style="color: #990099; font-weight: bold" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami18-19/Lab-preAppello.pdf"> 
+Esercizio 2 del preappello 2018-19</a>  
+</ol>
+-->
+<li>  
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 20</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab20_x):
+</font>
+<br>
+<ol>
+<li> Completare l'esercizio del laboratorio 19 aggiungendo la funzione "ordina" lista che implementa l'algoritmo di ordinamento Selectionsort sulla lista. 
+</ol>
+
+
+<p>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 19</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab19_x):
+</font>
+<br>
+<ol>
+<li> Aggiungere le seguenti funzioni al programma <tt>
+eseListaBase.cpp</tt>:
+<ol>
+<li> Cancellazione di TUTTE le occorrenze di un certo elemento nella lista.(Per provarlo generare una lista lunga e con pochi valori random).
+<br><u>Nota: </u> Fare attenzione al caso in cui dovranno essere eliminati "tanti" elementi iniziali.
+<li> Ricerca di un elemento nella lista : restituisce eventualmente la posizione
+<li> Inserimento in coda alla lista MA SOLO se l'elemento non è già presente
+
+
+<li> Eliminazione di tutti gli elementi DUPLICATI di una lista. Alla fine ogni elemento deve essere presente al più una volta nella lista. (Per provarlo generare una lista lunga e con pochi valori random).
+</ol>
+</ol>
+
+
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 18</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab18_x):
+</font>
+<br>
+<ol>
+<li>   <i>1. Problema della classifica
+  del campionato </i>.
+<br>
+Input: 
+<ul><li>matrice quadrata in cui righe e colonne corrispondono a delle
+squadre (di calcio?) e gli elementi m(i,j) a valori -1, 0 oppure 1 che corrispondono al fatto che la partita tra i e j è stata persa, pareggiata o vinta. 
+<li>vettore di stringhe della stessa dimensione
+della matrice che contiene i nomi delle squadre. 
+</ul> Scrivere un
+programma che produce in output la classifica delle squadre con i
+punteggi corrispondenti (ottenuti sommando per ogni partita : 0= perdita, 1=
+pareggio, 3=vincita).  Utilizzare le strutture dati di supporto che
+ si ritengono più adeguate.
+<br>
+Utilizzare come base di partenza il  programma 
+<tt>
+provaCampionato.c</tt> visto a lezione. 
+</li>
+</ol>
+<p>
+
+
+
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 17</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab17_x):
+</font>
+<br>
+<ol>
+<li><i>Transitività nelle parole: il lucchetto </i><br>
+ Nel linguaggio enigmistico un
+lucchetto è un gioco caratterizzato dallo schema <tt>XY + YZ -> XZ</tt>.
+In pratica si trovano due parole w1 e w2 in cui l'ultima parte (un suffisso) di w1  è uguale alla prima parte  (un prefisso) di w2. Eliminando le parti in comune e leggendo il restante si ottiene la terza parola w3 che si chiama "lucchetto". 
+<br>
+Per esempio:
+<pre>
+ CANE/NERO = CARO; 
+
+ VELA/LANA = VENA; 
+
+ CRISTALLO/STALLONE = CRINE;
+
+ RISCHIO/SCHIOCCO = RICCO,
+
+ MAGGIO/GIOIA = MAGIA
+
+ CARATO/ATOMI = CARMI
+
+ CAST/TERME = CASERME
+
+ MATCH/CHADOR = MATADOR. 
+</pre>
+<ul>
+<li>
+Scrivere una funzione <tt> int lungh( char s[]) </tt> che restituisce la lunghezza della stringa <tt>s</tt>;
+<li>
+Scrivere una funzione <tt>int suff_pref( char s[],   char  t[], int n)</tt>
+che restituisce 1 se il suffisso di lunghezza <tt>n</tt> della stringa <tt>s</tt> è uguale al prefisso di lunghezza <tt>n</tt> della stringa <tt>t</tt> e restituisce 0 in caso siano diversi. (Essenzialmente la stringa s deve essere controllata a partire dalla posizione <tt> lungh(s) - n</tt>).
+<li>
+Scrivere un programma che legge due stringhe e  utilizzando la funzione precedente verifica se le due stringhe possono creare un lucchetto.
+<li>
+Il programma scrive un lucchetto  tra le due parole (che ovviamente non deve necessariamente avere un senso come parola in italiano) .
+</ul>
+
+
+<li><i>
+Un gioco enigmistico: la cerniera</i><br>
+Nel linguaggio enigmistico una cerniera `e un gioco che consiste nel trovare due parole o frasi che hanno alcune lettere,
+agli estremi opposti, uguali; la terza parola o frase si ottiene con la scomparsa delle parti uguali e con l’accostamento
+delle parti restanti.
+Per esempio:<br>
+ &nbsp; &nbsp; &nbsp; MANICO/STAMANI = COSTA;<br>
+ &nbsp; &nbsp; &nbsp; GLI OSTI/MAGLIO = STIMA;<br>
+ &nbsp; &nbsp; &nbsp; FLAUTO/GOLF = L AUTOGOL.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe
+possono creare una cerniera. Gli spazi bianchi vanno ignorati. In caso affermativo, il programma scrive la cerniera
+formata dalle due parole (che ovviamente non deve necessariamente avere un senso come parola in italiano) .
+<li><i> Anagrammi </i>
+L’anagramma è una parola o frase che composta dalle lettere di un’altra parola o frase disposte in un ordine diverso.
+Per esempio:<br>
+ COLTA e TALCO sono anagrammi; <br>
+ ATTORE è un anagramma di TEATRO; <br>
+ CONTARE ha come
+anagrammi CARTONE, ARCONTE, CONTER, CORNATE; <br>
+BIBLIOTECARIO è BEATO COI LIBRI;<br>
+I GELATI
+DI MORE sono la DIETA MIGLIORE 
+<br> il MAESTRO DI CANTO è il TORMENTO DI CASA.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe sono
+una l’anagramma dell’altra. Gli spazi bianchi vanno ignorati.
+Non è consentito utilizzare funzioni predefinite sulle stringhe.
+</ol>
+<p>
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 16</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab16_x):
+</font>
+<br>
+<ol>
+
+
+<li><i>Cambiamo le parole 2 </i><br>
+Scrivere un programma che  chiede all'utente di inserire una stringa e poi esegue su essa le seguenti funzioni:
+<ul> <li> <tt> ContaMaiuscole </tt> che data una stringa conta il numero di lettere maiuscole.
+<li>
+<tt> DopoPunto </tt>  che dato un testo trasformi in maiuscole le lettere dopo il punto (se risultano minuscole).
+<li>
+<tt> Rafforza </tt>  data una stringa (testo) in input <i>ne crea un'altra</i> raddoppiando tutte tutte le consonanti 'b', 'p,' e 't' che si trovano come inizi di parole. 
+</li>
+
+</ul>
+Alla fine riscrive la stringa modificata sullo schermo.
+
+<li><i>Cambiamo le poesie </i><br>
+Scrivere un programma che legge un file dove e' scritta una poesia (la vostra preferita!) e la riscrive sullo schermo dopo aver applicato le funzioni dell'esercizio precedente.
+<br>
+VARIANTE: invece di scriverla sullo schermo, la riscrive così modificata su un altro file.
+</ol>
+<ol>
+
+
+
+
+
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 15</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab15_x):
+</font>
+<br>
+<ol>
+
+<li>
+<i> Matrice dell'Amicizia </i> <br>
+Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice <i>M</i> quadrata simmetrica di 10
+	      righe (colonne) con valori random tra 0 e 1.
+  <li> Stampa la matrice sullo schermo.
+<li> Interpretando la matrice con il significato <i>M(i,j)=1</i>
+ se e solo se
+  <i> i </i> è amico di <i>j</i>, elencare sullo
+   schermo tutte le triple <i>(r,s,t)</i> in cui <i>r, s</i> e <i>t</i>
+	      sono tutti amici.
+  <li> (Difficile)Trovare il gruppo più grande in cui
+ sono tutti amici.  NOTA: Per questo punto sarebbe utile
+ generare una matrice con molti 1. Un modo di
+  realizzarlo potrebbe essere di generare valori random tra 0 e 3 e
+   poi trascrivere i valori >0 come tutti 1.
+   </ol>
+<li><i>Cambiamo le parole</i><br>
+Scrivere un programma che
+<br>1. Data una stringa in input la restituisce modificando tutte le a in e.
+<br> 2. Data una stringa in input e un dato carattere, restituisce	la stringa dove tutte le occorrenze del carattere
+ scelto sono state cancellate.
+<br>
+Non utilizzare le funzioni predefinite sulle stringhe. Le  stringhe devono essere <i>effettivamente</i> modificate e non solo stampate sullo schermo.
+</ol>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 14</b></font></a>
+:
+<br> TUTORATO
+</font>
+<br>
+
+</li>
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 13</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab13_x):
+</font>
+<br>
+<ol>
+<li>
+<i> Varie su Matrici </i><br> Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice di dimensione 20x30 di numeri casuali
+	      compresi tra -10 e 10 (estremi inclusi)
+  <li> Stampa la matrice sullo schermo
+  <li> Verifica  se esiste  una riga della matrice la cui somma sia
+	      0. In caso affermativo stampa la riga sullo schermo.
+ <li> Verifica  se esiste  una colonna della matrice la cui somma sia
+	      0. In caso affermativo stampa la colonna sullo schermo.
+ <li> Identifica la riga della matrice la cui somma degli elementi
+	      è maggiore. Stampa sullo schermo l'indice di tale
+	      riga.
+ <li>
+Verifica se esiste una riga la cui somma degli elementi è uguale
+	      alla somma degli elementi di una colonna. In caso
+	      affermativo stampa tali indici di riga e
+colonna, in caso negativo segnala che la condizione non è
+	      verificata. Sugg.: utilizzare un vettore di supporto.
+<li>
+Stampa l'indice di tutte le righe in cui la media aritmetica dei
+	      valori è maggiore della media aritmetica dei valori
+	      dell'intera matrice.
+</ol>
+I vari punti <u>devono</u> essere svolti come funzioni.
+</li>
+
+<li>
+<i>Problema della bandiera italiana (celebrazioni 25 aprile) </i> (Più difficile!)<br>
+Input: array random i cui elementi hanno valore "verde", "bianco" o
+ "rosso" codificato in qualche modo. <br>
+Output: array "colorato" come bandiera italiana (tutti i verdi a
+sinistra, i bianchi al centro e i rossi a destra). <br>
+Progettare un algoritmo lineare. Scrivere un programma che risolve il problema e che opera con UNA SOLA
+lettura dell'array  (se non ci riuscite utilizzate
+  comunque non più di tre passate!)
+ e che effettua SOLO SCAMBI tra gli
+ elementi. (Non si deve ordinare l'array con algoritmo di ordinamento
+  e non è consentito "contare"   quanti elementi hanno un  dato colore)
+ 
+
+
+
+</ol>
+<p>
+<li>
+
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 12</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab12_x):
+</font>
+<br>
+<ol>
+<li>
+<i>Problema del Baricentro </i> <br>
+Dato un vettore v di interi  di dimensione n, definisco <i>baricentro</i> del vettore l’indice i tale che:
+<br>
+v[0] + v[1] + . . . + v[i] = v[i + 1] + . . . + v[n − 1]
+
+<ul><li>
+Scrivere una funzione <tt> int baricentro(int v[], int n) </tt> che restituisce l'indice del baricentro del vettore v, se esiste, oppure restituisce -1 se non esiste un baricentro. 
+<li>
+Qual è la complessità della funzione <tt>baricentro</tt>? Nell'ipotesi che tutti i valori del vettore siano positivi, l'algoritmo può essere realizzato in modo più efficiente?
+<li> 
+Scrivere poi un programma (funzione main) che genera e stampa un vettore di dimensione 100 di valori interi random  tra -5 e 5 e poi, richiamando la funzione <tt>baricentro</tt> calcola il suo baricentro.
+</ul>
+<li>
+<i>Problema MaxSum </i>(medio-difficile!) <br>
+Dato un array v di dimensione n di valori interi (positivi e negativi), considero tutte le somme S<sub>i,j</sub> degli elementi v[k] con k=i,...j. Scrivere una funzione <tt> int MaxSum(int v[], int n) </tt> che determina e restituisce il valore massimo tra tutte le somme  S<sub>i,j</sub>. Scrivere poi un programma che inizializza un vettore di dimensione 100 con valori random tra - 50 e 50 e applicando poi la funzione <tt> MaxSum </tt> calcola il valore della massima somma tra elementi consecutivi e la scrive sullo schermo. 
+<br>
+Valutare la complessità della funzione MaxSum che avete scritto. (Riuscite a scrivere una funzione MaxSum quadratica? Riuscite a scriverne una lineare?)
+<li><i> Ordinamento di Vettori (cont.)</i><br> Completare l'esercizio  lab11_1 aggiungendo gli algoritmi di InsertionSort, Mergesort e Quicksort. Produrre una tabella del tipo:
+<pre>
+Produrre una tabella per il numero dei confronti del tipo :
+  n    | conf selection | conf bubble | conf insertion | conf merge | conf quick
+  30   |                |             |                |            |
+  200  |                |             |                |            |
+  500  |                |             |                |            |
+  2000 |                |             |                |            |
+  10000|                |             |                |            |
+
+</pre>
+
+</ol>
+<br>
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 11</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab11_x):
+</font>
+<br>
+<ol>
+<li><i> Ordinamento di Vettori </i><br> Scrivere il seguente programma:
+<ul>
+<li>
+Scrivere una funzione <tt> int minVett( int v[], int h, int k)</tt> che prende in input un vettore v e restituisce l'indice del valore minimo della porzione di v compresa tra gli indici h e k (inclusi).
+<li> Scrivere una funzione analoga <tt> int maxVett( int v[], int h, int k)</tt> che restituisce l'indice del valore massimo.
+
+<li> Scrivere una funzione <tt> int SelectMinSort(int v[], int s) </tt> che ordina un vettore v in modo crescente utilizzando l'algoritmo di SelectionSort mediante successivi calcoli del minimo. La funzione deve restituire il numero di confronti effettuati tra elementi del vettore.
+<li> Scrivere una funzione <tt> int SelectMaxSort(int v[], int s) </tt> che ordina un vettore v (sempre in modo crescente) utilizzando l'algoritmo di SelectionSort mediante successivi calcoli del massimo. La funzione deve restituire il numero di confronti effettuati tra elementi del vettore.
+<li> Scrivere una funzione <tt> int BubbleSort(int v[], int s) </tt> che ordina un vettore v (sempre in modo crescente) utilizzando l'algoritmo di BubbleSort.La funzione deve restituire il numero di confronti effettuati tra elementi del vettore.
+<li> Scrivere un programma (funzione main) che genera un vettore random di 40 interi tra 11 e 99 e lo ordina utilizzando le funzioni sopra definite. Il programma stampa i vettori prima e dopo l'ordinamento e il numero di confronti tra elementi del vettore effettuati. Eseguire anche il programma cambiando la dimensione del vettore a 4000 e valutare il numero di confronti effettuati (per vettori così grandi si consiglia di non stamparli sullo schermo).
+</ul>
+
+ </ol>
+<br>
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 10</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab10_x):
+</font>
+<br>
+<ol>
+<li> <i>Congettura di Collatz   </i> <br>
+La <a style="color: #990099; font-weight:
+   bold "href="https://it.wikipedia.org/wiki/Congettura_di_Collatz"
+   target="_blank"> congettura di Collatz </a> è una delle più semplici congetture matematiche non ancora risolte.
+  La congettura riguarda il seguente algoritmo:
+<br>
+Si prenda un intero positivo n.
+<br>
+<pre> 1.Se n = 1, l'algoritmo termina.</pre>
+<pre> 2.Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.</pre> 
+<pre> 3.Si ripete l'algoritmo da 1. sul numero ottenuto.</pre>
+   Per esempio, iniziando con n = 6, otteniamo la successione 6, 3, 10, 5, 16, 8, 4, 2, 1.
+<br>
+La congettura di Collatz asserisce che questo algoritmo giunge sempre a termine, indipendentemente dal valore di partenza. <br>
+Chiamiamo <i>lunghezza di Collatz (Lc)</i> il numero di elementi della successione per arrivare ad 1. Dall'esempio precedente Lc(6)= 9.<br>
+Scrivere una funzione Collatz (eventualmente ricorsiva!) che calcola la lunghezza di Collatz di un numero intero n. Scrivere poi un programma che, usando tale funzione, calcola la lunghezza di Collatz di tutti i numeri tra 1 e 1000 e li scrive in un array. Calcola poi il valore massimo di tale lunghezza tra quelli ottenuti e stampa sullo schermo quali sono i numeri interi che hanno tale lunghezza di Collatz massima.
+<li>
+ <i>Il gioco "Indovina il numero"  </i> <br>Scrivere un programma che simula il gioco IndovinaNumero discusso a lezione in cui si deve indovinare un numero da 1 a 100 a seguito di risposte "troppo alto" o "troppo basso". Il programma, oltre ad eventuali funzioni ausiliarie, dovrà contenere 2 funzioni <kbd>ComputerVsUtente</kbd> e <kbd>UtenteVsComputer</kbd> che restituiscono il numero di tentativi necessari per indovinare il numero. Il programma principale si compone poi delle due chiamate di funzione e della "proclamazione" del vincitore.
+
+</ol>
+
+<p>
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 9</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab09_x):
+</font>
+<ol>
+<li>
+(Utilizzare eventualmente come base il programma vettori.c) Scrivere un programma che:
+<ul>
+<li>Genera un vettore random di 35 valori interi tra 15 e 85. 
+<li>Lo stampa sullo schermo (ben incolonnato con 7 numeri per riga).
+<li>Calcola la media (restituisce il valore corrispondente)
+<li>Calcola quanti valori pari sono stati generati
+<li>Calcola il valore minimo (restituisce l'indice)
+<li>Controlla se ci sono due elementi consecutivi uguali (restituisce l'indice del primo dei due oppure -1 se non ci sono)
+<li>Controlla se tutti gli elementi sono distinti (restituisce 1 oppure 0)
+
+</ul>
+Ognuno dei punti precedenti deve essere svolto con una (diversa) funzione mentre nel main vengono stampati tutti i vari risultati restituiti dalle funzioni.
+</li>
+<li>
+<i>Crivello di Eratostene </i>  <br>
+ Implementare una funzione che simula il
+<a style="color: #990099; font-weight:
+   bold "href="http://it.wikipedia.org/wiki/Crivello_di_Eratostene"
+   target="_blank"> crivello di Eratostene </a> per il calcolo dei
+   numeri primi. Utilizzarla per calcolare tutti i numeri primi tra 2
+   e 1000. <br> La funzione <tt>int Crivello(int C[], int n)</tt> sarà definita su un 
+ array booleano C di dimensione n tale che  
+<ul>
+<li>C[i] =1 significa che i è primo  e 
+C[i] =0 significa che i NON è primo  
+
+<li>All’inizio pongo C[i]=1 per ogni i
+<li>Realizzo n-1 cicli che iniziano ogni volta dall’elemento che contiene il primo 1
+<li>
+Se un ciclo comincia da C[i] allora assegno 0 a tutti i C[j] tale che j è un multiplo di i
+</ul>
+</li>
+<li> Il <i>Triangolo di Floyd </i> è definito come un triangolo costruito
+  utilizzando numeri naturali consecutivi con righe di lunghezza crescente (la riga <i>i</i>-esima contiene <i>i</i> numeri). Ad esempio qui di sotto è
+  definito il triangolo di  Floyd di 5 righe.
+<br>1
+<br>2 3
+<br>4 5 6
+<br>7 8 9 10
+<br>11 12 13 14 15
+<br>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output il
+triangolo di Floyd di N righe.
+</ol>
+<br>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 8</b></font></a>
+	    del <font  color="#800080">1 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab08_x):
+</font>
+<ol>
+
+<li>
+Scrivere un programma che genera (utilizzando un a funzione apposita)1000 numeri random  compresi tra -100 e 100 e scrive in output: 
+<ul>
+<li> quanti sono rispettivamente i numeri positivi/negativi/nulli 
+<li> quanti sono rispettivamente i numeri pari/dispari 
+<li> quante coppie di numeri consecutivi uguali sono state generate
+</ul>
+
+<li>Scrivere un programma che:
+simula una successione di lanci di moneta (Testa o Croce);
+continua a generare lanci di moneta fino a che è verificata la seguente condizione di
+terminazione : la sequenza generata
+contiene almeno 5 esiti uguali consecutivi (es: 5 volte Testa, oppure
+5 volte Croce).
+Il programma deve stampare "testa" o "croce" relativa ad ogni lancio e alla fine restituire il numero di lanci di moneta che sono
+stati necessari per verificare la condizione di terminazione.
+<li>
+  Scrivere un programma che simula una partita a dadi fra il computer e l'utente. 
+Scrivere una funzione  <kbd> int lancia2Dadi()</kbd>
+Che simula il lancio di 2  dadi   e restituisce il risultato (la somma dei 2 dadi).  
+<br>
+Il  main consiste in una partita   di 7 turni. 
+Ad ogni turno, si simula un tiro (richiamando la funzione  <kbd>lancia2Dadi</kbd>) dell'utente e un tiro del computer e si visualizzano i risultati.  Alla fine viene 
+"proclamato" il  vincitore  che è ovviamente colui che ha vinto più turni. 
+ 
+ 
+</ol>
+<br>
+ 
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 7</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab07_x):
+</font>
+<br>
+<ol> 
+
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output il valore di n!. Il programma deve definire e utilizzare una funzione ricorsiva <kbd> int fatt(int) </kbd> per calcolare tale numero.
+ <li>
+Scrivere un programma che prende in input un numero positivo B e un numero positivo N
+e scrive in output il valore della potenza N-esima di B. Il programma deve definire e utilizzare una funzione ricorsiva <kbd> int pot(int,int) </kbd> per calcolare tale numero.
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. Il programma deve definire e utilizzare una funzione ricorsiva <kbd> int Fibon(int) </kbd> per calcolare tale numero.
+<li>
+Scrivere  una funzione ricorsiva <kbd> int fatt(int) </kbd> per calcolare il fattoriale di un numero.<br>
+Usando la formula <i>e=1+ 1/1! + 1/2! + .... 1/n!+....</i>, scrivere un programma che calcola una approssimazione di <i>e </i> con errore a scelta dell'utente. L'utente dovrà inserire un errore tipo 0,0001 e il programma dovrа selezionare i termini della serie in base all'errore fissato. Tale programma utilizza la funzione fattoriale sopra descritta. (non usare la libreria matematica).
+<li> Scrivere un programma che risolve il problema delle Torri di Hanoi in modo iterativo.
+</ol>
+<!--
+	
+
+<li> 
+Scrivere un programma che prende in input  3 numeri interi inseriti da tastiera e li scrive in output in ordine crescente utilizzando in totale soltanto 3 confronti (con operatore <= ) tra i numeri stessi all'interno di istruzioni if-else annidate. 
+No variabili supplementari (solo 3 variabili per i 3 numeri).
+<li>
+Scrivere un programma  che prende in input dei valori interi positivi ( l'immissione termina quando l'utente inserisce il valore 0) e restituisce in output quanti tra quelli inseriti sono > 100, quanti sono >50 e <= 100 e quanti sono <=50. Il programma dovrà utilizzare soltanto 4 variabili e istruzioni if-else annidate e dovrà ignorare gli input negativi segnalandolo all'utente.
+
+<li>
+Scrivere un programma che chiede all'utente di inserire un numero intero x e poi scrive in output quanti sono i divisori di x (escluso 1 e x stesso). Se non ci sono divisori non banali scrive sullo schermo che x è un numero primo. 
+<li>
+Scrivere un programma  per risolvere il seguente quesito:
+<i>Esiste un numero formato da 8 cifre che moltiplicato per un altro numero  dà come risultato un numero di 9 cifre uguali? </i>
+
+-->
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 6</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab06_x):
+</font>
+<br>
+
+<ol>
+<li> Riscrivere gli esercizi Lab04_1 e Lab04_2 utilizzando la funzione vista a lezione:
+<pre>
+void stampaRiga(char simb, int lung)
+ {     int i;
+     for ( i= 1; i <= lung; i++)
+         printf("%c", simb);
+ }
+</pre>
+
+<li>
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero primo (non stampa messaggio ma restituisce valore booleano).
+Scrivere poi un
+programma, che utilizza questa funzione, che scrive sullo
+schermo tutti i numeri primi <1000.
+
+<li>
+Def.: un numero si dice <i>perfetto </i> se è uguale alla somma dei suoi
+	      divisori (escluso il numero stesso).
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero perfetto (non stampa messaggio ma restituisce valore booleano).
+Scrivere poi un
+programma, che utilizza questa funzione, che scrive sullo
+schermo tutti i numeri perfetti <10000.
+
+
+</ol>
+
+
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 5</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab05_x):
+</font>
+<br>
+<ol>
+<li>
+Scrivere un programma che chiede all’utente 
+  di inserire tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data e poi 
+  controlla se si tratta di una data valida. (Il giorno del mese deve essere "compatibile" con il mese secondo la nota filastrocca e non dimenticare gli anni bisestili!) Usare una istruzione <kbd> switch </kbd>. <br>
+  Se la data è valida la riscrive, scrivendo il mese "a parole". Se la data non è valida, sullo schermo si
+  scrive anche il perchè.  <br> (Da  realizzare utilizzando l' istruzione <kbd> switch </kbd>. )
+  <br>
+Si ricorda che gli anni bisestili sono quelli divisibili per 4, con eccezione dei secoli che devono essere divisibili per 8 (ad esempio il 1900 non è stato bisestile). Assumiamo valori di anno validi a partire dall'inizio del calendario gregoriano  1582 e fino al 2100.  
+<br> CURIOSITA': il calendario gregoriano fu promulgato da papa Gregorio XIII a villa Mondragone adesso proprietà dell'Università di Roma Tor Vergata. 
+ 
+
+
+</ol>
+ 
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 4</b></font></a>
+	    del <font  color="#800080">24 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab04_x):
+</font>
+<br>
+<ol>
+<li> Scrivere un programma che legge da tastiera un numero intero x
+(positivo) e stampa sullo schermo un quadrato (pieno) di lato x
+  costituito da simboli  "*" nelle posizioni sopra la diagonale e
+simboli "o" sotto la diagonale. (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>)
+<li>
+  Scrivere un programma (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>) che chiede all’utente di inserire  un intero x ,  3 &le; x &le; 30 , e disegna un rombo di lato x come nel seguente esempio: 
+(esempio per x=4 e c=o) 
+<pre>
+   o           
+  ooo          
+ ooooo
+ooooooo        
+ ooooo
+  ooo
+   o
+</pre>
+<li>
+Scrivere un programma che stampa tutti i numeri interi tra 1 e 300 in righe contenenti 15 numeri ciascuna. I numeri devono essere ben incolonnati. Inoltre, se il numero termina per 7 oppure è divibile per 7 NON deve essere stampato ed nel suo posto deve essere scritto BUM.
+
+<li>
+Scrivere un programma  che  
+  calcola quanti sono i triangoli rettangoli  con lati interi &le; 500.
+   <br>  Opzionale : produrre in input tutte le terne pitagoriche trovate.
+  <br> 
+</ol>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab03_x):
+</font>
+<br>
+<i>In tutti gli esercizi seguenti usare istruzione while.</i>
+<ol>
+<li> Scrivere un programma che prende in input  3 numeri interi inseriti da tastiera e li scrive in output in ordine crescente utilizzando in totale soltanto 3 confronti (con operatore <= ) tra i numeri stessi all'interno di istruzioni if-else annidate. 
+No variabili supplementari (solo 3 variabili per i 3 numeri).
+
+<li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo e il secondo più grande che sono stati inseriti. <u> Usare un solo ciclo while </u>.
+
+<li> Scrivere un programma che legge da tastiera una sequenza di  numeri
+  interi positivi. L'immissione termina quando l'utente inserisce il
+ valore 0. In output viene riportato il numero di volte che nella
+sequenza compaiono due numeri consecutivi uguali. Esempio: nella sequenza 5 6 6 5 3 3 4 compaiono due volte due numeri consecutivi uguali; nella sequenza 3 3 3 4 2 2 compaiono tre volte due numeri consecutivi uguali.
+
+
+<li>
+Numeri di Fibonacci. I numeri di Fibonacci, f1, f2, ... fn sono
+definiti ricorsivamente come segue:
+<br> f1=1
+<br> f2=1
+<br>...
+<br> f<sub>n </sub>= f<sub>n-1 </sub> +f<sub>n-2 </sub>
+<br>Scrivere un programma che prende in input un numero positivo N
+e scrive in output l'N-esimo numero di Fibonacci. (ATTENZIONE! Testare solo per numeri piccoli)
+<!--NOTA l'anno prossimo proporlo solo DOPO la versione ricorsiva per mostrarne l'efficienza-->
+		
+		  <li>
+Scrivere un programma che legge un valore di tipo double, uno di tipo
+char e poi ancora uno di tipo double e infine fa in modo che:
+se il carattere letto è '+' allora stampa la somma dei due valori
+numerici;
+se il carattere è '*' allora stampa il prodotto dei due valori
+numerici;
+se è un altro carattere allora stampa un messaggio di errore.<br>
+<i> (Utilizzare l'istruzione if..else) </i> <br> ATTENZIONE a svuotare il buffer dopo l'immissione dell'int.
+
+<br>
+</li>
+  </ol>
+		  	
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 2</b></font></a>
+	     <font  color="#800080"> </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab02_x):
+</font>
+<br>
+<i>In tutti gli esercizi seguenti usare istruzione while.</i>
+<ol>
+<li> Scrivere un programma che richiede all'utente un numero intero x e poi scrive sullo schermo una linea composta da x asterischi.<br>
+
+<li> Scrivere un programma che richiede all'utente di inserire 5 numeri interi e poi scrive sullo schermo la somma e la media.  
+
+<li> Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo quanti numeri pari sono stati inseriti. <br>
+
+<li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo che e' stato inserito.
+
+<li> Scrivere un programma che richiede l'inserimento di  una serie di numeri interi positivi; 
+l'inserimento termina quando l'utente inserisce 0 o un valore negativo.
+Al termine dell'inserimento, sullo schermo viene scritta la somma e  la media dei numeri inseriti.
+
+
+<li>  Scrivere un programma che richiede all'utente di inserire 10
+	      numeri interi compresi tra 1 e 100 (estremi inclusi),
+	      ne calcola la somma e la scrive sullo schermo. <br> Attenzione: ogni volta che  l'utente
+	      inserisce un  valore errato
+(fuori dall'intervallo previsto) il programma
+	      dovra' segnalare l'errore e richiedere un altro numero... il ciclo di immissione termina 
+		  SOLO quando sono stati immessi 10 numeri VALIDI.
+	  
+
+  </ol>
+ </li>
+ <br>
+<li> 
+<font size="4"> <font color="#008000"><b>Laboratorio 1</b></font></a>
+  <font  color="#800080" </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab01_x):
+</font></font>
+<br>
+
+<ol>
+
+<li> Scrivere un programma che, utilizzando degli asterischi, disegna
+sullo schermo un quadrato (pieno) di lato 8 e poi sotto  un triangolo rettangolo (pieno) di
+altezza 8.
+<li> Scrivere un programma che legge da tastiera 5 numeri interi e
+				    scrive sullo schermo la loro
+				    somma. 
+<li> Scrivere un programma che legge da tastiera 5 numeri interi e
+				      scrive sullo schermo la loro
+				      somma e la loro media. Il
+				      programma dovra' utilizzare <u>solo
+				      2 variabili </u>.
+<li> Scrivere un programma che chiede all'utente di inserire  da tastiera un numero intero di 5
+cifre e lo riscrive "in verticale" cioe' mettendo un accapo dopo ogni 
+cifra. (Sugg. usare l'operatore % che calcola il
+					resto della divisione intera.)
+
+		
+</ol>
+</li>
+
+ 
+
+
+
+</ul>
+<hr>
+<p> </font>
+<br>
+
+</p>
+
+<p>
+
+
+
+
+
+
+
+
+
+  </font></font>
+</ul>
+
+
+
+
+
+
+
+
+
+</BODY>
+
+</HTML>

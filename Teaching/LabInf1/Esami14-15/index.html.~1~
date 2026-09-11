@@ -1,0 +1,343 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <META NAME="GENERATOR" CONTENT="Microsoft FrontPage 5.0">
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#808080" VLINK="#551A8B" ALINK="#FF0000" >
+
+
+<blockquote>
+<center>
+<h2> <br>
+<font color="#008000">Informatica 1  & Laboratorio di Calcolo 1 </font><br>
+<font size="4" color="#008000">A.A. 2013-2014</font></b></h2>
+
+</center>
+<H2 ALIGN=CENTER><B><font color="#800080" size="6">Test ed Esami</font></B><font color="#800080">
+</font>
+</H2>
+<p>
+<hr>
+<ul>
+<li>
+L'esame consiste in una prova in laboratorio, un compito scritto e una
+      prova orale. Tali prove saranno verbalizzate con un unico voto.
+<br>
+<li>
+Per la sola sessione estiva (in cui ci sono un pre-appello e due
+      appelli), si potrà decidere di fare prima la prova di laboratorio
+      e poi la prova scritta o viceversa. In ogni caso la prova orale
+      sarà sostenuta dopo la prova scritta.
+
+<br> 
+<li>ATTENZIONE! E' possibile partecipare soltanto ad una prova di
+	  laboratorio e a un compito scritto a scelta tra il preappello e il 1
+	  appello. Se necessario, si potranno rifare le prove al 2 appello.
+
+<br> 
+<li>Gli studenti del vecchio ordinamento che devono sostenere solo
+      "informatica 1" da 6 cfu NON devo svolgere la prova di
+      laboratorio.
+
+</ul>
+
+<hr>
+
+Sono disponibili i testi dello scorso anno. <br> 
+<font size="4">
+<a style="color: #990099; font-weight: bold" 
+href="..\Esami12-13\preappello.pdf">preappello2012-13</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="..\Esami12-13\1appello.pdf">1appello2012-13</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="..\Esami12-13\2appello.pdf">2appello2012-13</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="..\Esami12-13\3appello.pdf">3appello2012-13</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="..\Esami12-13\4appello.pdf">4appello2012-13</a> ,
+<br>
+
+
+      <!--
+
+
+<p>
+<b>Modalità di svolgimento degli esami </b></span>
+<br>
+Il compito scritto di Informatica 1 si compone di due parti:<br>
+<i>Parte I: (90 minuti) </i> Brevi esercizi di programmazione in cui verrà
+	richiesto di scrivere frammenti di codice o pseudocodice per
+	risolvere dati problemi o di simulare un algoritmo su
+	particolari dati. <br>
+	
+<i>Parte II: (60 minuti) </i> Domande di teoria valide per l'orale.
+La Parte II è facoltativa (si può direttamente decidere di fare 
+	l'orale).<br>
+Le due parti saranno corrette indipendentemente (due voti
+	distinti). In particolare la Parte II sarà valutata SOLO nel caso si supera la Parte I.
+<br>
+<u>Durante il compito NON è possibile consultare alcun tipo di materiale.</u>
+<br>
+VERRANNO APPLICATE POI LE SEGUENTI REGOLE: <br>
+Chi ottiene una valutazione in entrambe le parti
+deve poi sostenere SOLTANTO la prova di laboratorio.
+<br>
+Chi ottiene una valutazione solo sulla prima parte deve sostenere la
+	prova orale e la prova di laboratorio.
+<br>
+Chi non ottiene una valutazione (= ottiene insufficiente) sulla prima
+	parte NON può sostenere le altre due prove.
+<p>
+
+-->
+
+<!--
+<hr>
+<font size="4" color="red"><a style="color: red; font-weight: bold" 
+href="./Finali.pdf">ELENCO</a> 
+</font><font size="4">degli studenti che hanno
+sostenuto l'esame per la parte di Informatica 1 (6 crediti) e possono
+quindi accedere alla parte di LC1.
+</font>
+-->
+
+
+
+
+<p>
+<hr>
+
+
+<font size="4" color="#008000"><b>PRE APPELLO:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font> 
+<p>
+<b>Prova di laboratorio:</b>  29 maggio 2014 - ore 9:30 Aula 17
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./Lab_preappello.pdf">testo</a> 
+ del compito assegnato. 
+<br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./votiLab_preappello13-14.pdf">risultati</a>.
+
+<p>
+<b>Compito scritto :</b> 5 giugno 2014  - ore 9:00 Aula 17
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./preappello.pdf">testo</a> 
+ del compito assegnato. 
+Queste sono le soluzioni del 
+<a style="color: #990099; font-weight: bold" 
+href="./preappello_esercizio1.C">primo</a> e del
+<a style="color: #990099; font-weight: bold" 
+href="./preappello_esercizio2.c">secondo</a> esercizio  (solo il codice C e non
+	  le valutazioni sulla complessità).
+<br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./votiPreAppello13-14.pdf">risultati</a>.
+<p>
+<b>Prova Orale: </b>9 giugno 2014 - ore 12:00 Aula 17  e e 11  giugno
+	2014 - ore 12:00 Aula 5 pp2 
+<br>(per chi ha sovrapposizioni
+	con altri esami sarà concordata un'altra data)
+
+<hr>
+
+<font size="4" color="#008000"><b>1 APPELLO:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font> 
+<p>
+<b>Prova di laboratorio :</b>  9 giugno 2014 - ore 10:00 Aula 17
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./Lab_1appello.pdf">testo</a> 
+ del compito assegnato. 
+<br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./votiLab_1appello13-14.pdf">risultati</a>.
+
+<p>
+<b>Compito scritto : </b>11 giugno 2014  - ore 10:00 Aula 5PP2
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./1appello.pdf">testo</a> 
+ del compito assegnato. 
+Queste sono le soluzioni del 
+<a style="color: #990099; font-weight: bold" 
+href="./sol1appello1.cpp">primo</a> e del
+<a style="color: #990099; font-weight: bold" 
+href="./sol1appello2.cpp">secondo</a> esercizio  (solo il codice C e non
+	  le valutazioni sulla complessità).
+<br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./voti1Appello13-14.pdf">risultati</a>.
+ 
+<p>
+
+<b>Prova Orale:</b> 23 giugno 2014 - ore 10:00 Aula 17 
+<br>(per chi ha sovrapposizioni
+	con altri esami sarà concordata un'altra data)
+
+
+<hr>
+
+<font size="4" color="#008000"><b>2 APPELLO:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font> 
+<p>
+<b>Prova di laboratorio</b> :  1 luglio 2014 - ore 10:00 Aula 17
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./Lab_2appello.pdf">testo</a> 
+ del compito assegnato. 
+<br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./votiLab_2appello13-14.pdf">risultati</a>.
+<p>
+<b>Compito scritto </b>: 2 luglio 2014  - ore 10:00 Aula 5 pp2
+<br>
+<font size="4">Questo è il 
+<a style="color: #990099; font-weight: bold" 
+href="./2appello.pdf">testo</a> 
+ del compito assegnato. 
+<!--Queste sono le soluzioni del 
+<a style="color: #990099; font-weight: bold" 
+href="./sol1appello1.cpp">primo</a> e del
+<a style="color: #990099; font-weight: bold" 
+href="./sol1appello2.cpp">secondo</a> esercizio  (solo il codice C e non
+	  le valutazioni sulla complessità).
+--><br>
+Questi sono i 
+<a style="color: green; font-weight: bold" 
+href="./voti2Appello13-14.pdf">risultati</a>.
+
+
+<p>
+<b>Prova Orale:</b> 7 luglio 2014 - ore 10:00 Aula 29A
+<br> (non ci sono sovrapposizioni con altri esami)
+<!--
+<p>
+<p>
+
+
+<p>
+<hr>
+-->
+
+<hr>
+
+
+<!--
+
+-->
+<hr>
+
+<font size="4">
+</font><font color="#990099" size="4">  
+<span style=" background-color: yellow"> 
+</span>
+</font><br>
+
+
+
+
+
+
+
+<!--
+L'esame consiste in una prova scritta che comprende esercizi del tipo visto a
+	lezione e domande di teoria. <br>
+<p>
+
+Sono disponibili i testi degli esami precedenti. <br> Fare ATTENZIONE al
+    fatto che quest'anno il programma del corso (fare riferimento ai
+    dettagli delle lezioni) e' diverso e quindi
+    anche gli esercizi saranno un po' diversi. <p>
+
+<font size="4">
+<a style="color: #990099; font-weight: bold" 
+href="esame-1appello2010.pdf">esame1-2010</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="esame-2appello2010.pdf">esame2-2010</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="esame-3appello2010.pdf">esame3-2010</a> , 
+<a style="color: #990099; font-weight: bold" 
+href="esame-4appello2010.pdf">esame4-2010</a>.
+<br>
+<a style="color: #990099; font-weight: bold" 
+href="esame-1appello2011.pdf">esame1-2011</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="esame-2appello2011.pdf">esame2-2011</a> ,
+<a style="color: #990099; font-weight: bold" 
+href="esame-3appello2011.pdf">esame3-2011</a> .
+
+
+</font>
+
+
+
+
+<hr>
+
+
+
+
+
+<font size="4" color="#008000"><b>II APPELLO:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font> <br>
+Compito scritto 21 febbraio 2012 ore 9:30 aula L3
+  -- Si prega di prenotarsi tramite il totem.
+
+<p>
+<p>
+
+<font size="4">Questo e' il 
+<a style="color: #990099; font-weight: bold" 
+href="./esame-2appello2012.pdf">testo</a> 
+ del compito assegnato. 
+
+
+Questi sono i 
+<a style="color: #990099; font-weight: bold" 
+href="./ris-2appello2012.pdf">risultati</a>.
+
+<p>
+<font size="5" color="#008000"><b>Sessione estiva </b></font></p>
+<font size="4" color="#008000"><b>III APPELLO:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font> <br>
+Compito scritto 11 giugno 2012  ore 9:30, aula T5
+<br>
+Questi sono i 
+<a style="color: #990099; font-weight: bold" 
+href="./Esami/ris-3appello2012.pdf">risultati</a>.
+
+<!-- 
+
+
+<p><font size="4" color="#008000"><b>III appello:</b></font><font color="#990099" size="4">&nbsp;&nbsp;
+</font><br>
+<font size="4">compito scritto</font><font color="#990099" size="4">  
+7 giugno 2011 ore 9:30 , aula g2c</font><br>
+
+Questi sono i 
+<a style="color: #990099; font-weight: bold" 
+href="./risult-3appello.pdf">risultati</a>.
+
+-->
+
+
+
+<hr>
+</BODY> 
+
+</HTML>

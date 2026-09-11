@@ -1,0 +1,949 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+ <meta charset="utf-8">
+   <TITLE> Programmazione in C</TITLE>
+  
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#808080" VLINK="#551A8B" ALINK="#FF0000" >
+
+
+<blockquote>
+<center>
+<h2> <br>
+<font color="#008000"> Laboratorio di Programmazione & Informatica 1</font><br>
+<font size="4" color="#008000">A.A. 2018-2019</font></b></h2>
+
+
+</center>
+<H2 ALIGN=CENTER><B><font color="#800080" size="4">ESERCITAZIONI IN LABORATORIO</font></B><font color="#800080">
+</font>
+</H2>
+
+
+ Questa pagina contiene gli esercizi  proposti durante le lezioni di
+      laboratorio. Di alcuni esercizi sono presenti delle
+      soluzioni  realizzate
+ dagli studenti che frequentano il corso e raccolte in questa
+<!--<b><a href="./Codice/index.php">
+<font color="#FF0000">CARTELLA DELLE SOLUZIONI</font></a></b>
+-->
+<a  style="color: #FF0000; font-weight: bold "href="https://drive.google.com/drive/folders/1qFxQstcdnG2VBSiEaqrZNn40z5Cqdsaw?usp=sharing">   
+CARTELLA DELLE SOLUZIONI</a> (Scaricare su un'altra scheda usando il tasto destro del mouse). Il codice e il numero fanno
+      riferimento ai testi descritti.<p>	  
+	  
+<!--
+Le <b>
+<font color="#FF0000">REGOLE PER SPEDIRE GLI ESERCIZI</font></b> sono le seguenti:    
+    <ul>
+    <li>Per<font color="#FF0000"> ogni esercizio </font>    preparare<font color="#FF0000"> un file </font>    (in formato
+      word, pdf, html,<font color="#FF0000">...Si prega di non zipparlo!</font>).<font color="#FF0000"> </font>    Tale file 
+    dovrà
+      contenere le seguenti informazioni:
+      <font color="#FF0000">
+      <ul type="disc">
+      <li> nome e cognome dell'autore</li> 
+      <li> testo dell'esercizio&nbsp;</li>  
+      <li> soluzione dell'esercizio</li> </ul></font>    </li>
+  <li>
+  Il<font color="#FF0000"> nome del file </font>dovrà corrispondere al<font color="#FF0000"> 
+  proprio cognome seguito dal numero dell’esercizio. </font>Ad esempio se io 
+  stessa volessi sottomettere la soluzione dell’esercizio 2_23, dovrei chiamare 
+  il file <font face="Courier New" size="2"><b> giammarresi2_23</b></font>  </li>
+ <li> Spedire
+    il file (o i files, se sono più esercizi) come<font color="#FF0000"> allegati a <font face="Courier New" size="2"><b><a href="mailto:giammarr@mat.uniroma2.it">
+ <font color="#008000">giammarr@mat.uniroma2.it</font></a></b></font>
+  entro il sabato successivo</font></li>
+    </ul>
+
+</blockquote>
+
+
+<hr>
+-->
+<p>
+
+<p>
+
+
+<ul>
+<!-- DA RICOPIARE
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
+	    del <font  color="#800080">17 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab3_x):
+</font>
+<br>
+
+<ol>
+<li>
+</ol>
+<br>
+</li>
+-->
+<!--
+<font size="4"> <font color="#008000"><b>Laboratorio 11</b></font></a>
+	    del <font  color="#800080">19  maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab11_x):
+</font>
+<br>
+
+<ol>
+<li>
+<i>Problema della sorgente.  </i>
+<br>
+Sia data in input matrice quadrata di lato 20 contenente valori random
+tra 1 e 9 che rappresentano quote topografiche, l'utente inserisce
+(i,j) che rappresenta posizione di una sorgente d'acqua. Assumo
+l'acqua coli e si diffonda nel terreno passando a posizioni adiacenti
+sulla stessa riga o colonna se tali posizioni hanno la stessa quota
+oppure quota inferiore. Il programma dovrà dare in output una matrice
+della stessa dimensione dove posizione della sorgente contiene il
+valore 2, le posizioni "allagate" contengono il valore 1 mentre le
+posizioni rimaste "asciutte" contengono il valore 0.
+<li>
+<i>Problema delle caselle speciali.  </i>
+<br>
+Data una scacchiera quadrata di lato dispari 2N+1, diciamo che una
+casella è <i> speciale </i> se il suo colore è predominante sia nella
+riga che nella colonna a cui appartiene.
+<br> Scrivere un programma
+che genera in input una matrice quadrata di lato 2N+1 a valori random
+(interi) in {0,1} che rappresentano i colori "bianco" e "nero" e calcola quante 
+caselle speciali ci
+		sono. <br>
+<b>Nota: </b> Un buon algoritmo realizza la soluzione senza
+leggere "troppe volte" ciascun elemento della matrice. Per esempio,
+utilizzando  un vettore come struttura dati aggiuntiva, si puo'
+realizzare una soluzione in cui ogni elemento della matrice viene
+letto soltanto 3 volte.
+		<br>
+<b>Curiosità</b> Esiste una matrice del tipo
+		suddetto con (soltanto) 4N caselle speciali (sapete
+		trovarla?) e si può dimostrare che non esistomo
+		matrici con meno di 4N caselle speciali.
+
+
+<li> <i> Alberi binari </i><br>
+A partire dal file L20alberiBin.c, completare il programma con le seguenti funzioni:
+<br> - Calcolo dell'altezza dell'albero (max distanza radice-foglia)
+<br> - Calcolo del numero di foglie.
+<br> - Definire una nuova funzione <kbd>insertNodeRnd</kbd> che sceglie se andare sul figlio sinistro oppure sul figlio destro non confrontando i valori del campo <kbd>(*treePtr)->data</kbd> ma estraendo un numero random 0 oppure 1 (per sinistra o destra).
+</ol>
+<br>
+</li>
+
+<li> 
+A partire dal file L19filecopia.c, scrivere un programma che legge un file di testo e ne fa una copia in cui tutte le parole iniziano per lettera maiuscola. <br>
+Variante 1: fare una copia in cui tutte le 'a' sono riscritte come 'e'.
+<br>
+Variante 2: fare una copia in cui tutte le lettere doppie sono eliminate. Ad esempio la parola "doppia" dovrà essere riscritta come "dopia".
+<li>
+A partire dal file L18formulaBooleanaconPila.c, estendere le capacità della funzione 
+<kbd>char boolformula(char *formula)</kbd>
+così che possa valutare anche formule con l'operatore NOT, rappresentato dal carattere '!'.
+
+Quindi, dovrebbe valutare formule come 
+F | ! ( T & ( ! F | F ) )
+
+<li> 
+A partire dal file L18formulaBooleanaconPila.c, modificare la funzione 
+<kbd>char boolformula(char *formula)</kbd>
+Per valutare semplici formule nell'aritmetica modulo 10.
+Tali formule sono formate dai caratteri '(', ')', '+', '*', '0', '1', ..., '9', dove gli operatori '+' e '*' sono la somma e la moltiplicazione modulo 10.
+
+Ad esempio, la formula 3 + (4*(2 + 6 + 9)*(1 + 9) + 6) ha valore 9.
+
+
+(era commentato)Realizzare l'implementazione di una coda (le funzioni di Enqueue e Dequeue) mediante due pile utilizzando le funzioni pop e push definite a lezione. Scrivere poi un codice main che utilizza tale coda secondo lo stile del programma visto a lezione L17eseCodanew.c e L17esePilanew.c
+
+</ol>
+<br>
+</li>
+
+
+<li> 
+Scrivere un programma che
+data una stringa in input la modifica raddoppiando tutte tutte le consonanti 'b', 'p,' e 't' che si trovano come inizi di parole.  Stampare poi la stringa modificata. 
+</ol>
+<br>
+</li>
+<p>
+
+
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 6</b></font></a>
+	    del <font  color="#800080">13 aprile </font>:
+<span style=" background-color: yellow"> <font color="#008000" size="4">MINI PROGETTO Facoltativo (da consegnare entro il 30 aprile):
+</font></span>
+<br>
+
+<p>
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 5</b></font></a>
+	    del <font  color="#800080">7 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab5_x):
+</font>
+<br>
+
+<ol>
+<li>
+
+<li>
+Modificare il programma BubbleSort in modo che il ciclo di lettura del vettore diventi più corto ad ogni iterazione e che le iterazioni vengano interrotte  se non viene effettuato alcuno scambio.
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. Il programma deve utilizzare una funzione ricorsiva per calcolare tale numero.
+
+ 
+ 
+ <li>
+
+
+  Scrivere un programma che simula il gioco della morra cinese fra il computer e l'utente. 
+<br>Scrivere una funzione <kbd> char gioca()</kbd>
+in cui si genera in modo random un numero m che rappresenta uno dei tre valori “forbici”, “carta” e “sasso” . Senza scoprirlo, invita il giocatore a immettere la sua scelta corrispondente alle possibili lettere "f", "c" oppure "s".  A questo punto svela la sua scelta e restituisce 'u' se ha vinto l'utente, 'c' se ha vinto il computer oppure 'p' se la partita è pari. 
+<br>
+Il  main consiste nel dare le spiegazioni del gioco e poi
+ richiamare il metodo <kbd>gioca()</kbd>per giocare  una mano di gioco. 
+ Alla fine di ogni mano, il computer chiede all'utente se vuole 
+ continuare a giocare ed eventualmente si richiama la funzione <kbd>gioca()</kbd>.<br>
+ FACOLTATIVO: integrare l'esercizio sulla morra cinese con qualche elemento grafico (si fa per dire....). Questa è una 
+<a style="color: #990099; font-weight:
+bold" href="./sassocartaforbici.pdf"> proposta...</a>. 
+<br>
+NOTA: Si ricorda che “forbici” batte “carta”, “carta” batte “sasso” 
+e, infine,“sasso” batte “forbici”.
+
+
+<li>Usando la formula <i>e=1+ 1/1! + 1/2! + .... 1/n!+... </i>, scrivere un
+programma che calcola una approssimazione di <i>e</i> con errore a scelta
+dell'utente. L'utente dovra' inserire un errore tipo 0,0001 e il
+programma dovra' selezionare i termini della serie in base all'errore
+fissato. La funzione fattoriale deve essere scritta a parte e
+	richiamata nella formula (non usare la libreria matematica).
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. Il programma deve utilizzare una funzione ricorsiva per calcolare tale numero.
+	
+<li> Scrivere un programma che prende in input  3 numeri interi inseriti da tastiera e li scrive in output 
+in ordine crescente utilizzando in totale soltanto 3 confronti 
+(con operatore <= ) tra i numeri stessi all'interno di istruzioni if-else annidate. 
+No variabili supplementari (solo 3 variabili per i 3 numeri).
+</ol>
+<br>
+</li>
+<li> Scrivere un programma che legge da tastiera un numero intero x
+(positivo) e stampa sullo schermo un quadrato (pieno) di "*" di lato
+x.
+<li> Triangolo di Floyd. E' definito come un triangolo costruito
+  utilizzando numeri naturali consecutivi. Ad esempio qui di sotto è
+  definito il triangolo di  Floyd di 5 righe.
+<br>1
+<br>2 3
+<br>4 5 6
+<br>7 8 9 10
+<br>11 12 13 14 15
+<br>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output il
+triangolo di Floyd di N righe.
+
+
+
+
+
+
+
+  <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 19</b></font></a>
+	    del <font  color="#800080"> 30 maggio</font>:
+<font color="#008000" size="4">Esercizi assegnati  :
+</font>
+<br>
+<a style="color: #990099; font-weight: bold" href="../Esami14-15/Lab-StrAppello.pdf">
+Vecchio compito d'esame</a>.
+<p>
+</li> 
+ <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 18</b></font></a>
+	    del <font  color="#800080"> 25 maggio</font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab18_x):
+</font>
+<br>
+<ol>
+<li><i> Interi lunghissimi </i><br>
+Sappiamo che in C non possiamo rappresentare numeri interi arbitrariamente grandi. Si assuma quindi
+di rappresentare un intero positivo x tramite una stringa di caratteri numerici (cioè caratteri compresi
+tra ’0’ e ’9’), con la cifra più significativa nella posizione 0 della stringa.
+Scrivere almeno uno dei seguenti casi della funzione Somma che esegue la somma di due interi
+positivi definiti come sopra.
+<ul>
+<li> (caso facile) I due interi rappresentati in X e Y hanno lo stesso numero di cifre e la loro somma
+avrà lo stesso numero di cifre
+<li> (caso intermedio) I due interi rappresentati in X e Y hanno lo stesso numero di
+cifre e la loro somma avrà una cifra in più (alla fine occorre fare lo shift di tutte le posizioni).
+<li> (caso generale) I due interi rappresentati in X e Y NON hanno lo stesso numero
+di cifre (la loro somma avrà lo stesso numero di cifre del più grande).
+Scrivere un programma che richiede all’utente di inserire due numeri interi positivi ne esegue la
+somma usando la funzione sopra definita e poi stampa il risultato.
+</ul>
+Suggerimenti:<br>
+• E’ possibile utilizzare strlen(s) che restituisce la lunghezza di una stringa (occorre includere
+<string.h>)<br>
+• Poichè i codici ASCII dei caratteri numerici sono consecutivi tra loro, il numero corrispondente
+ad un carattere numerico ch viene ottenuto con ch - ’0’. Viceversa, sommando ad un valore
+intero n tra 0 e 9 il valore ’0’ si ottiene il carattere ASCII corrispondente.
+</li>
+
+<li>
+<i>Un cammino in salita</i><br>
+Si realizzi un programma in linguaggio C in grado di simulare il movimento di un topolino che cammina su una
+superficie di quota variabile. Si dispone di una matrice Q, di dimensione N × N, che descrive le caratteristiche
+di una certa area: in ciascuna locazione Q(x, y) della matrice vi è la quota del quadratino di superficie posto alle
+coordinate (x, y). Il topolino si trova nella posizione iniziale (x0, y0) e segue le seguenti regole di movimento:
+<ul>
+<li>il topolino si sposta ad ogni passo di un solo quadratino, nelle 4 direzioni possibili;
+<li> il topolino si muove sul quadratino di quota massima tra i 4 adiacenti;
+<li> se tutti i quadratini adiacenti sono ad una quota inferiore rispetto al quadratino attuale, il topolino si ferma.
+</ul>
+Scrivere una funzione <tt>int PosizMax(int a[][SIZE], int xc, int yc, int * xm, int * ym)</tt> che, data
+una matrice a e una posizione corrente (xc, yc) determina la posizione adiacente (xm, ym) che contiene il
+valore massimo e restituisce tale valore massimo.
+Il programma dovrà quindi:
+<ul>
+<li> Generare una matrice 15x15 a valori random tra 1 e 20 e stamparla sullo schermo
+<li> Richiedere all’utente le coordinate x0 e y0 della posizione iniziale del topolino
+<li> Utilizzare la funzione PosizMax per simulare il cammino di un topolino secondo le regole sopra descritte a
+partire dalla posizione (x0, y0) fino a quando il topolino si ferma o ha compiuto 20 passi. Per ogni passo
+compiuto dal topolino dovrà essere visualizzata sullo schermo la posizione e la quota raggiunta.
+<li> Richiedere all’utente se vuole ripetere la simulazione, ed eventualmente tornare al punto 2.
+</ul>
+SUGG.: Per gestire in modo uniforme le posizioni sui bordi, può essere utile utilizzare una matrice di dimensione
+(N + 2)x(N + 2) in cui tutte le posizioni di bordo contengono valore 0.
+</ol>
+</li>
+
+
+ 
+ <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 19</b></font></a>
+	    del <font  color="#800080"> 24 maggio</font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab19_x):
+</font>
+<br>
+<ol>
+
+</ol>
+
+  <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 18</b></font></a>
+	    del <font  color="#800080"> 22 maggio</font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab18_x):
+</font>
+<br>
+<ol>
+
+
+<!--
+<li>
+<i>Problema della sorgente.  </i> (più difficile)
+<br>
+Sia data in input matrice quadrata di lato 20 contenente valori random
+tra 1 e 9 che rappresentano quote topografiche, l'utente inserisce
+(i,j) che rappresenta posizione di una sorgente d'acqua. Assumo
+l'acqua coli e si diffonda nel terreno passando a posizioni adiacenti
+sulla stessa riga o colonna se tali posizioni hanno la stessa quota
+oppure quota inferiore. Il programma dovrà dare in output una matrice
+della stessa dimensione dove posizione della sorgente contiene il
+valore 2, le posizioni "allagate" contengono il valore 1 mentre le
+posizioni rimaste "asciutte" contengono il valore 0. 
+ 
+<li> 
+<i> Alberi binari </i><br>
+A partire dal file L27alberiBin.c, completare il programma con le seguenti funzioni:
+<br> - Calcolo dell'altezza dell'albero (max distanza radice-foglia)
+<br> - Calcolo del numero di foglie.
+<br> - Definire una nuova funzione <kbd>insertNodeRnd</kbd> che sceglie se andare sul figlio sinistro oppure sul figlio destro non confrontando i valori del campo <kbd>(*treePtr)->data</kbd> ma estraendo un numero random 0 oppure 1 (per sinistra o destra).
+</ol>
+<br>
+</li>
+</li>
+
+ <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 17</b></font></a>
+	    del <font  color="#800080"> 17 maggio</font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab17_x):
+</font>
+<br>
+
+<ol>
+
+
+<li>Scrivere una funzione che verifica se una frase
+  (stringa) in input è palindroma. (Per tale verifica dovranno essere
+  ignorati gli eventuali spazi bianchi). Scrivere un programma che
+  prende in input da tastiera una stringa e verifica se tale stringa è
+  palindroma. <br> Non è consentito utilizzare funzioni predefinite sulle stringhe. <br> Definire la stringa come <kbd>char * stringa </kbd> (non come vettore).
+Possibili stringhe su cui testare il programma:
+<br> <i> - ai lati d italia </i>
+<br> <i> - etna gigante </i>
+<br> <i> - i topi non avevano nipoti </i>
+<br> <i> - e poi martina lavava l anitra miope</i>
+
+<br>
+<b>Nota1: </b> Un modo di realizzare l'esercizio è quello di  fare una prima lettura di tutta la stringa ed inserirla in una pila di char. Poi si fa una seconda lettura e ad ogni carattere si estrae un elemento dalla pila e si confronta
+<br>
+<b>Nota2: </b> Per poter leggere una stringa con tutti gli spazi
+	    bianchi bisogna utilizzare la funzione <kb> gets </kb>
+	    invece di <kb> scanf </kb>. La sintassi è: gets(s) dove s
+	    è la variabile dove memorizzare la stringa.
+
+
+
+</li>
+
+
+ <li>
+<font size="4"> <font color="#008000"><b>Laboratorio 16</b></font></a>
+	    del <font  color="#800080">15 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab16_x):
+</font>
+<br>
+Svolgimento di una 
+ <a style="color: #FF0000; font-weight: bold" href="../Esami14-15/Lab-PreAppello.pdf">precedente prova d'esame</a>
+</li>
+ 
+
+
+<ol>
+
+
+		</ol></li>
+
+
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 13</b></font></a>
+	    del <font  color="#800080">3 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab12_x):
+</font>
+
+<ol>
+<li>
+<i> Implementazione di una coda con vettori </i> <br>
+Utilizzare lo schema del programma 
+<a style="color: #990099; font-weight: bold" href="../Lezioni/CodiceLez/L21esePilaVettore.cpp">pilaVettore</a> e scrivere un programma analogo di gestione di una coda tramite un vettore (usato in modo circolare). <br>Implementare dunque le funzioni di <kbd> isEmpty, isFull, EnQueue, DeQueue, Stampa </kbd>.
+
+
+
+</ol><br>
+</li>
+</ol>
+
+
+  
+
+
+<br>
+Svolgimento di una 
+ <a style="color: #FF0000; font-weight: bold" href="../Esami13-14/Lab_1appello.pdf">precedente prova d'esame</a>
+</li>
+
+<!--
+
+ 
+
+
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 8</b></font></a>
+	    del <font  color="#800080">10 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab8_x):
+</font>
+<br>
+<ol>
+  
+<li>
+ Scrivere un programma che simula il gioco IndovinaNumero discusso a lezione in cui si deve indovinare un numero da 1 a 100 a seguito di risposte "troppo alto" o "troppo basso". Il programma, oltre ad eventuali funzioni ausiliarie, dovrà contenere 2 funzioni <kbd>ComputerVsUtente</kbd> e <kbd>UtenteVsComputer</kbd> che restituiscono il numero di tentativi necessari per indovinare il numero. Il programma principale si compone poi delle due chiamate di funzione e della "proclamazione" del vincitore.
+ 
+</ol>
+
+<!--
+<li>
+Continuare l'esercizio 4 del LAB.6 definendo la funzione:   <ul>
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 6</b></font></a>
+	    del <font  color="#800080">27 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab6_x):
+</font>
+<br>
+
+
+</li>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 5</b></font></a>
+	    del <font  color="#800080">22 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab5_x):
+</font>
+<br>
+<ol>
+
+<li>
+Un numero naturale <i>n</i> si dice <i>quadratoso </i> se è un quadrato perfetto ed inoltre cancellando ad <i>n</i> una delle sue cifre si ottiene ancora un quadrato perfetto. <br>
+Ad esempio 1369 è <i>quadratoso </i> infatti 1369=37<sup>2 </sup> e, cancellando la cifra 3, si ottiene 169=13<sup>2 </sup>. Analogamente 2025= 45<sup>2 </sup>  è <i>quadratoso </i> infatti eliminando la prima cifra si ottiene 025 = 25 = 5<sup>2 </sup>. <br>
+Scrivere un programma che scrive in output tutti i numeri <i>quadratosi </i>di 4 cifre.	
+ 				
+</ol>
+<br>
+<li>
+Scrivere un programma che prende in input un numero positivo B e un numero positivo N
+e scrive in output il valore della potenza N-esima di B. Il programma deve utilizzare una funzione ricorsiva <kbd> int pot(int,int) </kbd> per calcolare tale numero.
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. Il programma deve utilizzare una funzione ricorsiva <kbd> int Fibon(int) </kbd> per calcolare tale numero.</li>
+
+<li>Calcola il valore max e il secondo max modificando i due parametri passati  per riferimento. 
+PRONTO
+TUTORATO: triangolo di floyd
+<li> Triangolo di Floyd. E' definito come un triangolo costruito
+  utilizzando numeri naturali consecutivi. Ad esempio qui di sotto è
+  definito il triangolo di  Floyd di 5 righe.
+<br>1
+<br>2 3
+<br>4 5 6
+<br>7 8 9 10
+<br>11 12 13 14 15
+<br>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output il
+triangolo di Floyd di N righe.
+ 
+ ; verifica congettura di goldbach ... baricentro di un vettore... segmento in un vettore..
+.. vettore random con mai 2 numeri consectivi uguali
+ 
+-->
+
+<li> <font size="4"> <font color="#008000"><b>Laboratorio
+  17</b></font></a> del <font color="#800080">23 maggio </font>: <font
+  color="#008000" size="4">Esercizi assegnati (Codice
+  lab17_x):</font><br> 
+<ol>
+
+<li>
+<i>Problema delle caselle speciali.  (Liberamente tratto da Cesenatico 2014- quesito 6)</i>
+<br>
+Data una scacchiera quadrata di lato dispari 2N+1, colorata in modo che ogni casella sia o bianca o nera, diciamo che una
+casella è <i> speciale </i> se il suo colore è predominante sia nella
+riga che nella colonna a cui appartiene.
+<br> Scrivere un programma
+che genera in input una matrice quadrata di lato 2N+1 a valori random
+(interi) in {0,1} che rappresentano i colori "bianco" e "nero" , stampa la matrice sullo schermo e calcola quante 
+caselle speciali ci
+		sono. (scegliere a piacere il valore N oppure fare in modo che lo scelga l'utente)<br>
+<b>Nota: </b> Un buon algoritmo realizza la soluzione senza
+leggere "troppe volte" ciascun elemento della matrice. Per esempio,
+utilizzando  un vettore come struttura dati aggiuntiva, si puo'
+realizzare una soluzione in cui ogni elemento della matrice viene
+letto soltanto 3 volte.
+		<br> 
+<b>Curiosità</b> Esiste una matrice del tipo
+		suddetto con (soltanto) 4N caselle speciali (sapete
+		trovarla?) e si può dimostrare che non esistomo
+		matrici con meno di 4N caselle speciali.
+<li>
+<b> </b> <i> Conversazioni </i><br>
+  Scrivere un programma che chiede all’utente di inserire una frase, ricava l’ultimo carattere di tale stringa e 
+ <ul>
+<li>se tale carattere è un punto interrogativo stampa:    Non saprei... 
+<li>se tale carattere è un punto esclamativo stampa:     Hai proprio ragione! 
+<li>altrimenti stampa:  Mmmm, non mi convince...
+</ul>
+Dopo la risposta del computer, l'utente potrà inserire altre frasi e il programma risponde come sopra. Quando l'utente scrive "ciao", la conversazione ha termine (dopo un saluto da parte del programma.)
+<br>Esempio esecuzione:
+<pre>
+Prego dimmi :
+> Come si risolve questo esercizio ?
+Non saprei ...
+> Forse bisogna calcolare l'integrale..
+Mmmm, non mi convince...
+> Questo esercizio non mi piace affatto!
+Hai proprio ragione!
+> ciao
+arrivederci!
+</pre>
+
+</ol>
+
+<li> <font size="4"> <font color="#008000"><b>Laboratorio
+  16</b></font></a> del <font color="#800080">16 maggio </font>: <font
+  color="#008000" size="4">Esercizi assegnati (Codice
+  lab16_x):</font><br> 
+<ol>
+<li> Completare l'esercizio sulle liste lab15_1
+<li> Modificare l'esercizio della classifica del campionato lab14_1 in modo che i nomi delle squadre vengano letti da un file di testo "squadre.txt" e che la classifica finale venga scritta in un file di testo di nome "classifica.txt".
+<li> <i> Progetto Stack1 </i><br>
+A partire dal file formulaBooleanaconPila.c, estendere le capacità della funzione 
+<kbd>char boolformula(char *formula)</kbd>
+così che possa valutare anche formule con l'operatore NOT, rappresentato dal carattere '!'.
+
+Quindi, dovrebbe valutare formule come 
+F | ! ( T & ( ! F | F ) ) 
+
+<li> <i> Progetto Stack2 </i><br>
+A partire dal file formulaBooleanaconPila.c, modificare la funzione 
+<kbd>char boolformula(char *formula)</kbd> in modo da utilizzarla
+per valutare semplici formule nell'aritmetica modulo 10.
+Tali formule sono formate dai caratteri '(', ')', '+', '*', '0', '1', ..., '9', dove gli operatori '+' e '*' sono la somma e la moltiplicazione modulo 10.
+
+Ad esempio, la formula 3 + (4*(2 + 6 + 9)*(1 + 9) + 6) ha valore 9.
+
+
+</ol>
+ 
+<li> <font size="4"> <font color="#008000"><b>Laboratorio
+  15</b></font></a> del <font color="#800080">9 maggio </font>: <font
+  color="#008000" size="4">Esercizi assegnati (Codice
+  lab15_x):</font><br> 
+<ol>
+<li> Aggiungere le seguenti funzioni al programma <a style="color: #990099; font-weight: bold" href="../Lezioni/CodiceLez/eseListaNew.cpp"> 
+eseListaNew.cpp</a>:
+<ol>
+<li> Ricerca di un elemento nella lista 
+<li> Inserimento in testa alla lista ma solo se l'elemento non è già presente
+
+<li> Cancellazione di TUTTE le occorrenze di un certo elemento nella lista.
+<br><u>Nota: </u> Fare attenzione al caso in cui dovranno essere eliminati "tanti" elementi iniziali.
+<li> Eliminazione di tutti gli elementi duplicati di una lista. Alla fine ogni elemento deve essere presente al più una volta nella lista.
+<li> Scrivere una funzione <tt> SeparaPariDispari </tt> che "spezza" la lista input in due liste estraendo dalla lista data tutti i numeri dispari e inserendoli in un'altra nuova. (Al termine la lista inziale conterrà solo i numeri pari della lista originaria).
+<br><u>Nota: </u> Fare attenzione al caso in cui nella lista sono tutti dispari o tutti pari. 
+
+</ol>
+<li>
+<i>  Matrice dell'Amicizia </i> <br>
+Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice <i>M</i> quadrata simmetrica di 10
+	      righe (colonne) con valori random tra 0 e 1.
+  <li> Stampa la matrice sullo schermo.
+<li> Interpretando la matrice con il significato <i>M(i,j)=1</i>
+ se e solo se
+  <i> i </i> è amico di <i>j</i>, elencare sullo
+   schermo tutte le triple <i>(r,s,t)</i> in cui <i>r, s</i> e <i>t</i>
+	      sono tutti amici.
+  <li> (Difficile)Trovare il gruppo più grande in cui
+ sono tutti amici.  NOTA: Per questo punto sarebbe utile
+ generare una matrice con molti 1. Un modo di
+  realizzarlo potrebbe essere di generare valori random tra 0 e 3 e
+   poi trascrivere i valori >0 come tutti 1.
+</ol>
+</ol>
+ <li> <font size="4"> <font color="#008000"><b>Laboratorio
+  14</b></font></a> del <font color="#800080">7 maggio </font>: <font
+  color="#008000" size="4">Esercizi assegnati (Codice
+  lab14_x):</font><br> 
+
+<p> 
+
+ <li> 
+<font size="4"> <font color="#008000"><b>Laboratorio 13</b></font></a>
+	    del <font  color="#800080">2 maggio </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab13_x):
+</font>
+<br>
+<ol>
+ <li>
+<i> Varie su Matrici </i><br> Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice di dimensione 20x30 di numeri casuali
+	      compresi tra -10 e 10 (estremi inclusi)
+  <li> Stampa la matrice sullo schermo
+  <li> Verifica  se esiste  una riga della matrice la cui somma sia
+	      0. In caso affermativo stampa la riga sullo schermo.
+ <li> Verifica  se esiste  una colonna della matrice la cui somma sia
+	      0. In caso affermativo stampa la colonna sullo schermo.
+ <li> Identifica la riga della matrice la cui somma degli elementi
+	      è maggiore. Stampa sullo schermo l'indice di tale
+	      riga.
+ <li>
+Verifica se esiste una riga la cui somma degli elementi è uguale
+	      alla somma degli elementi di una colonna. In caso
+	      affermativo stampa tali indici di riga e
+colonna, in caso negativo segnala che la condizione non è
+	      verificata. Sugg.: utilizzare un vettore di supporto.
+<li>
+Stampa l'indice di tutte le righe in cui la media aritmetica dei
+	      valori è maggiore della media aritmetica dei valori
+	      dell'intera matrice.
+</ol>
+I vari punti <u>devono</u> essere svolti come funzioni.
+</li>
+
+<li> <i> Simulazione di una coda con due pile </i> <br>A partire dai file visti a lezione <tt> pilaVettore.c, codaVettore.c </tt>riscrivere il programma codaVettore implementando una coda (le funzioni di <i>enqueue</i> e <i>dequeue</i>) con due pile, utilizzando le funzioni già sviluppate nel file pilaVettore. 
+
+</ol>
+
+<li> 
+<font size="4"> <font color="#008000"><b>Laboratorio 12</b></font></a>
+	    del <font  color="#800080">30 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab12_x):
+</font>
+<br>
+<ol>
+<li>In un programma che chiede all'utente di inserire una stringa (usare Lab11_2) aggiungere le seguenti funzioni selezionabii da un menu:
+<ul> <li> <tt> ContaMaiuscole </tt> che data una stringa conta il numero di lettere maiuscole.
+<li>
+<tt> DopoPunto </tt>  che dato un testo trasformi in maiuscole le lettere dopo il punto (se risultano minuscole).
+<li>
+<tt> Rafforza </tt>  data una stringa (testo) in input <i>ne crea un'altra</i> raddoppiando tutte tutte le consonanti 'b', 'p,' e 't' che si trovano come inizi di parole. 
+</li>
+</ul>
+
+</ul>
+<li>
+<i>Problema MaxSum </i>(difficile?) <br>
+Dato un array v di dimensione n di valori interi (positivi e negativi), considero tutte le somme S<sub>i,j</sub> degli elementi v[k] con k=i,...j. 
+<ul> <li>Scrivere una funzione <tt> int MaxSum(int v[], int n) </tt> che determina e restituisce il valore massimo tra tutte le somme  S<sub>i,j</sub>. 
+<li>Scrivere poi un programma che inizializza un vettore di dimensione 100 con valori random tra - 50 e 50 e applicando poi la funzione <tt> MaxSum </tt> calcola il valore della massima somma tra elementi consecutivi e la scrive sullo schermo. 
+<li>
+Valutare la complessità della funzione MaxSum che avete scritto. (Riuscite a scrivere una funzione MaxSum quadratica? Riuscite a scriverne una lineare?)
+</ul>
+</ol>
+<!--
+
+
+<li>
+Dato un vettore V di n elementi interi v[0],v[1],..., v[n − 1], un elemento v[i], 2 ≤ i ≤ n − 3 si dice <i>alto </i> se
+il suo valore è maggiore dei due che lo precedono e dei due che lo seguono. Scrivere una funzione <tt> int alto(int v[], int n) </tt> che
+dato un vettore e la sua dimensione restituisce il valore del minore degli elementi alti (se ce n'è più di uno, dà in output l'indice minore). 
+<br>
+Scrivere poi un programma (funzione main) che genera e stampa un vettore di dimensione 100 di valori interi random  tra 5 e 75 e poi, richiamando la funzione <tt>alto</tt> calcola l'indice di un suo elemento alto.
+<br>
+Qual è la complessità della funzione <tt>alto</tt>?
+</ol>
+<br>
+-->
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 11</b></font></a>
+	    del <font  color="#800080">16 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab11_x):
+</font>
+
+<br>
+
+<ol>
+ 
+</li>
+ <li>
+  Implementare gli algoritmi di Mergesort e Quicksort e aggiungerli al programma del Lab.10.
+<li>
+<i>Problema della bandiera italiana (celebrazioni 25 aprile) </i> (Più difficile!)<br>
+Input: array random i cui elementi hanno valore "verde", "bianco" o
+ "rosso" codificato in qualche modo. <br>
+Output: array "colorato" come bandiera italiana (tutti i verdi a
+sinistra, i bianchi al centro e i rossi a destra). <br>
+Progettare un algoritmo lineare. Scrivere un programma che risolve il problema e che opera con UNA SOLA
+lettura dell'array  (se non ci riuscite utilizzate
+  comunque non più di tre passate!)
+ e che effettua SOLO SCAMBI tra gli
+ elementi. (Non si deve ordinare l'array con algoritmo di ordinamento
+  e non è consentito "contare"   quanti elementi hanno un  dato colore)
+ 
+</ol>
+
+ 
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 10</b></font></a>
+	    del <font  color="#800080">11 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab10_x):
+</font>
+<br> <i> Progetto sorting </i>
+Lo scopo è quello di confrontare vari algoritmi di sorting su vettori di lunghezza n (Ad esempio:30, 200, 500, 2000, 10000, .... )
+Generare un vettore random di lunghezza stabilita e applicare gli algoritmi sempre sullo stesso vettore (fare una copia prima di ordinarlo!)
+<br>
+Di ogni algoritmo valutare il numero di confronti effettuati e il tempo in millisecondi. (NOTA: su computer più veloci, il tempo potrebbe essere significativo solo su vettori abbastanza grandi.)
+<br>
+Produrre sullo schermo una tabella riassuntiva dei risultati ottenuti. <br>
+<u>AGGIUNTA FACOLTATIVA:</u>
+Ampliare quanto sopra in modo da ripetere i test anche su
+	tipologie diverse di vettori. In particolare, scrivere delle
+	funzioni per generare i seguenti vettori:
+<ol>
+<li> sequenza random di valori tra 1 e 100 ( vedi sopra)
+<li> sequenza ordinata crescente (es. i numeri 1,2,3,4,5,...)
+<li> sequenza ordinata decrescente
+<li> sequenza "quasi" ordinata (generata a partire da una sequenza
+	      ordinata applicando 5 scambi  tra
+	      coppie di posizioni scelte in modo random)
+</ol>
+
+Utilizzare come schema i files
+<a style="color: #990099; font-weight: bold" href="../Lezioni/CodiceLez/misuraTempo.c">
+misuraTempo.c</a> e 
+<a style="color: #990099; font-weight: bold" href="../Lezioni/CodiceLez/
+VettoriSort.cpp">
+vettoriSort.cpp</a>.
+Inoltre, trovi qui delle
+<a href="https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard/time.h"
+target="_blank> <b> informazioni</b> </a> <font
+color="#008000"><b>informazioni</b> </a>sulla libreria delle funzioni di "tempo". </font>
+<br>
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 9</b></font></a>
+	    del <font  color="#800080">4 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab09_x):
+</font>
+<br>
+<ol>
+<li>
+<i>Crivello di Eratostene </i>  <br>
+ Implementare una funzione che simula il
+<a style="color: #990099; font-weight:
+   bold "href="http://it.wikipedia.org/wiki/Crivello_di_Eratostene"
+   target="_blank"> crivello di Eratostene </a> per il calcolo dei
+   numeri primi. Utilizzarla per calcolare e contare  i numeri primi tra 2
+   e 1000. <br> La funzione <tt>int Crivello(int C[], int n)</tt> sarà definita su un 
+ array booleano C di dimensione n tale che  
+<ul>
+<li>C[i] =1 significa che i è primo  e 
+C[i] =0 significa che i NON è primo  
+
+<li>All’inizio pongo C[i]=1 per ogni i
+<li>Realizzo n-1 cicli che iniziano ogni volta dall’elemento che contiene il primo 1
+<li>
+Se un ciclo comincia da C[i] allora assegno 0 a tutti i C[j] tale che j è un multiplo di i
+</ul>
+<li><i> Varie su Vettori </i><br> Scrivere il seguente programma:
+<ul>
+<li>
+Scrivere una funzione <tt> int minVett( int v[], int h, int k)</tt> che prende in input un vettore v e restituisce l'indice del valore minimo della porzione di v compresa tra gli indici h e k (inclusi).
+<li> Scrivere una funzione analoga <tt> int maxVett( int v[], int h, int k)</tt> che restituisce l'indice del valore massimo.
+<li> Scrivere una funzione <tt> int SelectMinSort(int v[], int s) </tt> che ordina un vettore v in modo crescente utilizzando l'algoritmo di SelectionSort e richiamando opportunamente la funzione minVett.
+<li> Scrivere una funzione <tt> int SelectMaxSort(int v[], int s) </tt> che ordina un vettore v (sempre in modo crescente) utilizzando l'algoritmo di SelectionSort e richiamando opportunamente la funzione maxVett.
+<li> Scrivere un programma (funzione main) che genera un vettore random di 40 interi tra 11 e 99 e lo ordina utilizzando le funzioni sopra definite. Il programma stampa i vettori prima e dopo l'ordinamento.
+</ul>
+
+ <li>
+
+
+  Scrivere un programma che simula il gioco della morra cinese fra il computer e l'utente. 
+<br>Scrivere una funzione <kbd> char gioca()</kbd>
+in cui si genera in modo random un numero m che rappresenta uno dei tre valori “forbici”, “carta” e “sasso” . Senza scoprirlo, invita il giocatore a immettere la sua scelta corrispondente alle possibili lettere "f", "c" oppure "s".  A questo punto svela la sua scelta e restituisce 'u' se ha vinto l'utente, 'c' se ha vinto il computer oppure 'p' se la partita è pari. 
+<br>
+Il  main consiste nel dare le spiegazioni del gioco e poi
+ richiamare il metodo <kbd>gioca()</kbd>per giocare  una mano di gioco. 
+ Alla fine di ogni mano, il computer chiede all'utente se vuole 
+ continuare a giocare ed eventualmente si richiama la funzione <kbd>gioca()</kbd>.<br>
+ FACOLTATIVO: integrare l'esercizio sulla morra cinese con qualche elemento grafico (si fa per dire....). Questa è una 
+<a style="color: #990099; font-weight:
+bold" href="../sassocartaforbici.pdf"> proposta...</a>. 
+<br>
+NOTA: Si ricorda che “forbici” batte “carta”, “carta” batte “sasso” 
+e, infine,“sasso” batte “forbici”.
+</li>
+</ol>
+ 
+
+
+
+
+
+
+
+<li> Riscrivere l'esercizio 1 del LAB.6 definendo ed utilizzando due funzioni:   <ul>
+<li><kbd> int DataValida(int, int, int) </kbd> che prende in input tre valori interi corrispondenti a giorno, mese e anno e restituisce 1 se si tratta di una data valida oppure 0  se la data è errata 
+<li> <kbd> void ScriviData (int, int, int) </kbd> che prende in input tre valori interi corrispondenti a giorno, mese e anno  e poi scrive sullo schermo la data con il mese scritto "a parole". 
+</ul>
+
+
+
+</ol>
+
+
+
+<li>
+ Scrivere un programma che legge due valori di tipo float,  e poi richiede un operazione come un valore  di tipo
+char. Infine:
+se il carattere letto e' '+' allora stampa la somma dei due valori
+numerici;
+se il carattere letto e' '-' allora stampa la differenza dei due valori
+numerici;
+se il carattere e' '*' allora stampa il prodotto dei due valori
+numerici;
+se il carattere letto e' '/' allora stampa il risultato della divisione dei due valori
+numerici (escludere il caso in cui il secondo valore è zero!);
+se e' un altro carattere allora stampa un messaggio di errore. <br>
+<u>Da realizzare utilizzando una istruzione <kbd> switch </kbd>. </u>
+
+
+		  </ol>
+<br>
+</li>
+
+
+
+
+
+
+
+  
+<li>
+Scrivere un programma che richiede all'utente di inserire un numero di 7 cifre (inserire un controllo sull'input) e restituisce in output la massima potenza di 7 che divide il numero. L'output dovrà essere del tipo: <kbd>Il numero inserito e' ... e la massima potenza di 7 che lo divide e' ....</kbd>.
+
+
+</ol>
+<br>
+</li>
+
+
+
+
+
+ 
+
+
+
+
+</ul>
+<hr>
+<p> </font>
+<br>
+
+</p>
+
+<p>
+
+
+
+
+
+
+
+
+
+  </font></font>
+</ul>
+
+
+
+
+
+
+
+
+
+</BODY>
+
+</HTML>

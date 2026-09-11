@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+ <meta charset="utf-8">
+   <TITLE> Programmazione in C</TITLE>
+  
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#808080" VLINK="#551A8B" ALINK="#FF0000" >
+
+
+<blockquote>
+<center>
+<h2> <br>
+<font color="#008000"> Laboratorio di Programmazione & Informatica 1</font><br>
+<font size="4" color="#008000">A.A. 2019-2020</font></b></h2>
+
+
+</center>
+<H2 ALIGN=CENTER><B><font color="#800080" size="4">ESERCITAZIONI IN LABORATORIO</font></B><font color="#800080">
+</font>
+</H2>
+
+
+ Questa pagina contiene gli esercizi  proposti durante le lezioni di
+      laboratorio. Le soluzioni degli esercizi (proposte da voi studenti e corrette in aula) si trovano nella scheda <b> file </b> del canale <b> LezioniLaboratorio </b> del corso su Teams.
+
+<!--	  Di alcuni esercizi sono presenti delle
+      soluzioni  realizzate
+ dagli studenti che frequentano il corso 
+e raccolte in questa
+
+
+<a  style="color: #FF0000; font-weight: bold "href="
+https://drive.google.com/open?id=1XcZQ-QOk4LgRMXMEMkWxgp2pnDXNFOn0">   
+CARTELLA DELLE SOLUZIONI</a> (Scaricare su un'altra scheda usando il tasto destro del mouse). Il codice e il numero fanno
+      riferimento ai testi descritti.<p>	  
+-->	  
+<!--
+Le <b>
+<font color="#FF0000">REGOLE PER SPEDIRE GLI ESERCIZI</font></b> sono le seguenti:    
+    <ul>
+    <li>Per<font color="#FF0000"> ogni esercizio </font>    preparare<font color="#FF0000"> un file </font>    (in formato
+      word, pdf, html,<font color="#FF0000">...Si prega di non zipparlo!</font>).<font color="#FF0000"> </font>    Tale file 
+    dovrà
+      contenere le seguenti informazioni:
+      <font color="#FF0000">
+      <ul type="disc">
+      <li> nome e cognome dell'autore</li> 
+      <li> testo dell'esercizio&nbsp;</li>  
+      <li> soluzione dell'esercizio</li> </ul></font>    </li>
+  <li>
+  Il<font color="#FF0000"> nome del file </font>dovrà corrispondere al<font color="#FF0000"> 
+  proprio cognome seguito dal numero dell’esercizio. </font>Ad esempio se io 
+  stessa volessi sottomettere la soluzione dell’esercizio 2_23, dovrei chiamare 
+  il file <font face="Courier New" size="2"><b> giammarresi2_23</b></font>  </li>
+ <li> Spedire
+    il file (o i files, se sono più esercizi) come<font color="#FF0000"> allegati a <font face="Courier New" size="2"><b><a href="mailto:giammarr@mat.uniroma2.it">
+ <font color="#008000">giammarr@mat.uniroma2.it</font></a></b></font>
+  entro il sabato successivo</font></li>
+    </ul>
+
+</blockquote>
+
+
+<hr>
+-->
+<p>
+
+<p>
+
+
+<ul>
+<!-- DA RICOPIARE
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
+	    del <font  color="#800080">17 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab3_x):
+</font>
+<br>
+
+<ol>
+<li>
+<li>
+Scrivere un programma che produce in output (scritte una sotto l'altra) tutte le permutazioni dei numeri 1,2,3,4,5.
+</ol>
+<br>
+</li>
+<!--
+ <li> Il <i>Triangolo di Floyd </i> è definito come un triangolo costruito
+  utilizzando numeri naturali consecutivi con righe di lunghezza crescente (la riga i-esima contiene i numeri). Ad esempio qui di sotto è
+  definito il triangolo di  Floyd di 5 righe.
+<br>1
+<br>2 3
+<br>4 5 6
+<br>7 8 9 10
+<br>11 12 13 14 15
+<br>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output il
+triangolo di Floyd di N righe.
+</ol>
+<br>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 8</b></font></a>
+	    del <font  color="#800080">7 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab08_x):
+</font>
+<ol>
+
+<li>
+Scrivere un programma che genera (utilizzando un a funzione apposita)1000 numeri random  compresi tra -100 e 100 e scrive in output: 
+<ul>
+<li> quanti sono rispettivamente i numeri positivi/negativi/nulli 
+<li> quanti sono rispettivamente i numeri pari/dispari 
+<li> quante coppie di numeri consecutivi uguali sono state generate
+</ul>
+
+
+<li>
+  Scrivere un programma che simula una partita a dadi fra il computer e l'utente. 
+Scrivere una funzione  <kbd> int lancia2Dadi()</kbd>
+Che simula il lancio di 2  dadi   e restituisce il risultato (la somma dei 2 dadi).  
+<br>
+Il  main consiste in una partita   di 7 turni. 
+Ad ogni turno, si simula un tiro (richiamando la funzione  <kbd>lancia2Dadi</kbd>) dell'utente e un tiro del computer e si visualizzano i risultati.  Alla fine viene 
+"proclamato" il  vincitore  che è ovviamente colui che ha vinto più turni. 
+ 
+ <li>Scrivere un programma che:
+simula una successione di lanci di moneta (Testa o Croce);
+continua a generare lanci di moneta fino a che è verificata la seguente condizione di
+terminazione : la sequenza generata
+contiene almeno 5 esiti uguali consecutivi (es: 5 volte Testa, oppure
+5 volte Croce).
+Il programma deve stampare "testa" o "croce" relativa ad ogni lancio e alla fine restituire il numero di lanci di moneta che sono
+stati necessari per verificare la condizione di terminazione.
+</ol>
+<br>
+
+-->
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 7</b></font></a>
+	    del <font  color="#800080">2 aprile </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab07_x):
+</font>
+<br>
+<ol> 
+
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output il valore di n!. Il programma deve utilizzare una funzione ricorsiva <kbd> int fatt(int) </kbd> per calcolare tale numero.
+ <li>
+Scrivere un programma che prende in input un numero positivo B e un numero positivo N
+e scrive in output il valore della potenza N-esima di B. Il programma deve utilizzare una funzione ricorsiva <kbd> int pot(int,int) </kbd> per calcolare tale numero.
+<li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. Il programma deve utilizzare una funzione ricorsiva <kbd> int Fibon(int) </kbd> per calcolare tale numero.
+<li>
+Scrivere  una funzione ricorsiva <kbd> int fatt(int) </kbd> per calcolare il fattoriale di un numero.<br>
+Usando la formula <i>e=1+ 1/1! + 1/2! + .... 1/n!+....</i>, scrivere un programma che calcola una approssimazione di <i>e </i> con errore a scelta dell'utente. L'utente dovrà inserire un errore tipo 0,0001 e il programma dovrа selezionare i termini della serie in base all'errore fissato. Tale programma utilizza la funzione fattoriale sopra descritta. (non usare la libreria matematica).
+<li> Scrivere un programma che risolve il problema delle Torri di Hanoi in modo iterativo.
+</ol>
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 6</b></font></a>
+	    del <font  color="#800080">31 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab06_x):
+</font>
+<br>
+
+<ol>
+<li> Riscrivere l'esercizio Lab04_1 utilizzando la funzione vista a lezione:
+<pre>
+void stampaRiga(char simb, int lung)
+ {     int i;
+     for ( i= 1; i <= lung; i++)
+         printf("%c", simb);
+ }
+</pre>
+
+<li>
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero primo (non stampa messaggio ma restituisce valore booleano).
+Scrivere poi un
+programma, che utilizza questa funzione, che scrive sullo
+schermo tutti i numeri primi <1000.
+
+<li>
+Def.: un numero si dice <i>perfetto </i> se è uguale alla somma dei suoi
+	      divisori (escluso il numero stesso).
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero perfetto (non stampa messaggio ma restituisce valore booleano).
+Scrivere poi un
+programma, che utilizza questa funzione, che scrive sullo
+schermo tutti i numeri perfetti <10000.
+
+<li>
+Def.: Un numero naturale <i>n</i> si dice <i>quadratoso </i> se è un quadrato  ed inoltre cancellando ad <i>n</i> una delle sue cifre si ottiene ancora un quadrato. <br>
+Ad esempio 1369 è <i>quadratoso </i> infatti 1369=37<sup>2 </sup> e, cancellando la cifra 3, si ottiene 169=13<sup>2 </sup>. Analogamente 2025= 45<sup>2 </sup>  è <i>quadratoso </i> infatti eliminando la prima cifra si ottiene 025 = 25 = 5<sup>2 </sup>. <br>
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero quadratoso (non stampa messaggio ma restituisce valore booleano). Scrivere poi un programma che scrive in output tutti i numeri <i>quadratosi </i>di 4 cifre.	
+
+</ol>
+
+
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 5</b></font></a>
+	    del <font  color="#800080">26 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab05_x):
+</font>
+<br>
+<ol>
+<li>
+Scrivere un programma che chiede all’utente 
+  di inserire tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data e poi 
+  controlla se si tratta di una data valida. (Il giorno del mese deve essere "compatibile" con il mese secondo la nota filastrocca e non dimenticare gli anni bisestili!) Usare una istruzione <kbd> switch </kbd>. <br>
+  Se la data è valida la riscrive, scrivendo il mese "a parole". Se la data non è valida, sullo schermo si
+  scrive anche il perchè.  <br> (Da  realizzare utilizzando l' istruzione <kbd> switch </kbd>. )
+  <br>
+Si ricorda che gli anni bisestili sono quelli divisibili per 4, con eccezione dei secoli che devono essere divisibili per 8 (ad esempio il 1900 non è stato bisestile). Assumiamo valori di anno validi a partire dall'inizio del calendario gregoriano  1582 e fino al 2100.  
+<br> CURIOSITA': il calendario gregoriano fu promulgato da papa Gregorio XIII a villa Mondragone adesso proprierà dell'Università di Roma Tor Vergata. 
+
+<li> 
+Scrivere un programma che prende in input  3 numeri interi inseriti da tastiera e li scrive in output in ordine crescente utilizzando in totale soltanto 3 confronti (con operatore <= ) tra i numeri stessi all'interno di istruzioni if-else annidate. 
+No variabili supplementari (solo 3 variabili per i 3 numeri).
+<li>
+Scrivere un programma  che prende in input dei valori interi positivi ( l'immissione termina quando l'utente inserisce il valore 0) e restituisce in output quanti tra quelli inseriti sono > 100, quanti sono >50 e <= 100 e quanti sono <=50. Il programma dovrà utilizzare soltanto 4 variabili e istruzioni if-else annidate e dovrà ignorare gli input negativi segnalandolo all'utente.
+
+<li>
+Scrivere un programma che chiede all'utente di inserire un numero intero x e poi scrive in output quanti sono i divisori di x (escluso 1 e x stesso). Se non ci sono divisori non banali scrive sullo schermo che x è un numero primo. 
+<li>
+Scrivere un programma  per risolvere il seguente quesito:
+<i>Esiste un numero formato da 8 cifre che moltiplicato per un altro numero  dà come risultato un numero di 9 cifre uguali? </i>
+
+
+
+</ol>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 4</b></font></a>
+	    del <font  color="#800080">24 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab04_x):
+</font>
+<br>
+<ol>
+<li> Scrivere un programma che legge da tastiera un numero intero x
+(positivo) e stampa sullo schermo un quadrato (pieno) di lato x
+  costituito da simboli  "*" nelle posizioni sopra la diagonale e
+simboli "o" sotto la diagonale. (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>)
+<li>
+  Scrivere un programma (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>) che chiede all’utente di inserire  un intero x ,  3 &le; x &le; 30 , e disegna un rombo di lato x come nel seguente esempio: 
+(esempio per x=4 e c=o) 
+<pre>
+   o           
+  ooo          
+ ooooo
+ooooooo        
+ ooooo
+  ooo
+   o
+</pre>
+<li>
+Scrivere un programma che stampa tutti i numeri interi tra 1 e 300 in righe contenenti 15 numeri ciascuna. I numeri devono essere ben incolonnati. Inoltre, se il numero termina per 7 oppure è divibile per 7 NON deve essere stampato ed nel suo posto deve essere scritto BUM.
+
+<li>
+Scrivere un programma  che  
+  calcola quanti sono i triangoli rettangoli  con lati interi &le; 500.
+   <br>  Opzionale : produrre in input tutte le terne pitagoriche trovate.
+  <br> 
+</ol>
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
+	    del <font  color="#800080">19 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab03_x):
+</font>
+<br>
+<i>In tutti gli esercizi seguenti usare istruzione while.</i>
+<ol>
+
+<li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo e il secondo più grande che sono stati inseriti. <u> Usare un solo ciclo while </u>.
+
+<li> Scrivere un programma che legge da tastiera una sequenza di  numeri
+  interi positivi. L'immissione termina quando l'utente inserisce il
+ valore 0. In output viene riportato il numero di volte che nella
+sequenza compaiono due numeri consecutivi uguali. Esempio: nella sequenza 5 6 6 5 3 3 4 compaiono due volte due numeri consecitivi uguali; nella sequenza 3 3 3 4 2 2 compaiono tre volte due numeri consecutivi uguali.
+<li>
+Scrivere un programma che legge un valore di tipo double, uno di tipo
+char e poi ancora uno di tipo double e infine fa in modo che:
+se il carattere letto è '+' allora stampa la somma dei due valori
+numerici;
+se il carattere è '*' allora stampa il prodotto dei due valori
+numerici;
+se è un altro carattere allora stampa un messaggio di errore.<br>
+<i> (Utilizzare l'istruzione if..else) </i> <br> ATTENZIONE a svuotare il buffer dopo l'immissione dell'int.
+
+
+<li>
+Numeri di Fibonacci. I numeri di Fibonacci, f1, f2, ... fn sono
+definiti ricorsivamente come segue:
+<br> f1=1
+<br> f2=1
+<br>...
+<br> f<sub>n </sub>= f<sub>n-1 </sub> +f<sub>n-2 </sub>
+<br>Scrivere un programma che prende in input un numero positivo N
+e scrive in output l'N-esimo numero di Fibonacci. (ATTENZIONE! Testare solo per numeri piccoli)
+		  </ol>
+<br>
+</li>
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 2</b></font></a>
+	    del <font  color="#800080">17 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab02_x):
+</font>
+<br>
+<i>In tutti gli esercizi seguenti usare istruzione while.</i>
+<ol>
+<li> Scrivere un programma che richiede all'utente un numero intero x e poi scrive sullo schermo una linea composta da x asterischi.<br>
+
+<li> Scrivere un programma che richiede all'utente di inserire 5 numeri interi e poi scrive sullo schermo la somma e la media.  
+
+<li> Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo quanti numeri pari sono stati inseriti. <br>
+
+<li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo che e' stato inserito.
+
+<li> Scrivere un programma che richiede l'inserimento di  una serie di numeri interi positivi; 
+l'inserimento termina quando l'utente inserisce 0 o un valore negativo.
+Al termine dell'inserimento, sullo schermo viene scritta la somma e  la media dei numeri inseriti.
+
+
+<li>  Scrivere un programma che richiede all'utente di inserire 10
+	      numeri interi compresi tra 1 e 100 (estremi inclusi),
+	      ne calcola la somma e la scrive sullo schermo. <br> Attenzione: ogni volta che  l'utente
+	      inserisce un  valore errato
+(fuori dall'intervallo previsto) il programma
+	      dovra' segnalare l'errore e richiedere un altro numero... il ciclo di immissione termina 
+		  SOLO quando sono stati immessi 10 numeri VALIDI.
+		  
+
+  </ol>
+ </li>
+ <br>
+<li> 
+<font size="4"> <font color="#008000"><b>Laboratorio 1</b></font></a>
+	    del <font  color="#800080">3 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  Codice lab01_x):
+</font>
+<br>
+
+<ol>
+
+<li> Scrivere un programma che, utilizzando degli asterischi, disegna
+sullo schermo un quadrato (pieno) di lato 8 e poi sotto  un triangolo rettangolo (pieno) di
+altezza 8.
+<li> Scrivere un programma che legge da tastiera 5 numeri interi e
+				    scrive sullo schermo la loro
+				    somma. 
+<li> Scrivere un programma che legge da tastiera 5 numeri interi e
+				      scrive sullo schermo la loro
+				      somma e la loro media. Il
+				      programma dovra' utilizzare <u>solo
+				      2 variabili </u>.
+<li> Scrivere un programma che chiede all'utente di inserire  da tastiera un numero intero di 5
+cifre e lo riscrive "in verticale" cioe' mettendo un accapo dopo ogni 
+cifra. (Sugg. usare l'operatore % che calcola il
+					resto della divisione intera.)
+
+					
+
+</ol>
+</li>
+
+ 
+
+
+
+</ul>
+<hr>
+<p> </font>
+<br>
+
+</p>
+
+<p>
+
+
+
+
+
+
+
+
+
+  </font></font>
+</ul>
+
+
+
+
+
+
+
+
+
+</BODY>
+
+</HTML>
