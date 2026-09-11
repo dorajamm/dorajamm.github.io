@@ -1,0 +1,26 @@
+<!DOCTYPE HTML >
+
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<TITLE>Laboratorio di LaTex </TITLE>
+</HEAD>
+<FRAMESET cols="170,*" FRAMEBORDER=0 BORDER=0>
+    <FRAME NAME="nav"
+SRC="http://www.mat.uniroma2.it/~giammarr/Teaching/LATEX/nav.html"
+           SCROLLING=NO MARGINHEIGHT=0 MARGINWIDTH=0  target="_self">
+    <FRAME NAME="main-progr"
+SRC="http://www.mat.uniroma2.it/~giammarr/Teaching/LATEX/intro.html"
+<!--    SRC="file:///C:/Documents and Settings/Dora/Documenti/Didattica/AA03-04/FondamentiInf/WEB/intro.html"-->
+           MARGINHEIGHT=0 MARGINWIDTH=0>       
+    <noframes>
+<H2>Home Page del modulo di Programmazione in LaTex <br>
+insegnato dalla Prof.ssa Dora Giammarresi
+</H2>
+
+
+<P><a HREF="mailto:giammarr@mat.uniroma2.it"><font color="#008000">Dora Giammarresi</font></a>
+    </noframes>
+</FRAMESET>
+ </HTML>

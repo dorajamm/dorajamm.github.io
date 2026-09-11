@@ -1,0 +1,29 @@
+
+body, td {font-family:verdana; line-height:140%; font-size:11px;}
+img{border:0px; padding-right:5px;}
+
+td{border: 1px; padding:1px 7px; background-color:rgb(255,255,255);}
+
+a.dirs:link {text-decoration: none; color: rgb(255,255,255);}
+a.dirs:visited {text-decoration: none; color: rgb(63,124,124);}
+a.dirs:active {text-decoration: none; color: rgb(63,124,124);}
+a.dirs:hover {text-decoration: none; color: rgb(63,124,124);}
+
+a.files:link {text-decoration: none; color: rgb(188,42,30);}
+a.files:visited {text-decoration: none; color: rgb(110,0,0);}
+a.files:active {text-decoration: none; color: rgb(110,0,0);}
+a.files:hover {text-decoration: none; color: rgb(110,0,0);}
+
+a:link {text-decoration: none; color: rgb(188,42,30);}
+a:visited {text-decoration: none; color: rgb(110,0,0);}
+a:active {text-decoration: none; color: rgb(110,0,0);}
+a:hover {text-decoration: none; color: rgb(110,0,0);}
+
+#thisdircontains{padding:0px 0px 15px 0px;}
+
+#dirslist{background-color:rgb(255,51,51); padding:10px 10px;}
+#fileslist{background-color:rgb(80,160,160); color:rgb(110,0,0); padding:10px 30px;}
+#copy{padding: 20px 30px; font-size:9px;}
+
+td.filedetails{font-size:9px; padding-left:10px;}
+

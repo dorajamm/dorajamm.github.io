@@ -1,0 +1,363 @@
+\documentclass[12pt]{article}
+
+%\textheight 9in
+%\textwidth 6in
+%\topmargin 0in
+%\oddsidemargin 0.5in
+%\evensidemargin 0.5in
+
+\usepackage{paralist}
+\title{Laboratorio 2:
+ spaziature e stili di testo e  formule matematiche pi\'u complesse}
+
+
+\begin{document}
+\maketitle
+
+Un documento \LaTeX {} contiene sia comandi che il testo vero e proprio.... tutto mischiato! 
+
+I comandi si riconoscono perch\`e sono preceduti dal backslash $\backslash$.
+
+Inoltre alcuni caratteri non sono direttamente visualizzabili perch\`e sono caratteri speciali di \LaTeX {} usati nei vari comandi: 
+\$ \& \% \# \_ \{ \}
+
+\bigskip %inserisce uno spazio verticale
+
+Un documento \LaTeX {} \`e formato di paragrafi separati l'uno dall'altro tramite una o
+pi\`u linee bianche:
+
+Ecco un paragrafo molto breve.
+
+Qui comincia un altro paragrafo. Come potete vedere,
+i ritorni a capo
+ non hanno
+alcuna importanza 
+nella
+formattazione 
+del paragrafo: contano solo le linee bianche. 
+
+
+
+
+Tante linee bianche o una sola danno lo stesso effetto
+\\ % a  capo senza indentazione - corrisponde al comando \newline.
+Quest'ultimo paragrafo chiude l'esempio andando a capo senza indentazione. 
+ 
+%alternativamente usa il comando \noindent dopo una o più linee bianche
+
+
+Un paragrafo \`e composto di parole separate da segni di punteggiatura o spazi (un
+ritorno a capo \`e considerato come uno spazio). Potete                   inserire                       quanti 
+spazi                    volete                                tra
+due                          parole (anche se ne basta uno). 
+
+\bigskip
+Il \LaTeX{} "decide" quando andare accapo. Se non ci piace il punto in cui va a capo (quelle due parole proprio non vogliamo staccarle!) allora possiamo legarle con uno "spazio indivisibile" usando una tilde.
+
+{\it Nei fumetti di Paperino, come si chiama  il riccastro rivale  di Paperon de Paperoni?}
+
+Meglio come: 
+
+{\it Nei fumetti di Paperino, come si chiama  il riccastro rivale  di Paperon de~Paperoni?}
+
+\newpage
+La dimensione del testo \`e fissata all'inizio del documento. Posso poi variare la dimensione usando i comandi-dichiarazioni:
+(da utilizzare dunque con delle graffe di raggruppamento)
+
+{\tiny   tiny}
+{\scriptsize  scriptsize}
+{\footnotesize   footnotesize}
+{\small   small }
+{\normalsize  normalsize} 
+{\large  large}
+{\Large  Large}
+{\LARGE Large}
+{\Huge Huge}
+
+\bigskip\bigskip\bigskip
+Anche lo stile del testo \`e fissato all'inizio del documento.
+\bigskip
+
+Questa \`e una linea di testo ``scritta normale" i.e. stile roman.
+
+{\rm Questa \`e una linea di testo ``scritta normale" i.e. stile roman.}
+
+{\sf Questa \`e una linea di testo in stile sans serif (senza grazie)}
+
+{\tt Questa \`e una linea di testo in stile teletype (macchina da scrivere o terminale)}
+
+
+\medskip %lascia spazio verticale "medio"
+Per ognuno degli stili { precedenti} poi posso cambiare il "peso" 
+
+{\bf  e avere il grassetto  i.e. boldface.}
+
+\medskip %lascia spazio verticale "medio"
+Per ognuno degli stili precedenti poi posso cambiare la forma 
+
+{\it e avere il corsivo i.e. italic... } 
+
+{\sl oppure inclinato i.e. slanted...} 
+
+{\sc o ancora il tutto-maiuscolo i.e. small capitals}.
+
+\medskip %lascia spazio verticale "medio"
+
+
+{\it Questa \`e una linea di testo in stile italic.}
+
+\textit{ Questa \`e una linea di testo in stile italic.}
+
+\textbf{ Questa \`e una linea di testo in boldface}
+
+\texttt{ Questa \`e una linea di testo in teletype}
+
+
+
+{\em Questa \`e una linea di testo ``scritta emphasized " i.e. stile italic.}
+
+\bigskip
+
+Questa \`e una linea di testo {\em scritta normale} i.e. stile roman. 
+ 
+{\it Questa \`e una linea di testo {\em  in stile italic} .}
+
+\bigskip
+
+
+{\bf \em Questa \`e una linea di testo in boldface enfatizzato}
+
+{\huge \bf (ORRIBILE!)}.
+
+\bigskip
+NOTA: i comandi con cui definire i vari stili possono avere effetti diversi a seconda dei pacchetti caricati nel preambolo (vedi lezioni successive)
+\newpage
+
+Semplici comandi per gestire gli spazi verticali sono
+
+\bigskip
+{\tt	bigskip }
+
+\medskip
+{\tt medskip}
+
+\smallskip
+{\tt smallskip}
+
+Comandi molto utili perch\'e producono spazio proporzionato al font-size. Poi posso anche fissare uno spazio in cm con il comando {\tt vspace	}
+\vspace{5cm}
+
+e continuare a scrivere dopo... Esiste anche un equivalente {\tt hspace	} \hspace{2cm} per lo spazio in orizzontale.
+
+In genere si usano questi comandi in condizioni di "emergenza"... solitamente si lascia gestire la pagina a \LaTeX!
+
+{\bf NOTA:} Piccoli spazi orizzontali (positivi o negativi) invece si usano spesso per migliorare la leggibilit\'a di formule matematiche. Per questo si usano comandi dedicati.
+\newpage
+
+Gli ambienti in \LaTeX {} sono strutture estremamente potenti di cui si fa un grosso uso.
+LATEX.
+
+
+ 
+
+\begin{verbatim}
+\begin{ambiente}[opzione]{parametro}
+ L'ambiente verbatim ignora qualunque comando \LaTeX 
+e scrive in \texttt tutto come appare 
+
+(anche gli accapo!)
+\end{ambiente}
+\end{verbatim}
+
+Esempi di ambienti:
+
+\begin{em}
+Il testo contenuto in questo ambiente \`e messo in evidenza.
+\end{em}
+
+\bigskip
+Nel mezzo di un testo inserisco una citazione
+\begin{quote}
+In re mathematica ars proponendi quaestionem 
+pluris facienda est quam solvendi.
+
+(In mathematics the art of asking questions 
+is more valuable than solving problems.)
+\end{quote}
+e poi continuo con il testo normale...
+
+\bigskip
+
+\begin{center}
+questo \'e un lunghissimo testo centrato per provare l'ambiente {\it center}
+
+articolato addirittura su due linee
+\end{center}
+
+\bigskip
+
+\begin{flushleft}
+Ecco un paragrafo giustificato a sinistra. 
+
+se serve...
+
+Ecco due linee \\
+giustificate a sinistra.
+\end{flushleft}
+
+\bigskip
+\begin{flushright}
+e per non fare disparit\'a ..\\
+Ecco un paragrafo 
+
+giustificato a destra. 
+
+\end{flushright}
+\newpage
+
+Gli ambienti per le {\LARGE liste} sono {\tt itemize, enumerate e description}.
+
+\begin{itemize}
+\item colazione
+\item pranzo
+\item merenda
+\item cena
+\end{itemize}
+
+e se non mi piacciono i pallini?
+\begin{itemize}
+\item[!] colazione
+\item[?] pranzo
+\item[+] cena
+\end{itemize}
+
+
+Posso anche innestare una lista in una lista...
+\begin{itemize}
+\item colazione:
+	\begin{itemize}
+		\item latte
+		\item caff\'e
+		\item biscotti
+	\end{itemize}
+\item pranzo
+\item merenda
+\item cena
+\end{itemize}
+ 
+Oppure posso fare una lista numerata: 
+
+\begin{enumerate}
+\item colazione
+\item pranzo
+\item merenda
+\item cena
+\end{enumerate}
+ 
+Con i numeri romani? (NOTA: devo inserire :
+\begin{verbatim}
+ \usepackage{paralist}
+\end{verbatim})
+
+
+\begin{enumerate}[(i)]
+\item colazione
+\item pranzo
+\item merenda
+\item cena
+\end{enumerate}
+
+Oppure posso fare una lista tipo dizionario:
+\begin{description}
+\item[colazione] si fa al mattino appena svegli
+\item [pranzo] si fa a met\'a giornata
+\item [merenda] nel pomeriggio... amata dai bambini!
+\item [cena] a fine giornata... magari non troppo tardi!
+\end{description}
+\newpage
+{\LARGE ... e finalmente TABELLE}
+
+\bigskip\bigskip
+
+\begin{tabular}{lcr}
+uno & due & tre \\
+quattro & cinque & sei \\
+sette & otto & nove
+\end{tabular}
+\bigskip\bigskip
+
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  $a_{11}$ &  $a_{12}$ &  $a_{13}$ \\
+  \cline{1-1}
+   $a_{21}$ &  $a_{22}$ &  $a_{23}$ \\
+   $a_{31}$ &  $a_{32}$ &  $a_{33}$ \\
+  \hline
+\end{tabular}
+
+\bigskip\bigskip
+
+\begin{tabular}{||p{5cm}||*{2}{c|}|}
+\hline
+& Contenuto & Quantit\'a \\
+\hline
+\hline
+ Heineken & 33 cl & 10 \\
+\hline
+ Guinness & 1 pinta & 5 \\
+\hline
+ Kronenbourg & 33 cl & 0 \\
+\hline
+\end{tabular} 
+
+\bigskip\bigskip
+
+\begin{tabular}{c r @{,} l}
+Espressione &
+\multicolumn{2}{c}{Valore}\\
+\hline
+$\pi$ & 3&1416 \\
+$\pi^{\pi}$ & 36&46 \\
+$(\pi^{\pi})^{\pi}$ & 80662&7\\
+\end{tabular}
+
+\bigskip\bigskip
+
+\begin{center}
+\begin{tabular}{|c||r|c|}
+\hline
+\multicolumn{3}{|c|}{Telecom Italia}\\
+\hline
+\hline
+&\multicolumn{2}{c|}{Prezzo}\\
+\cline{2-3}
+mese&min&max\\
+\hline
+gen 2005&\multicolumn{2}{c|}{2.238--2.274}\\
+\hline
+feb 2005&\multicolumn{2}{c|}{2.268--2.312}\\
+\hline
+mar 2005&\multicolumn{2}{c|}{2.290--2.356}\\
+\hline
+\end{tabular}
+\end{center}
+
+\bigskip\bigskip
+Questo invece \'e un altro sistema:
+
+\bigskip
+
+\begin{tabbing}
+  nomilunghi \= coselunghissimo \= animali \kill
+  % \> for next tab, \\ for new line...
+Carlo \> cartello \> cammello \\
+Manfredi \> mano \> mucca \\
+  Dario \> dente \> delfino 
+\end{tabbing}
+
+
+
+\end{document}
+
