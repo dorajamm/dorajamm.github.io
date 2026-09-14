@@ -1,0 +1,1689 @@
+
+<!-- saved from url=(0087)https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/labindexn.html#lab20 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+<style type="text/css">
+/* Add a black (#333) background color to the top navigation */
+.topnav {
+    background-color: #DAFDDA;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 22px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #99e699;
+    color: white;
+}
+</style>
+
+</head><body text="#000000" bgcolor="#FFFFFF" link="#808080" vlink="#551A8B" alink="#FF0000" background="./Programmazione in C_files/sfondo00.bmp"><div class="topnav">
+<!-- esempi
+  <a class="active" href="url_home">Home <br></a>
+
+  <a href="url_news">News</a>
+  <a href="url_contatti">Contatti</a>
+  <a href="url_info">Info</a>
+ -->
+ 
+ <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/indexn.html">
+<font size="+1" face="Georgia" color="#008000">
+Home page&nbsp;</font></a>
+ 
+
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/teston.html"><font size="+1" color="#008000" face="Georgia">
+Libri di testo&nbsp;</font></a> 
+
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/syllabusn.html"><font face="Georgia" size="+1" color="#008000">
+Programma&nbsp;</font></a>
+
+
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Lezioni/diarion.html"><font face="Georgia" size="+1" color="#800000">Diario lezioni
+</font></a>
+ 
+<a class="active" href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/labindexn.html"><font face="Georgia" size="+1" color="#800000">Laboratorio</font></a>
+
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Esami/esamindexn.html"><font face="Georgia" size="+1" color="#800080">Test ed Esami
+</font></a>
+
+</div>
+
+
+  
+
+
+ 
+   <title> Programmazione in C</title> 
+  
+
+
+
+<br>
+
+<a href="http://www.uniroma2.it/" target="_blank">
+<img src="./Programmazione in C_files/Tor-Vergata_logo2.png" border="0" height="80"></a> 
+
+
+<center>
+<h2> 
+<font color="#008000"> Laboratorio di Programmazione &amp; Informatica 1</font><br>
+<font color="#008000"> Laboratorio di Programmazione Strutturata</font><br>
+<font size="4" color="#008000">A.A. 2025-26</font></h2>
+
+
+</center>
+<h2 align="CENTER"><b><font color="#800080" size="4">ESERCITAZIONI IN LABORATORIO</font></b><font color="#800080">
+</font>
+</h2>
+
+<br>
+ Questa pagina contiene gli esercizi  proposti durante le lezioni di
+      laboratorio. 
+	  Gli esercizi di laboratorio possono essere consegnati nella cartella <b>ConsegnaEsercizi</b> della scheda <b>File</b> del canale <b>Generale</b>. Ogni esercizio va scritto in un file distinto (no cartelle, no zip) e deve avere il nome del codice dell'esercizio seguito dal cognome, Ad esempio se io volessi consegnare l'esercizio 3 del Laboratorio 2 dovrei chiamare il file <tt>lab02_3Giammarresi.c</tt>. 
+	  
+	  
+	  <p>Alcuni degli esercizi consegnati verranno selezionati per essere discussi durante la lezione di laboratorio e poi trasferiti da me nella cartella <b>EserciziCorrettiInAula</b> del canale <b> Generale </b> come riferimento per tutti gli studenti. 
+
+</p><hr>	  
+<!--	  <br>Le soluzioni degli esercizi (proposte da voi studenti e corrette in aula) si trovano nella scheda <b> file </b> del canale <b> Laboratorio </b> del corso su Teams.
+
+	  Di alcuni esercizi sono presenti delle
+      soluzioni  realizzate
+ dagli studenti che frequentano il corso 
+e raccolte in questa
+
+
+<a  style="color: #FF0000; font-weight: bold "href="
+https://drive.google.com/open?id=1XcZQ-QOk4LgRMXMEMkWxgp2pnDXNFOn0">   
+CARTELLA DELLE SOLUZIONI</a> (Scaricare su un'altra scheda usando il tasto destro del mouse). Il codice e il numero fanno
+      riferimento ai testi descritti.<p>	  
+-->	  
+<!--
+Le <b>
+<font color="#FF0000">REGOLE PER SPEDIRE GLI ESERCIZI</font></b> sono le seguenti:    
+    <ul>
+    <li>Per<font color="#FF0000"> ogni esercizio </font>    preparare<font color="#FF0000"> un file </font>    (in formato
+      word, pdf, html,<font color="#FF0000">...Si prega di non zipparlo!</font>).<font color="#FF0000"> </font>    Tale file 
+    dovrà
+      contenere le seguenti informazioni:
+      <font color="#FF0000">
+      <ul type="disc">
+      <li> nome e cognome dell'autore</li> 
+      <li> testo dell'esercizio&nbsp;</li>  
+      <li> soluzione dell'esercizio</li> </ul></font>    </li>
+  <li>
+  Il<font color="#FF0000"> nome del file </font>dovrà corrispondere al<font color="#FF0000"> 
+  proprio cognome seguito dal numero dell’esercizio. </font>Ad esempio se io 
+  stessa volessi sottomettere la soluzione dell’esercizio 2_23, dovrei chiamare 
+  il file <font face="Courier New" size="2"><b> giammarresi2_23</b></font>  </li>
+ <li> Spedire
+    il file (o i files, se sono più esercizi) come<font color="#FF0000"> allegati a <font face="Courier New" size="2"><b><a href="mailto:giammarr@mat.uniroma2.it">
+ <font color="#008000">giammarr@mat.uniroma2.it</font></a></b></font>
+  entro il sabato successivo</font></li>
+    </ul>
+
+</blockquote>
+
+
+<hr>
+-->
+<p>
+
+</p><p>
+
+
+</p><ul>
+<!-- DA RICOPIARE
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
+	    del <font  color="#800080">17 marzo </font>:
+<font color="#008000" size="4">Esercizi assegnati  (Codice lab3_x):
+</font>
+<br>
+
+<ol>
+<li>
+<li>
+Scrivere un programma che produce in output (scritte una sotto l'altra) tutte le permutazioni dei numeri 1,2,3,4,5.
+</ol>
+<br>
+</li>
+-->
+
+ 
+ 
+ <br>
+<li> 
+<font size="4"> <font color="#008000"><b>Laboratorio 1</b></font>
+  <font color="#800080" <="" font="">:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab01"> (Codice lab01_x):</a>
+</font></font>
+<br>
+
+<ol>
+<pre>/*Primo programmain C */
+#include &lt;stdio.h&gt;
+int main()
+{
+   printf("Benvenuti al corso di Programmazione in C!\n\n\n");
+
+}
+</pre>
+<li> Ricopiare e poi compilare due semplici programmi proposti in aula (di scrittura su schermo e somma di due variabili).
+
+</li></ol>
+</font></li><font size="4">
+
+<!--
+<li> Scrivere un programma che scrive sullo schermo "Benvenuti al corso di programmazione in C".
+<li> Scrivere un programma che richiede all'utente di inserire due numeri interi e poi calcola e stampa la loro somma, differenza, prodotto e risultato della divisione.
+
+
+			
+<li> Scrivere un programma che, utilizzando degli asterischi, disegna
+sullo schermo un rettangolo (pieno) di base 8 e altezza 6 e poi sotto un triangolo rettangolo (pieno) di altezza 6 e poi ancora  un triangolo isoscele (pieno) di
+altezza 7. Come qui di sotto:
+<pre>
+********
+********
+********
+********
+********
+********
+</pre>
+
+<pre>
+*
+**
+***
+****
+*****
+******
+</pre>			
+</ol>
+</li>
+
+<p>
+-->
+<p>
+ </p><li>
+<font size="4"> <font color="#008000"><b>Laboratorio 2</b></font>
+	     <font color="#800080"> </font>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab02"> (Codice lab02_x):</a>
+</font>
+<br>
+Si ricorda la sintassi delle istruzioni di input e output.
+<pre>			printf("Scrivi il primo numero intero:");  
+   
+			scanf("%d", &amp;num);  
+
+			printf("il numero inserito e' %d", num); 
+</pre>
+<ol>
+			
+<li> Scrivere un programma che, utilizzando degli asterischi, disegna
+sullo schermo i due triangoli rettangoli di altezza 6 qui di sotto e   poi ancora sotto  un triangolo isoscele (pieno) di
+altezza 7. Come qui di sotto. ATTENZIONE: usare una istruzione printf diversa per ogni riga del triangolo.
+
+
+<pre>*
+**
+***
+****
+*****
+******
+</pre>
+
+ 
+<pre>     *
+    **
+   ***
+  ****
+ *****
+******
+</pre>
+<pre>        *
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+
+</pre>
+
+
+</li><li> Scrivere un programma che richiede all'utente di inserire due numeri interi e poi calcola e stampa la loro somma, differenza, prodotto, risultato della divisione e resto della divisione tra il primo e il secondo inseriti.
+				
+</li><li> Scrivere un programma che legge da tastiera 8 numeri interi e
+				      scrive sullo schermo la loro
+				      somma e la loro media. Il
+				      programma dovra' utilizzare <u>solo
+				      tre variabili </u>.
+					  
+
+					  
+	</li><li> Scrivere un programma che chiede all'utente di inserire  da tastiera un numero intero di 5
+cifre e lo riscrive "in verticale" cioe' mettendo un accapo dopo ogni 
+cifra. (Sugg. usare l'operatore % che calcola il
+					resto della divisione intera.)	
+
+
+</li><li>  Ricopiare il seguente programma e modificarlo in modo che funzioni in tutti i casi possibili.
+<pre>#include <stdio.h>
+
+int main()
+{
+   int a, b, min;
+
+   printf("\nScrivi un numero intero: ");
+   scanf("%d", &amp;a);
+
+   printf("\nScrivi un numero intero: ");
+   scanf("%d", &amp;b);
+
+   if (a &lt; b){
+    min=a;
+   }
+   if (b &lt; a){
+    min=b;
+   }
+ 
+   printf("\nIl minimo tra i  numeri inseriti e': %d\n\n", min);
+
+}
+</stdio.h></pre>
+
+</li><li> Modificare il codice precedente in modo che calcoli il minimo tra 3 numeri inseriti.
+</li></ol>
+</font></li><font size="4">
+
+<p>
+ </p><li>
+<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font>
+	     <font color="#800080"> </font>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab03"> (Codice lab03_x):</a>
+</font>
+
+<br>
+Si ricorda, con un esempio, la sintassi delle istruzioni if e while.
+<pre>			if(x&gt;0){  //istruzione if
+			   a=a+x;
+			}	
+		----------------------------------------------	
+			if(x&gt;0){   //istruzione if...else
+			   a=a+x;
+			}
+			else{
+			   a=a-x
+			}
+		-----------------------------------------------	
+			while(x&gt;0){    //istruzione while
+			   x=x-b;
+			}
+			
+</pre>
+<ol>
+
+
+<li> Scrivere un programma che richiede all'utente un numero intero x e poi scrive sullo schermo una linea composta da x asterischi seguiti da x pallini. Esempio: se l'utente inserisce 4, allora il programma dovrà stampare <kbd>****oooo </kbd> <br>
+
+					  
+</li><li>	Fare l'esercizio Lab02_5 (se non ancora fatto!). 
+
+</li><li> Scrivere un programma che legge da tastiera 7 numeri interi e scrive sullo schermo qual'è qual'è il più piccolo dei numeri inseriti.
+
+
+</li><li> Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo quanti numeri pari sono stati inseriti. <br>
+
+
+</li><li> Scrivere un programma che richiede l'inserimento di  una serie di numeri interi positivi; 
+l'inserimento termina quando l'utente inserisce 0 o un valore negativo.
+Al termine dell'inserimento, sullo schermo viene scritta la somma e  la media dei numeri inseriti. ATTENZIONE: organizzare il ciclo in modo che il numero &lt;=0 non venga sommato al totale e al contatore.
+
+
+</li><li>  Scrivere un programma che richiede all'utente di inserire 10
+	      numeri interi compresi tra 1 e 100 (estremi inclusi),
+	      ne calcola la somma e la scrive sullo schermo. <br> Attenzione: ogni volta che  l'utente
+	      inserisce un  valore errato
+(fuori dall'intervallo previsto) il programma
+	      dovra' segnalare l'errore e richiedere un altro numero... il ciclo di immissione termina 
+		  SOLO quando sono stati immessi 10 numeri VALIDI.
+		  
+ 
+</li><li> Scrivere un programma che prende in input 3 numeri interi e li riscrive in ordine crescente.
+
+ 
+  </li></ol>
+ </font></li><font size="4">
+ 
+<br>
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 4</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab04"> (Codice lab04_x):</a> 
+</font>
+<br>
+
+<ol>
+
+<li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo e il valore minimo che sono stati inseriti.
+
+
+</li><li>Scrivere un programma che richiede l'inserimento di 10 numeri interi e
+alla fine scrive sullo schermo  il valore   massimo e il secondo più grande che sono stati inseriti. Se quello che risulta essere il valore max è stato inserito due volte, allora verrà riportato come massimo e secondo massimo.
+
+</li><li> Scrivere un programma che chiede all'utente di inserire due numeri interi x e y e poi disegna sullo schermo un rettangolo (pieno) di * di lati x e y. Esempio: se l'utente inserisce 3, 5 allora il programma dovrà stampare 
+<pre>***
+***
+***
+***
+***
+ </pre>
+
+</li><li> Scrivere un programma che prende in input un numero intero e scrive sullo schermo se il numero è un numero primo.
+
+
+</li><li> Scrivere un programma che legge da tastiera sequenza di  numeri
+  interi positivi. L'immissione termina quando l'utente inserisce il
+ valore 0. In output viene riportato <u>se</u> la sequenza inserita conteneva
+due o più valori consecutivi uguali. Esempio: nella sequenza 5 6 6 5 3 3 4 compaiono due volte due numeri consecutivi uguali; nella sequenza 3 3 3 4 2 2 compaiono tre volte due numeri consecutivi uguali.
+
+
+
+</li><li>
+Numeri di Fibonacci. I numeri di Fibonacci, f1, f2, ... fn sono
+definiti ricorsivamente come segue:
+<br> f1=1
+<br> f2=1
+<br>...
+<br> f<sub>n </sub>= f<sub>n-1 </sub> +f<sub>n-2 </sub>. <br>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output l' N-esimo numero di Fibonacci. 
+
+
+
+</li></ol>
+<br>
+<!--
+
+<li> (variante lab03_7) Scrivere un programma, usando SOLTANTO 3 VARIABILI,  prende in input  3 numeri interi inseriti da tastiera e li scrive in output in ordine crescente.
+
+<li> <i>Congettura di Collatz   </i> <br>
+La <a style="color: #990099; font-weight:
+   bold "href="https://it.wikipedia.org/wiki/Congettura_di_Collatz"
+   target="_blank"> congettura di Collatz </a> è una delle più semplici congetture matematiche non ancora risolte.
+  La congettura riguarda il seguente algoritmo:
+<br>
+Si prenda un intero positivo n.
+<br>
+<pre> 1) Se n = 1, l'algoritmo termina.</pre>
+<pre> 2) Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.</pre> 
+<pre> 3) Si ripete l'algoritmo da 1) sul numero ottenuto.</pre>
+   Per esempio, iniziando con n = 6, otteniamo la successione 6, 3, 10, 5, 16, 8, 4, 2, 1.
+<br>
+La congettura di Collatz asserisce che questo algoritmo giunge sempre a termine, indipendentemente dal valore di partenza. <br>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 1 e 300 (inserire controllo input!) e scrive sullo schermo tutta la sequenza di verifica della congettura di Collatz.
+-->
+
+</font></li><li><font size="4">
+<font size="4"> <font color="#008000"><b>Laboratorio 5</b></font>:
+	
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab05"> (Codice lab05_x):</a>
+</font>
+<br>
+OGGI TRIANGOLI! ... ricordiamo la sintassi del for.. esempio per disegnare un quadrato di lato 10:
+<pre>----------------------------------------------------------------
+		int r;
+		int c;
+
+		for( r=1; r ≤ 10;  r++){
+			for (c=1; c ≤ 10; c++)
+				printf(  "*" );
+
+		printf("\n" );
+		}
+----------------------------------------------------------------
+</pre>
+<ol>
+<li>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output i seguenti triangoli di N righe.
+(usare istruzioni for). L'esempio è per N=6.
+<br>
+Triangolo 1:
+<pre>*
+**
+***
+****
+*****
+******
+</pre>
+Triangolo 2:
+<pre>******
+*****
+****
+***
+**
+*
+</pre>
+Triangolo 3:
+<pre>******
+ *****
+  ****
+   ***
+    **
+     *
+</pre>
+Triangolo 4:
+<pre>     *
+    **
+   ***
+  ****
+ *****
+******
+</pre>
+ 
+
+ 
+
+</li><li> Il Triangolo di Floyd è definito come un triangolo costruito
+  utilizzando numeri naturali consecutivi. Ad esempio qui di sotto è
+  definito il triangolo di  Floyd di 5 righe.
+  <pre> 1
+ 2  3 
+ 4  5  6
+ 7  8  9  10
+ 11 12 13 14 15
+</pre>
+Scrivere un programma che prende in input un numero positivo N
+compreso tra 3 e 33 (inserire controllo input!) e disegna in output il
+triangolo di Floyd di N righe.
+
+</li><li>
+Scrivere un programma  che  
+  calcola quanti sono i triangoli rettangoli  con lati interi ≤ 500.
+   <br>  Opzionale : produrre in ouput tutte le terne pitagoriche trovate.
+  <br> 
+
+</li><li>
+Scrivere un programma che stampa tutti i numeri interi tra 1 e 300 in righe contenenti 15 numeri ciascuna. I numeri devono essere ben incolonnati. Inoltre, se il numero termina per 7 oppure è divibile per 7 NON deve essere stampato ed nel suo posto deve essere scritto BUM.
+
+
+
+</li></ol>
+
+<!--
+
+
+
+-->
+ 
+</font></font></li><li><font size="4"><font size="4">
+<font size="4"> <font color="#008000"><b>Laboratorio 6</b></font>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab06"> (Codice lab06_x):</a>
+</font>
+<br>
+<ol>
+<li> Se non sono stati ancora svolti, iniziare dagli esercizi: Lab04_4, Lab04_5 e Lab04_6
+</li><li>
+<i> Piccola calcolatrice :) </i> Scrivere un programma che legge un valore di tipo double, uno di tipo
+char e poi ancora uno di tipo double e infine fa in modo che:
+se il carattere letto è '+' allora stampa la somma dei due valori
+numerici;
+se il carattere è '*' allora stampa il prodotto dei due valori
+numerici;
+se è un altro carattere allora stampa un messaggio di errore.<br>
+<i> (Utilizzare l'istruzione if..else) </i> <br> ATTENZIONE a svuotare il buffer dopo l'immissione dell'int.
+
+</li><li>
+Un numero si dice <i>perfetto </i> se è uguale alla somma dei suoi
+	      divisori (escluso il numero stesso). Esempio: 6 è perfetto poichè 6=3+2+1. <br>
+Scrivere  un programma che, dato un numero intero
+positivo, calcola se e' un numero perfetto. 
+
+</li><li> Svolgere almeno uno dei seguenti esercizi utilizzando l'istruzione <kbd> switch</kbd> (qui un esempio per ricordare la sintassi). <br>
+<pre>--------------------------------------
+	switch(x) {                      
+	case 0:                       
+		printf("zero\n");
+		break;
+		case 1:                       
+		printf("uno\n");
+		break;
+	case 2:                       
+		printf("due\n");
+		break;
+	case 3:                       
+		printf("tre\n");
+		break;
+	default:                      
+		printf("non compreso\n"); 
+		break;
+	}
+--------------------------------------
+</pre>
+Utilizzare la nota  filastrocca per il numero dei giorni dei mesi e non dimenticare gli anni bisestili! Si ricorda che gli anni bisestili sono quelli divisibili per 4, con eccezione dei secoli che devono essere divisibili per 8 (ad esempio il 1900 non è stato bisestile). Assumiamo valori di anno validi a partire dall'inizio del calendario gregoriano  1582 e fino al 2100.  
+<br> CURIOSITA': il calendario gregoriano fu promulgato da papa Gregorio XIII a villa Mondragone adesso proprietà dell'Università di Roma Tor Vergata. 
+<ul>
+
+
+<li>
+Scrivere un programma che chiede all’utente 
+  di inserire tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data "iniziale", poi chiede di inserire ulteriori tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data "finale" successiva alla precedente e poi calcola il numero di giorni tra le due date. <br>
+  Nota: inserendo la propria data di nascita come data iniziale e il giorno attuale come data finale possiamo scoprire qual'è la nostra età in giorni!
+  
+  </li><li>
+Scrivere un programma che chiede all’utente 
+  di inserire tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data "iniziale", poi chiede di inserire un numero intero positivo che corrisponde ad un numero di giorni trascorsi dalla data iniziale e calcola la data finale corrispondente. <br>
+  Nota: inserendo la propria data di nascita come data iniziale possiamo calcolare quando sarà il nostro compleanno di 10.000 giorni! 
+     </li></ul>
+
+</li></ol>
+<!-- 
+  <li>
+Scrivere un programma che chiede all’utente 
+  di inserire tre numeri interi <kbd> giorno, mese, anno </kbd> corrispondenti ad una data e poi 
+  controlla se si tratta di una data valida.
+  Se la data è valida la riscrive, scrivendo il mese "a parole". Se la data non è valida, sullo schermo si
+  scrive anche il perchè.  
+  <br>
+
+ -->
+
+
+<!--
+ <li>
+  
+Def.: un numero si dice <i>primo </i> se ha come unici divisori 1 e il numero stesso. 
+Scrivere  un programma che, dato un numero intero
+maggiore di 1, calcola se è un numero primo.
+  
+
+<!--
+<li> Scrivere un programma che legge da tastiera un numero intero x
+(positivo) e stampa sullo schermo un quadrato (pieno) di lato x
+  costituito da simboli  "*" nelle posizioni sopra la diagonale e
+simboli "o" sotto la diagonale. (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>)
+<pre>
+*******
+o******
+oo*****
+ooo****
+oooo***
+ooooo**
+oooooo*
+</pre>
+<li>
+  Scrivere un programma (<u>Utilizzare istruzioni for e non utilizzare istruzioni if</u>) che chiede all’utente di inserire  un intero x ,  3 &le; x &le; 30 , e disegna un rombo di lato x come nel seguente esempio: 
+(esempio per x=4 ) 
+<pre>
+   o           
+  ooo          
+ ooooo
+ooooooo        
+ ooooo
+  ooo
+   o
+</pre>
+
+-->
+
+
+
+ 
+
+</font></font></font></li><li><font size="4"><font size="4"><font size="4">
+<font size="4"> <font color="#008000"><b>Laboratorio 7 (e 8) (</b></font>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab07"> (Codice lab07_x): </a></font><a name="lab07"> </a>
+<br>
+
+Utilizzare gli esercizi svolti nelle settimane precedenti e rielaborarli 
+usando le funzioni in C.<br>
+<ol>
+<li>
+Scrivere un programma che chiede all'utente un valore di lunghezza lato x e un carattere di tastiera c  e utilizzando la seguente funzione vista a lezione:
+<pre>void stampaRiga(char simb, int lung)
+ {   int i;
+     for ( i= 1; i &lt;= lung; i++)
+         printf("%c", simb);
+ }
+</pre>
+stampa un triangolo come il seguente (in questo caso x=4  e c =o).
+<pre>   o           
+  ooo          
+ ooooo
+ooooooo        
+</pre>
+ 
+</li><li>
+Scrivere  una funzione, <kbd> int primo( int x) </kbd> che dato un numero intero
+positivo, calcola se e' un numero primo (non stampa messaggio ma restituisce valore booleano). 
+Scrivere poi un
+programma, che utilizza questa funzione, che conta quanti sono i numeri primi p &lt;10000. <br>
+
+</li><li>
+Def.: un numero si dice <i>perfetto </i> se è uguale alla somma dei suoi
+	      divisori (escluso il numero stesso).<br>
+Scrivere  una funzione <kbd> int perfetto( int x) </kbd> che, dato un numero intero
+positivo, calcola se e' un numero perfetto (non stampa messaggio ma restituisce valore booleano).
+Scrivere poi un
+programma, che utilizza questa funzione, che scrive sullo
+schermo tutti i numeri perfetti &lt;10000.
+<br>
+
+</li><li> 
+<i>Numeri di Fibonacci.</i> <br>I numeri di Fibonacci, fib(1), fib(2), ... fib(n) sono
+definiti ricorsivamente come segue:
+<br> fib(1)=1
+<br> fib(2)=1
+<br>...
+<br> fib(n)= fib(n-1)  +fib(n-2) . <br>Scrivere una funzione <kbd> int Fibonacci( int x) </kbd> che dato un intero x, calcola l'x-esimo numero di Fibonacci fib(x) e lo restituisce.  
+ Scrivere poi un programma (funzione main) che chiede all'utente di inserire una sequenza di numeri positivi (la sequenza termina quando l'utente inserisce 0) e, per ogni numero inserito, usando la funzione Fibonacci, stampa se è un numero di Fibonacci con l'eventuale corrispondente valore x. <br>
+ Esempio: se l'utente inserisce il valore 13, il programma scrive: 
+ <pre>Il valore 13 è il numero di Fibonacci uguale a fib(7).
+  </pre>
+
+</li><li> <i>Congettura di Collatz ver.1  </i> <br>
+La <a style="color: #990099; font-weight:
+   bold " href="https://it.wikipedia.org/wiki/Congettura_di_Collatz" target="_blank"> congettura di Collatz </a> è una delle più semplici congetture matematiche non ancora risolte.
+  La congettura riguarda il seguente algoritmo:
+<br>
+Si prenda un intero positivo n.
+<br>
+<pre> 1.Se n = 1, l'algoritmo termina.</pre>
+<pre> 2.Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.</pre> 
+<pre> 3.Si ripete l'algoritmo da 1. sul numero ottenuto.</pre>
+   Per esempio, iniziando con n = 6, otteniamo la successione 6, 3, 10, 5, 16, 8, 4, 2, 1.
+<br>
+La congettura di Collatz asserisce che questo algoritmo giunge sempre a termine, indipendentemente dal valore di partenza. <br>
+Scrivere una funzione <kbd> int Collatz( int x) </kbd> che prende in input un numero intero x (restituisce void) e stampa sullo schermo la sequenza di Collatz da x a 1.(La stampa in questo caso è fatta all'interno della funzione). Scrivere poi un programma (funzione main) che chiede all'utente di inserire una sequenza di numeri positivi (la sequenza termina quando l'utente inserisce 0) e, per ogni numero inserito, usando la funzione Collatz, stampa la corrispondente sequenza. 
+</li>
+<br>
+<!--
+<li> Ridisegnare i triangoli del Lab05_1 chiedendo all'utente l'altezza dei triangoli e il carattere di tastiera con cui riempirli (quindi non necessariamente *) e utilizzando la seguente funzione vista a lezione:
+<pre>
+void stampaRiga(char simb, int lung)
+ {   int i;
+     for ( i= 1; i <= lung; i++)
+         printf("%c", simb);
+ }
+</pre>
+
+
+<li>
+<i>Piccola calcolatrice</i> 
+Scrivere un programma che legge un valore di tipo double, uno di tipo
+char e poi ancora uno di tipo double (in questo ordine!) e infine fa in modo che:
+se il carattere letto è '+' allora stampa la somma dei due valori
+numerici;
+se il carattere è '-' allora stampa la differenza dei due valori
+numerici;
+se il carattere è '*' allora stampa il prodotto dei due valori
+numerici;
+se il carattere è '/' allora stampa la divisione tra i due valori
+numerici;
+se è un altro carattere allora stampa un messaggio di errore.<br>
+<i> (Utilizzare l'istruzione switch) </i> <br> ATTENZIONE a svuotare il buffer dopo l'immissione dell'int come nell'esempio charinput1.c visto nella lezione 6) 
+</ol>
+
+
+
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 8</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab08"> (Codice lab08_x): </font> </a>: 
+</font>
+<br>
+<ol> 
+-->
+<b>Per i seguenti esercizi utilizzare la funzione:</b>
+
+<pre>#include &lt; stdlib.h &gt;
+#include &lt; time.h&gt;
+.
+.
+.
+int genera()
+ {   int x;
+     x=rand()%201 - 100;
+	 return x;
+ }
+</pre>
+<li>
+Scrivere un programma  che genera 10000 numeri random  compresi tra -100 e 100 e scrive in output:&nbsp;
+<ul>
+<li> quanti sono rispettivamente i numeri positivi/negativi/nulli&nbsp;
+</li><li> quanti sono rispettivamente i numeri pari/dispari&nbsp;
+</li><li> quante coppie di numeri consecutivi uguali sono state generate
+</li></ul>
+</li><li>Scrivere un programma che
+simula una successione di lanci di moneta (Testa o Croce);
+continua a generare lanci di moneta fino a che è verificata la seguente condizione di
+terminazione : la sequenza generata
+contiene almeno 5 esiti uguali consecutivi (es: 5 volte Testa, oppure
+5 volte Croce).
+Il programma deve stampare "testa" o "croce" relativa ad ogni lancio e alla fine restituire il numero di lanci di moneta che sono
+stati necessari per verificare la condizione di terminazione.
+</li>
+<li>
+Def.: Un numero naturale <i>n</i> si dice <i>quadratoso </i> se è un quadrato  ed inoltre cancellando ad <i>n</i> una delle sue cifre si ottiene ancora un quadrato. <br>
+Ad esempio 1369 è <i>quadratoso </i> infatti 1369=37<sup>2 </sup> e, cancellando la cifra 3, si ottiene 169=13<sup>2 </sup>. Analogamente 2025= 45<sup>2 </sup>  è <i>quadratoso </i> infatti eliminando la prima cifra si ottiene 025 = 25 = 5<sup>2 </sup>. <br>
+Scrivere  una funzione che, dato un numero intero
+positivo, calcola se e' un numero quadratoso (non stampa messaggio ma restituisce valore booleano). Scrivere poi un programma che scrive in output tutti i numeri <i>quadratosi </i>di 4 cifre.
+ 
+<!--
+
+
+ <li> Scrivere un programma C per risolvere il seguente quesito:<br>
+<i>
+Esiste un numero formato da 8 cifre che moltiplicato per un numero primo dà come risultato un numero di 9 cifre uguali?
+</i>
+</li>
+-->
+
+</li></ol>
+
+
+
+<br>
+</font></font></font></font></li><li><font size="4"><font size="4"><font size="4">
+<font size="4"> <font color="#008000"><b>Laboratorio 9 - 10</b></font>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab09"> (Codice lab09_x): </a></font><a name="lab09"> </a>: 
+</font>
+<br>
+
+<ol>
+<li>
+<i> Varie su vettori </i> <br>Scrivere un programma che:
+<ul>
+<li>Genera un vettore random di 35 valori interi tra 15 e 85. 
+</li><li>Lo stampa sullo schermo (ben incolonnato con 7 numeri per riga).
+</li><li>Calcola la media (restituisce il valore corrispondente)
+</li><li>Calcola quanti valori pari sono stati generati
+</li><li>Calcola il valore minimo (restituisce l'indice)
+</li><li>Controlla se ci sono due elementi consecutivi uguali (restituisce l'indice del primo dei due oppure -1 se non ci sono)
+</li><li>Controlla se tutti gli elementi sono distinti (restituisce 1 oppure 0)
+
+</li></ul>
+Ognuno dei punti precedenti deve essere svolto con una (diversa) funzione mentre nel main vengono stampati tutti i vari risultati restituiti dalle funzioni. (Utilizzare eventualmente come base il programma 
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/Vettori.c">)
+<font color="purple">Vettori.c</font></a> 
+visto a lezione.)
+
+</li><li>
+Scrivere un programma che prende in input un numero positivo N
+e scrive in output il valore di n!. Il programma deve definire e utilizzare una funzione ricorsiva <kbd> int fatt(int) </kbd> per calcolare tale numero.
+ </li><li>
+Scrivere un programma che prende in input un numero positivo B e un numero positivo N
+e scrive in output il valore della potenza N-esima di B. Il programma deve definire e utilizzare una funzione ricorsiva <kbd> int pot(int,int) </kbd> per calcolare tale numero.
+</li><li>
+Numeri di Fibonacci. Riscrivere l'esercizio lab07_4 utilizzando una funzione ricorsiva per il calcolo dei numeri di fibonacci. (Eventualmente scrivere tutte e due le versioni e nel main eseguirle entrambe per notare la differenza di velocità di calcolo)
+
+ </li>
+
+<li> <i>Congettura di Collatz ver.2  </i> <br>
+In riferimento alla Congettura di Collatz (EseLab07_5),
+chiamiamo <i>lunghezza di Collatz (Lc)</i> il numero di elementi della successione per arrivare ad 1. Dall'esempio precedente Lc(6)= 9.<br>
+Scrivere una funzione Collatz  che prende in input un numero intero x  e restituisce la sua lunghezza di Collatz Lc(x). Scrivere poi un programma che, usando tale funzione, calcola la lunghezza di Collatz di tutti i numeri tra 1 e 1000 e li scrive in un array. Calcola poi il valore massimo di tale lunghezza tra quelli ottenuti e stampa sullo schermo quali sono i numeri interi che hanno tale lunghezza di Collatz massima.
+
+</li><li>
+<i>Crivello di Eratostene </i>  <br>
+ Implementare una funzione che simula il
+<a style="color: #990099; font-weight:
+   bold " href="http://it.wikipedia.org/wiki/Crivello_di_Eratostene" target="_blank"> crivello di Eratostene </a> per il calcolo dei
+   numeri primi. Utilizzarla per calcolare tutti i numeri primi tra 2
+   e 1000. <br> La funzione <tt>int Crivello(int C[], int n)</tt> sarà definita su un 
+ array booleano C di dimensione n tale che  
+<ul>
+<li>C[i] =1 significa che i è primo  e 
+C[i] =0 significa che i NON è primo  
+
+</li><li>All’inizio pongo C[i]=1 per ogni i
+</li><li>Realizzo n-1 cicli che iniziano ogni volta dall’elemento che contiene il primo 1
+</li><li>
+Se un ciclo comincia da C[i] allora assegno 0 a tutti i C[j] tale che j è un multiplo di i
+</li></ul>
+
+</li>
+<li>
+  <i>Ho fatto un sogno in cui una fatina dai capelli turchini mi dava un numero del lotto. Decido di giocare questo numero alle estrazioni del lotto della ruota di Roma: 1 Euro ogni settimana per un anno intero (52 settimane).  </i><br>
+ Scrivere un programma  per simulare   la situazione   e stabilire quanto vinco/perdo sapendo che:
+  <ul><li> Nella ruota di Roma vengono estratti 5 numeri <u>distinti</u> tra 1 e 90
+  </li><li> La vincita per  aver indovinato un numero, avendo giocato 1 Euro è di 11,23 Euro. (Vedi tutti gli importi su
+ <a href="https://www.lotto-italia.it/lotto/come-dove-giocare/il-gioco/premi-del-lotto">)
+<font color="purple">lotto-italia.</font></a> 
+  </li></ul>
+  
+ NOTA: utilizzare 5 variabili distinte per le 5 estrazioni della ruota di Roma.
+</li>
+</ol>
+ <br>
+<!--
+<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 10</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab10"> (Codice lab10_x): </font> </a>:  
+</font>
+<ol>
+
+<li>
+ <i>Il gioco "Indovina il numero"  </i> <br>Scrivere un programma che simula il gioco IndovinaNumero  in cui si deve indovinare un numero da 1 a 100 a seguito di risposte "troppo alto" o "troppo basso". Scrivere un programma per la versione <kbd>UtenteVsComputer</kbd> in cui il computer "pensa" (cioè genera in modo random il numero) e l'utente lo deve indovinare. Ad ogni tentativo dell'utente il computer risponde "troppo alto" o "troppo basso" finchè l'utente non indovina. Quando l'utente indovina, viene scritto sullo schermo il numero di tentativi che sono stati  necessari per indovinare il numero.
+
+
+ <li> <i>Congettura di Collatz ver.1  </i> <br>
+La <a style="color: #990099; font-weight:
+   bold "href="https://it.wikipedia.org/wiki/Congettura_di_Collatz"
+   target="_blank"> congettura di Collatz </a> è una delle più semplici congetture matematiche non ancora risolte.
+  La congettura riguarda il seguente algoritmo:
+<br>
+Si prenda un intero positivo n.
+<br>
+<pre> 1.Se n = 1, l'algoritmo termina.</pre>
+<pre> 2.Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.</pre> 
+<pre> 3.Si ripete l'algoritmo da 1. sul numero ottenuto.</pre>
+   Per esempio, iniziando con n = 6, otteniamo la successione 6, 3, 10, 5, 16, 8, 4, 2, 1.
+<br>
+La congettura di Collatz asserisce che questo algoritmo giunge sempre a termine, indipendentemente dal valore di partenza. <br>
+Scrivere una funzione Collatz (eventualmente ricorsiva!) che prende in input un numero intero x (restituisce void) e stampa sullo schermo la sequenza di Collatz da x a 1. Scrivere un programma (fuzione main) che chiede all'utente di inserire un numero intero e, usando la funzione Collatz, stampa la sequenza ottenuta. 
+
+<li> <i>Congettura di Collatz ver.2  </i> <br>
+In riferimento alla Congettura di Collatz (EseLab07_5),
+chiamiamo <i>lunghezza di Collatz (Lc)</i> il numero di elementi della successione per arrivare ad 1. Dall'esempio precedente Lc(6)= 9.<br>
+Scrivere una funzione Collatz  che prende in input un numero intero x  e restituisce la sua lunghezza di Collatz Lc(x). Scrivere poi un programma che, usando tale funzione, calcola la lunghezza di Collatz di tutti i numeri tra 1 e 1000 e li scrive in un array. Calcola poi il valore massimo di tale lunghezza tra quelli ottenuti e stampa sullo schermo quali sono i numeri interi che hanno tale lunghezza di Collatz massima.
+
+<li>
+<i>Crivello di Eratostene </i>  <br>
+ Implementare una funzione che simula il
+<a style="color: #990099; font-weight:
+   bold "href="http://it.wikipedia.org/wiki/Crivello_di_Eratostene"
+   target="_blank"> crivello di Eratostene </a> per il calcolo dei
+   numeri primi. Utilizzarla per calcolare tutti i numeri primi tra 2
+   e 1000. <br> La funzione <tt>int Crivello(int C[], int n)</tt> sarà definita su un 
+ array booleano C di dimensione n tale che  
+<ul>
+<li>C[i] =1 significa che i è primo  e 
+C[i] =0 significa che i NON è primo  
+
+<li>All’inizio pongo C[i]=1 per ogni i
+<li>Realizzo n-1 cicli che iniziano ogni volta dall’elemento che contiene il primo 1
+<li>
+Se un ciclo comincia da C[i] allora assegno 0 a tutti i C[j] tale che j è un multiplo di i
+</ul>
+
+</li>
+
+</ol>
+
+ 
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 11</b></font>
+<font color="#008000" size="4">  
+<a name="lab11"> (Codice lab11_x): </font> </a>:  
+</font>
+
+<br>
+
+<ol>
+
+
+<li> <i> Segmenti in un vettore </i><br>
+Dato un vettore a valori interi in {0, 1}, definisco <i>segmento</i>  una successione di 1 consecutivi. La lunghezza del segmento è il numero di 1 contenuti mentre l’inizio del segmento è l'indice i del primo 1.  Vogliamo calcolare la lunghezza e l’inizio
+del segmento di lunghezza massima.
+Ad esempio nel vettore:
+<pre>
+1 0 1 1 1 0 1 1 0 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 1 1 1
+</pre>
+un segmento di lunghezza massima si trova in posizione 11 (iniziando a contare da zero) e ha lunghezza
+8. Ce n'è anche un'altro di lunghezza 8.
+<ol>
+<li> Scrivere una funzione in C, MaxSegm, che prende in input un vettore e calcola e stampa la posizione 
+del massimo segmento contenuto e la sua lunghezza. (Se nel vettore ci sono più segmenti di lunghezza massima,
+riportare quello di inizio in i con i minimo).<br>
+
+<li> Scrivere un programma in C (funzione main) che genera un vettore  di interi random in {0, 1} di lunghezza  100 e richiamando la funzione MaxSegm scrive le informazioni calcolate. 
+<li> Analizzare la complessità dell’algoritmo utilizzato nella funzione MaxSegm. (inserirlo alla fine del file
+.C come commento).
+</ol>
+
+
+<li>
+ <i>Gioco IndovinaNumero </i> <br>Scrivere un programma che simula il gioco IndovinaNumero discusso a lezione in cui si deve indovinare un numero da 1 a 100 a seguito di risposte "troppo alto" o "troppo basso". Il programma, oltre ad eventuali funzioni ausiliarie, dovrà contenere 2 funzioni <kbd>ComputerVsUtente</kbd> e <kbd>UtenteVsComputer</kbd> che restituiscono il numero di tentativi necessari per indovinare il numero. Il programma principale si compone poi delle due chiamate di funzione e della "proclamazione" del vincitore.
+
+  </ol>
+
+ 
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 12</b></font>
+<font color="#008000" size="4">  
+<a name="lab12"> (Codice lab12_x) </font> </a>:  
+</font>
+
+<br>
+
+<ol>
+<i>Utilizzare gli algoritmi di ordinamento visti nella lezione 11.</i><br>
+<li>Scrivere una funzione <kbd> int SelectionSort(int v[], int s) </kbd> che prende in input un vettore di interi di dimensione s e lo ordina con l'algoritmo di selectionSort e restituisce il numero di confronti tra elementi del vettore che sono stati effettuati.
+<br>Scrivere poi un programma che per 10 volte genera un vettore di interi di 30 elementi tra 10 e 99, lo stampa sullo schermo, lo ordina richiamando SelectionSort e stampa sullo schermo il numero di confronti tra elementi del vettore effettuati.
+<br>
+Poi genera un vettore ordinato ed esegue l'algoritmo sul vettore ordinato e ancora genera un vettore ordinato al contrario ed ancora esegue l'algoritmo stampando il numero di confronti effettuati.
+
+
+<li>Scrivere una funzione <kbd> int BubbleSort(int v[], int s) </kbd> che prende in input un vettore di interi di dimensione s e lo ordina con l'algoritmo di BubbleSort e restituisce il numero di confronti tra elementi del vettore che sono stati effettuati.
+<br> Ripetere l'esercizio 1 con questo altro algoritmo di ordinamento.
+
+<li>Scrivere una funzione <kbd> int InsertionSort(int v[], int s) </kbd> che prende in input un vettore di interi di dimensione s e lo ordina con l'algoritmo di insertionSort e restituisce il numero di confronti tra elementi del vettore che sono stati effettuati.
+<br> Ripetere l'esercizio 1 con questo altro algoritmo di ordinamento.
+
+<li> Scrivere un programma   che genera un vettore random di 50 elementi interi tra 10 e 99 e lo stampa sullo schermo. Poi applica i diversi algoritmi  di ordinamento degli esercizi 1,2 3 (ricopiare le tre funzioni) sul vettore generato e stampa sullo schermo quanti confronti tra elementi sono stati necessari per ordinarlo. 
+<br> ATTENZIONE: fare una copia del vettore generato e ordinare la copia in modo da poter confrontare i diversi algorimi di ordinamento.
+
+</ol>
+-->
+
+
+</font></font></font></li><li><font size="4"><font size="4">
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 11-12</b></font>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab11"> (Codice lab11_x): </a></font><a name="lab11"> </a>:  
+</font>
+<br>
+<ol>
+
+<li>
+<i> Varie su Matrici </i><br> Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice di dimensione 20x30 di numeri casuali
+	      compresi tra -10 e 10 (estremi inclusi)
+  </li><li> Stampa la matrice sullo schermo
+  </li><li> Verifica  se esiste  una riga della matrice la cui somma sia
+	      0. In caso affermativo stampa la riga sullo schermo.
+ </li><li> Verifica  se esiste  una colonna della matrice la cui somma sia
+	      0. In caso affermativo stampa la colonna sullo schermo.
+ </li><li> Identifica la riga della matrice la cui somma degli elementi
+	      è maggiore. Stampa sullo schermo l'indice di tale
+	      riga.
+ </li><li>
+Verifica se esiste una riga la cui somma degli elementi è uguale
+	      alla somma degli elementi di una colonna. In caso
+	      affermativo stampa tali indici di riga e
+colonna, in caso negativo segnala che la condizione non è
+	      verificata. Sugg.: utilizzare un vettore di supporto.
+</li><li>
+Calcola il max della matrice
+ <tt> int maxMatrice(int a[][COL], int r, int c)</tt>
+</li><li>Calcola il max di ogni riga
+  <tt>  void massimiRighe(int a[][COL], int r, int c, int rmax[RIG])</tt> e lo mette in un vettore rmax.
+	  
+		  
+</li></ol>
+I vari punti <u>devono</u> essere svolti come funzioni. (Scaricare il file
+<a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/array2dim.c"> array2dim.c</a>) .
+</li>
+
+<li><i>Cambiamo le parole</i><br>
+Scrivere un programma che
+<br>1. Data una stringa in input la restituisce modificando tutte le a in e.
+<br> 2. Data una stringa in input e un dato carattere, restituisce	la stringa dove tutte le occorrenze del carattere
+ scelto sono state cancellate.
+ <br> 3. Data una stringa in input la restituisce con una in cui tutte le vocali sono scritte in maiuscolo.
+<br>
+Non utilizzare le funzioni predefinite sulle stringhe. Le  stringhe devono essere <i>effettivamente</i> modificate e non solo stampate sullo schermo.
+</li>
+
+<li>
+<i>Oggi 4 novembre: Problema della bandiera italiana   (Piccola sfida?) </i> <br>
+Input: array random i cui elementi hanno valore "verde", "bianco" o
+ "rosso" codificato in qualche modo. <br>
+Output: array "colorato" come bandiera italiana (tutti i verdi a
+sinistra, i bianchi al centro e i rossi a destra). <br>
+Scrivere un programma che risolve il problema e che opera con UNA SOLA
+lettura dell'array  (se non ci riuscite utilizzate
+  comunque non più di tre passate!)
+ e che effettua SOLO SCAMBI tra gli
+ elementi (non è consentito "contare"   quanti elementi hanno un  dato colore).
+
+
+</li><li>
+<i>Problema del Baricentro </i> (tratto da un vecchio esame)<br>
+Dato un vettore v di interi  di dimensione n, definisco <i>baricentro</i> del vettore l’indice i tale che:
+<br>
+v[0] + v[1] + . . . + v[i] = v[i + 1] + . . . + v[n − 1]
+
+<ul><li>
+Scrivere una funzione <tt> int baricentro(int v[], int n) </tt> che restituisce l'indice del baricentro del vettore v, se esiste, oppure restituisce -1 se non esiste un baricentro. 
+
+</li><li> 
+Scrivere poi un programma (funzione main) che genera e stampa un vettore di dimensione 100 di valori interi random  tra -5 e 5 e poi, richiamando la funzione <tt>baricentro</tt> calcola il suo baricentro.
+
+<!--
+<li>
+Qual è la complessità della funzione <tt>baricentro</tt>? Nell'ipotesi che tutti i valori del vettore siano positivi, l'algoritmo può essere realizzato in modo più efficiente?
+
+-->
+</li></ul>
+</li></ol>
+</font></font></li><font size="4"><font size="4">
+
+
+<!--
+<li>Scrivere una funzione <kbd> int MergeSort(int v[], int s) </kbd> che prende in input un vettore di interi di dimensione s e lo ordina con l'algoritmo di MergeSort e restituisce il numero di confronti tra elementi del vettore che sono stati effettuati.
+<br> Ripetere l'esercizio 12.1 con questo altro algoritmo di ordinamento.
+
+<li>Scrivere una funzione <kbd> int QuickSort(int v[], int s) </kbd> che prende in input un vettore di interi di dimensione s e lo ordina con l'algoritmo di QuickSort e restituisce il numero di confronti tra elementi del vettore che sono stati effettuati.
+<br> Ripetere l'esercizio 12.1 con questo altro algoritmo di ordinamento.
+
+</ol>
+<!--
+<li>
+  Scrivere un programma che simula una partita a dadi fra il computer e l'utente. 
+Scrivere una funzione  <kbd> int lancia2Dadi()</kbd>
+Che simula il lancio di 2  dadi   e restituisce il risultato (la somma dei 2 dadi).  
+<br>
+Il  main consiste in una partita   di 7 turni. 
+Ad ogni turno, si simula un tiro (richiamando la funzione  <kbd>lancia2Dadi</kbd>) dell'utente e un tiro del computer e si visualizzano i risultati.  Alla fine viene 
+"proclamato" il  vincitore  che è ovviamente colui che ha vinto più turni. 
+
+
+
+<li> (provare a) Scrivere un programma che risolve il problema delle Torri di Hanoi in modo iterativo.
+</ol>
+
+-->
+
+
+<!--
+<li> Usando lo schema del codice visto al lezione BubbleSort.c (scaricare il file) implementare gli algorimi di MergeSort e QuickSort.
+
+ </ol>
+<!--
+<br> <i> Progetto sorting </i>
+Lo scopo è quello di confrontare vari algoritmi di sorting su vettori di lunghezza n (Ad esempio:30, 200, 500, 2000, 10000, .... )
+Generare un vettore random di lunghezza stabilita e applicare gli algoritmi sempre sullo stesso vettore (fare una copia prima di ordinarlo!)
+<br>
+Di ogni algoritmo valutare il numero di confronti effettuati. Utilizzare come schema il file
+vettoriSort.cpp.
+<br>
+Produrre sullo schermo una tabella riassuntiva dei risultati ottenuti tipo la seguente: <br>
+<pre>
+Produrre una tabella per il numero dei confronti del tipo :
+  n    | conf selection | conf bubble | conf insertion | conf merge | conf quick
+  30   |                |             |                |            |
+  200  |                |             |                |            |
+  500  |                |             |                |            |
+  2000 |                |             |                |            |
+  10000|                |             |                |            |
+
+</pre>
+<u>AGGIUNTA FACOLTATIVA:</u>
+Ampliare quanto sopra in modo da ripetere i test anche su
+	tipologie diverse di vettori. In particolare, scrivere delle
+	funzioni per generare i seguenti vettori:
+<ol>
+<li> sequenza random di valori tra 1 e 100 ( vedi sopra)
+<li> sequenza ordinata crescente (es. i numeri 1,2,3,4,5,...)
+<li> sequenza ordinata decrescente
+<li> sequenza "quasi" ordinata (generata a partire da una sequenza
+	      ordinata applicando 5 scambi  tra
+	      coppie di posizioni scelte in modo random)
+
+<!--
+
+ 
+<li>
+Numeri di Fibonacci. 
+<!--NOTA l'anno prossimo proporlo solo DOPO la versione ricorsiva per mostrarne l'efficienza-->
+		
+ 
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 13</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab13"> (Codice lab13_x): </a></font><a name="lab13"> </a>:  
+</font>
+<br>
+<ol>
+
+<li>
+<i> Matrice dell'Amicizia </i> <br>
+Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice <i>M</i> quadrata simmetrica di 10
+	      righe (colonne) con valori random tra 0 e 1.
+  </li><li> Stampa la matrice sullo schermo.
+</li><li> Interpretando la matrice con il significato <i>M(i,j)=1</i>
+ se e solo se
+  <i> i </i> è amico di <i>j</i>, elencare sullo
+   schermo tutte le triple <i>(r,s,t)</i> in cui <i>r, s</i> e <i>t</i>
+	      sono tutti amici.
+  </li><li> (Difficile)Trovare il gruppo più grande in cui
+ sono tutti amici.  NOTA: Per questo punto sarebbe utile
+ generare una matrice con molti 1. Un modo di
+  realizzarlo potrebbe essere di generare valori random tra 0 e 3 e
+   poi trascrivere i valori &gt;0 come tutti 1.
+   </li></ol>
+   
+  </li><li><i>Un gioco enigmistico: il lucchetto </i><br>
+ Nel linguaggio enigmistico un
+lucchetto è un gioco caratterizzato dallo schema <tt>XY + YZ -&gt; XZ</tt>.
+In pratica si trovano due parole w1 e w2 in cui l'ultima parte (un suffisso) di w1  è uguale alla prima parte  (un prefisso) di w2. Eliminando le parti in comune e leggendo il restante si ottiene la terza parola w3 che si chiama "lucchetto". 
+<br>
+Per esempio:
+<pre> CANE/NERO = CARO; 
+
+ VELA/LANA = VENA; 
+
+ CRISTALLO/STALLONE = CRINE;
+
+ RISCHIO/SCHIOCCO = RICCO,
+
+ MAGGIO/GIOIA = MAGIA
+
+ CARATO/ATOMI = CARMI
+
+ CAST/TERME = CASERME
+
+ MATCH/CHADOR = MATADOR. 
+</pre>
+<ul>
+<li>
+Scrivere una funzione <tt> int lungh( char s[]) </tt> che restituisce la lunghezza della stringa <tt>s</tt>;
+</li><li>
+Scrivere una funzione <tt>int suff_pref( char s[],   char  t[], int n)</tt>
+che restituisce 1 se il suffisso di lunghezza <tt>n</tt> della stringa <tt>s</tt> è uguale al prefisso di lunghezza <tt>n</tt> della stringa <tt>t</tt> e restituisce 0 in caso siano diversi. (Essenzialmente la stringa s deve essere controllata a partire dalla posizione <tt> lungh(s) - n</tt>).
+</li><li>
+Scrivere un programma che legge due stringhe e  utilizzando la funzione precedente verifica se le due stringhe possono creare un lucchetto.
+</li><li>
+Il programma scrive un lucchetto  tra le due parole (che ovviamente non deve necessariamente avere un senso come parola in italiano) .
+</li></ul> 
+ 
+ 
+   
+</li><li>
+<i>Problema MaxSum </i> <br>
+Dato un array v di dimensione n di valori interi (positivi e negativi), per ogni coppia (i, j) con i&lt;=j, definisco S<sub>i,j</sub>=v[i]+v[i+1]+v[i+2]+....+v[j] cioè la somma degli elementi consecutivi da v[i] a v[j].   Scrivere una funzione <tt> int MaxSum(int v[], int n) </tt> che determina e restituisce il valore massimo tra tutte le somme  S<sub>i,j</sub>. Scrivere poi un programma che inizializza un vettore di dimensione 100 con valori random tra - 50 e 50 e applicando poi la funzione <tt> MaxSum </tt> calcola il valore della massima somma definita come sopra. 
+<br>
+Valutare la complessità della funzione MaxSum che avete scritto. (Riuscite a scrivere una funzione MaxSum quadratica? Riuscite a scriverne una lineare?)
+</li></ol>
+
+ 
+
+<p>
+</p></li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 14</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab14"> (Codice lab14_x): </a></font><a name="lab14"> </a>:  
+</font>
+<br>
+<ol>
+  <li>
+<i>Problema delle caselle speciali.  </i>
+<br>
+Data una scacchiera quadrata di lato dispari 2N+1, diciamo che una
+casella è <i> speciale </i> se il suo colore è predominante sia nella
+riga che nella colonna a cui appartiene.
+<br> Scrivere un programma
+che genera in input una matrice quadrata di lato 2N+1 a valori random
+(interi) in {0,1} che rappresentano i colori "bianco" e "nero" e calcola quante 
+caselle speciali ci
+		sono. <br>
+<b>Nota: </b> Un buon algoritmo realizza la soluzione senza
+leggere "troppe volte" ciascun elemento della matrice. Per esempio,
+utilizzando  un vettore come struttura dati aggiuntiva, si puo'
+realizzare una soluzione in cui ogni elemento della matrice viene
+letto soltanto 3 volte.
+		<br>
+<b>Curiosità</b> Esiste una matrice del tipo
+		suddetto con (soltanto) 4N caselle speciali (sapete
+		trovarla?) e si può dimostrare che non esistomo
+		matrici con meno di 4N caselle speciali.
+		
+		
+</li></ol>
+ 
+<p>
+</p></li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 15</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab15"> (Codice lab15_x): </a></font><a name="lab15"> </a>:  
+</font>
+<br>
+<ol>
+
+<li><i> Riga di Taglio </i><br>
+Data una matrice mxn a valori interi, la riga t è un taglio orizzontale se la somma di tutti i valori nelle posizioni
+dalla riga 0 alla riga t differisce al più di 10 dalla somma di tutti i valori nelle posizioni dalla riga t + 1 alla riga
+m − 1.
+<ul>
+<li>Scrivere una funzione int RigaTaglio(int a[][SIZE], int * somma) che, data una matrice a restituisce
+l’indice t della riga taglio, se esiste, altrimenti restituisce -1. Se la riga taglio esiste mette nella variabile
+somma il valore della somma dei valori dalla riga 0 alla riga t.
+</li><li> Scrivere un programma in C che: <br>
+1. Genera una matrice 15x15 a valori interi random tra -17 e 173 tali che non ci siano elementi uguali sulla
+stessa riga.
+<br>
+2. Stampa la matrice ben formattata sullo schermo
+<br>
+3. Utilizza la funzione RigaTaglio per individuare l’eventuale riga taglio.
+<br>
+4. Stampa le informazioni calcolate dalla funzione precedente. .
+NOTA: la stampa non deve essere effettuata all’interno della funzione, ma nel main.
+</li>
+</ul>
+<p></p>
+
+</li><li><i> Anagrammi </i><br>
+L’anagramma è una parola o frase che composta dalle lettere di un’altra parola o frase disposte in un ordine diverso.
+Per esempio:<br>
+ COLTA e TALCO sono anagrammi; <br>
+ ATTORE è un anagramma di TEATRO; <br>
+ CONTARE ha come
+anagrammi CARTONE, ARCONTE, CONTER, CORNATE; <br>
+BIBLIOTECARIO è BEATO COI LIBRI;<br>
+I GELATI
+DI MORE sono la DIETA MIGLIORE 
+<br> il MAESTRO DI CANTO è il TORMENTO DI CASA.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe sono
+una l’anagramma dell’altra. Gli spazi bianchi vanno ignorati.
+Non è consentito utilizzare funzioni predefinite sulle stringhe.
+  
+ 
+
+
+</li>
+</ol>
+ 
+<br>
+</li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 16</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab16"> (Codice lab16_x): </a></font><a name="lab16"> </a>:  
+</font>
+<br>
+<ol>
+<li> Completare l'esercizio <i>Max Sum</i> (Lab13.3) 
+</li><li><i> Lettura e scrittura su file </i>
+<ul>
+<li>
+Scrivere una funzione writeMatrixToFile(const char *filename, int matrix[ROW][COL], int rows, int cols) che scrive la matrice di tipo int, di dimensioni rows x cols, su un file con il nome fornito.
+</li><li> 
+Scrivere una funzione readMatrixFromFile(const char *filename, int matrix[ROW][COL], int *rows, int *cols) che legge una matrice da un file con il nome fornito e la memorizza in una matrice di tipo int. La funzione dovrebbe anche determinare le dimensioni della matrice e memorizzarle in rows e cols.
+</li><li>Scrivere una funzione principale che chiede all'utente di specificare tre nomi di file, ad esempio A.txt, B.txt, C.txt, e implementare il prodotto di matrici A.B=C. Pertanto, il programma dovrebbe leggere la matrice A da A.txt, la matrice B da B.txt, calcolare il prodotto delle matrici C e scrivere il risultato in C.txt.
+</li></ul>
+
+</li><li>   <i>Problema della classifica
+  del campionato </i>.
+<br>
+Siano dati in input: 
+<ul><li>Una matrice quadrata in cui righe e colonne corrispondono a delle
+squadre (di calcio?) e gli elementi m(i,j) a valori -1, 0 oppure 1 che corrispondono al fatto che la partita tra i e j è stata persa, pareggiata o vinta. (NOTA: gli elementi della diagonale non sono significativi ai fini dell'esercizio mentre le due parti sopra e sotto la diagonale potrebbero corrispondere alle partite di andata e di ritorno)
+</li><li>Un vettore di stringhe della stessa dimensione
+della matrice che contiene i nomi delle squadre. 
+</li></ul> Scrivere un
+programma che produce in output la classifica delle squadre con i
+punteggi corrispondenti (ottenuti sommando per ogni partita : 0= perdita, 1=
+pareggio, 3=vincita).  Utilizzare le strutture dati di supporto che
+ si ritengono più adeguate.
+<br>
+Utilizzare come base di partenza il  programma <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/provaCampionato.c">provaCampionato.c</a>
+visto a lezione. 
+</li>
+
+</ol>
+ 
+ 
+<p>
+</p></li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 17</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab17"> (Codice lab17_x): </a></font><a name="lab17"> </a>:  
+</font>
+<br> 
+CANCELLATO
+ 
+<p>
+</p></li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 18</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab18"> (Codice lab18_x): </a></font><a name="lab18"> </a>:  
+</font>
+<br> 
+<ol>
+<li> Completare gli esercizi delle settimane precedenti
+</li><li> Partendo dal codice <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/ListaBase.cpp">ListaBase</a>, aggiungere le funzioni di inserimento in testa e inserimento in coda (vedi slides) e poi nel main richiedere all'utente dei valori da inserire nella lista nelle due modalità.
+</li>
+</ol>
+<!--
+Per i seguenti esercizi sulle stringhe utilizzare come modello i codici
+<a href="./lunghezza.c ">lunghezza.c</a>, <a href="./prefisso.c ">prefisso.c</a>,
+<a href="./copiastringhe.c ">copiastringhe.c</a>,
+<ol>
+<li><i>Cambiamo le parole</i><br>
+Scrivere un programma che
+<br>1. Data una stringa in input la restituisce modificando tutte le a in e.
+<br> 2. Data una stringa in input e un dato carattere, restituisce	la stringa dove tutte le occorrenze del carattere
+ scelto sono state cancellate.
+ <br> 3. Data una stringa in input la restituisce con una in cui tutte le vocali sono scritte in maiuscolo.
+<br>
+Non utilizzare le funzioni predefinite sulle stringhe. Le  stringhe devono essere <i>effettivamente</i> modificate e non solo stampate sullo schermo.
+</li>
+
+
+ 
+</ol>
+<p>
+
+-->
+</li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 19</b></font>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab19"> (Codice lab19_x): </a></font><a name="lab19"> </a>:  
+</font>
+<br>
+<ol>
+<li><i> Rotazioni di stringhe </i><br>
+Data una stringa, s1 s2 s3 .... sn, chiamo rotazione di ordine 1, la stringa s2 s3 s4 ...sn s1, cioè la stringa letta a partire dala seconda posizione e in cui l'ultimo simbolo è quello che originariamente era il primo. In generale la rotazione di ordine k (k&lt;=n) si ottiene cominciando a leggere dal k-esimo simbolo: sk .....sn s1 .....s(k-1).
+ <br>
+ 
+Scrivere un programma che legge una stringa senza spazi e scrive in ordine tutte le sue rotazioni. 
+  Ad esempio, se la stringa immessa fosse <tt> NATALE</tt> il programma dovrebbe scrivere in output:
+ <pre>NATALE
+ATALEN
+TALENA
+ALENAT
+LENATA
+ENATAL
+  </pre>
+
+</li><li><i> Rotazioni di liste </i><br>
+Scrivere una funzione <kbd>RuotaMezzaLista </kbd> che prende in input una lista <kbd>a<sub>1</sub>,a<sub>2</sub>,..,a<sub>m</sub>,.,a<sub>r</sub></kbd> dove m è la posizione a metà (m=r/2) e la ruota anteponendo la seconda metà alla prima. La lista ruotata sarà <kbd>a<sub>m+1</sub>,a<sub>m+2</sub>,...,a<sub>r</sub>a<sub>1</sub>a<sub>2</sub>,...,a<sub>m</sub></kbd>.
+Inserire tale funzione nel programma <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/ListaBase.cpp">ListaBase</a>.
+<p>
+</p></li><li><i>Tratto da preappello A.A. 2023-24</i> <br>
+Si scriva un programma C che richiede all’utente di inserire una sequenza di nomi di persona. La sequenza
+termina quando l’utente inserisce due volte consecutive lo stesso nome. Al termine dell’inserimento viene
+scritto sullo schermo il nome più lungo che è stato inserito.<br>
+Non è consentito utilizzare funzioni predefinite sulle stringhe.<br>
+<b>Variante (+2 punti):</b> Si aggiunge anche la possibilità di leggere i nomi da un file (in questo caso la
+terminazione avviene naturalmente quando finisce il file). Fornire anche il file di testo per provare il
+programma.
+
+</li></ol>
+<p>
+
+</p><p>
+
+ 
+</p></li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 20</b></font>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab20"> (Codice lab20_x): </a></font><a name="lab20"> </a>:  
+</font>
+<br>
+COMPLETARE gli esercizi lab18_2 e lab19_2.
+<br>
+<ol>
+<li><i> Operazioni su Insiemi </i><br>
+Scrivere un programma che utilizza le liste per rappresentare insiemi di interi e implementa le operazioni di unione  e intersezione tra due insiemi.
+In particolare il programma dovrà inizializzare due insiemi (=liste)  stamparli sullo schermo e  richiamando delle funzioni apposite:
+<ul>
+<li> Verificare se i due insiemi sono disgiunti
+</li><li> Creare la lista per l'insieme intersezione 
+</li><li> Creare la lista  per l'insieme unione 
+</li><li> Stampare le nuove liste  sullo schermo)
+</li></ul>
+Utilizzare <tt><a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/ListeBaseInsiemi.c"> listebaseInsiemi.cpp </a></tt>
+</li><li>
+Sia L una lista di interi (positivi e negativi).
+<ul>
+<li> Si scriva una funzione SuccNulla che prende in input una lista L e verifica se esiste una successione
+di nodi consecutivi la cui somma è nulla. Ad esempio nella lista L = 2 → 3 → 4 → −7 → 5 → −6 → 6
+i nodi consecutivi 3 → 4 → −7 danno somma 0.
+<br>
+Inserire tale funzione nel programma <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/ListaBase.cpp">ListaBase</a>.
+<!--<li> Si scriva una funzione CancellaSuccNulla che prende in input una lista L e cancella gli elementi di
+una successione nulla in L. Nell’esempio precedente la nuova lista diventa L = 2 → 5 → −6 → 6
+-->
+</li><li> Si discuta la complessità dell' algoritmo utilizzati in funzione della lunghezza della lista L. (inserirlo
+alla fine del file .C come commento).
+</li></ul>
+</li></ol>
+<!--
+
+
+ 
+<li><i>Tratto da preappello A.A. 2023-24</i> <br>
+Si scriva un programma C che richiede all’utente di inserire una sequenza di nomi di persona. La sequenza
+termina quando l’utente inserisce due volte consecutive lo stesso nome. Al termine dell’inserimento viene
+scritto sullo schermo il nome più lungo che è stato inserito.<br>
+Non è consentito utilizzare funzioni predefinite sulle stringhe.<br>
+<b>Variante (+2 punti):</b> Si aggiunge anche la possibilità di leggere i nomi da un file (in questo caso la
+terminazione avviene naturalmente quando finisce il file). Fornire anche il file di testo per provare il
+programma.
+
+</ol>
+<p>
+
+-->
+
+</li><li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 21</b></font>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab21"> (Codice lab21_x): </a></font><a name="lab21"> </a>:  
+</font>
+<br>
+<ol>
+<li> <i> Varie su lista </i> <br> Aggiungere le seguenti funzioni al programma 
+<tt><a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/eseListaBase1.cpp"> eseListaBase1.cpp </a></tt>:
+<ol>
+
+<li> Cancellazione di TUTTE le occorrenze di un certo elemento nella lista.(Per provarlo generare una lista lunga e con pochi valori random).
+<br><u>Nota: </u> Fare attenzione al caso in cui dovranno essere eliminati "tanti" elementi iniziali.
+</li><li> Ricerca di un elemento nella lista : restituisce eventualmente la posizione
+</li><li> Inserimento in coda alla lista MA SOLO se l'elemento non è già presente
+
+
+</li><li> Eliminazione di tutti gli elementi DUPLICATI di una lista. Alla fine ogni elemento deve essere presente al più una volta nella lista. (Per provarlo generare una lista lunga e con pochi valori random).
+</li><li>Ordinare la lista in ordine crescente (usare un algoritmo di sorting a scelta)
+</li></ol>
+<p>
+</p></li><li>
+Sia L una lista di interi (positivi e negativi).
+<ul>
+<li> Si scriva una funzione SuccNulla che prende in input una lista L e verifica se esiste una successione
+di nodi consecutivi la cui somma è nulla. Ad esempio nella lista L = 2 → 3 → 4 → −7 → 5 → −6 → 6
+i nodi consecutivi 3 → 4 → −7 danno somma 0.
+</li><li> Si scriva una funzione CancellaSuccNulla che prende in input una lista L e cancella gli elementi di
+una successione nulla in L. Nell’esempio precedente la nuova lista diventa L = 2 → 5 → −6 → 6
+</li><li> Si discuta la complessità degli algoritmi utilizzati in funzione della lunghezza della lista L. (inserirlo
+alla fine del file .C come commento).
+</li></ul>
+</li><li><i>Tratto da preappello A.A. 2023-24</i> <br>
+Data una matrice quadrata A di dimensione m × m, definisco <i>MatriceSomme</i> di A una matrice B tale che
+B(i, j) sia uguale alla somma degli elementi della riga i e della colonna j della matrice A, ∀i, j.
+<ol>
+<li> Scrivere una funzione <tt>MatriceSomme(int A[][COL], int B[][COL])</tt> che, data la matrice A calcola la corrispondente la MatriceSomme
+B definita come sopra.
+</li><li> Scrivere una funzione:
+<tt>int Max1e2(int M[][COL], int *max1, int *x1, int* y1, int *max2, int* x2, int*y2)</tt>
+che, data la matrice calcola il valore più grande max1 e le sue coordinate x1 e y1 e il secondo valore
+più grande max2 e le sue coordinate x2 e y2. I due valori possono essere anche coincidenti (ovviamente
+le coordinate saranno diverse).
+</li><li> Scrivere una funzione in C <tt>void Genera(int a[DIM][DIM])</tt> che genera una matrice di DIM righe
+e DIM colonne a valori interi random tra −10 e 10 tale che in ogni colonna non ci siano elementi
+consecutivi uguali.
+</li><li>Scrivere un programma in linguaggio C (funzione main) che:
+<ul><li>Usando la funzione Genera, genera una matrice di dimensione 25x25 e stampa tale matrice sullo
+schermo.
+</li><li> Usando la funzione MatriceSomme, genera la nuova matrice e la stampa sullo schermo.
+</li><li> Utilizza la funzione Max1e2 sulla nuova matrice e stampa i risultati calcolati sullo schermo.
+</li></ul>
+</li><li> Discutere la complessità degli algoritmi implementati in funzione alla dimensione della matrice.
+</li></ol>
+</li>
+
+<li><i>
+Un gioco enigmistico: la cerniera</i><br>
+Nel linguaggio enigmistico una cerniera `e un gioco che consiste nel trovare due parole o frasi che hanno alcune lettere,
+agli estremi opposti, uguali; la terza parola o frase si ottiene con la scomparsa delle parti uguali e con l’accostamento
+delle parti restanti.
+Per esempio:<br>
+ &nbsp; &nbsp; &nbsp; MANICO/STAMANI = COSTA;<br>
+ &nbsp; &nbsp; &nbsp; GLI OSTI/MAGLIO = STIMA;<br>
+ &nbsp; &nbsp; &nbsp; FLAUTO/GOLF = L AUTOGOL.<br>
+Scrivere un programma che legge due stringhe (eventualmente contenenti degli spazi) e verifica se le due stringhe
+possono creare una cerniera. Gli spazi bianchi vanno ignorati. In caso affermativo, il programma scrive la cerniera
+formata dalle due parole (che ovviamente non deve necessariamente avere un senso come parola in italiano) .
+<!--
+<p>
+<li>
+<i>Problema della sorgente di montagna. (più difficile) </i>
+<br>
+Sia data una matrice quadrata di lato 20 contenente valori random
+tra 1 e 9 che rappresentano quote topografiche. Se una delle posizioni della matrice rappresenta una sorgente di acqua allora assumo che
+l'acqua coli e si diffonda nel terreno passando a posizioni adiacenti
+sulla stessa riga o colonna se tali posizioni hanno la stessa quota
+oppure quota inferiore. 
+<br>
+Si scriva un programma che:
+<ul>
+<li>
+Genera  una matrice quadrata di lato 20 contenente valori random
+tra 1 e 9 e la stampa sullo schermo.
+<li>
+Riceve in input dall'utente  una coppia di valori
+(i,j) che rappresenta posizione di una sorgente d'acqua.
+<li> Simula sulla matrice la diffusione dell'acqua generando una mappa dell'allagamento che è una matrice
+della stessa dimensione dove posizione della sorgente contiene il
+valore 2, le posizioni "allagate" contengono il valore 1 mentre le
+posizioni rimaste "asciutte" contengono il valore 0.
+<li> Stampa tale matrice sullo schermo.
+</ul>
+
+ 
+</ol>
+
+<p>
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 21</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati 
+<a name="lab21"> (Codice lab21_x): </font> </a>:  
+</font>
+<br>
+<ol>
+-->
+
+</ol>
+<p>
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 22 (NEW)</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab22"> (Codice lab22_x): </font> </a>:  
+</font>
+<br>
+<ol>
+
+<li>
+Data una matrice M a valori interi, una posizione (i, j) si definisce DoppioRowCol se il valore M(i, j)
+compare anche in un’altra posizione h della riga i e in un’altra posizione k della colonna j, (h >=j e k >= i).
+<ul>
+<li> Scrivere una funzione <tt>int DoppioRowCol(int A[ROW][COL], int *pmax1, int *pmax2) </tt>che calcola
+e restituisce il numero delle posizioni DoppioRowCol della matrice; calcola inoltre i due valori distinti
+più grandi che si trovano in queste posizioni DoppioRowCol e ne passa il valore al main tramite i
+puntatori pmax1 e pmax2.
+<li> Scrivere una funzione che genera una matrice di interi a valori nell’intervallo [33, 66] in modo che in
+ogni riga non ci siano elementi consecutivi uguali.
+<li> Scrivere un programma in C (funzione main) che genera una matrice di interi random in [33, 66] di dimensione 25x15 e la stampa ben formattata sullo schermo. Poi, richiamando la funzione DoppioRowCol,
+calcola il numero delle posizioni DoppioRowCol e i due valori più grandi in tali posizioni. Poi stampa
+le informazioni calcolate.
+<li> Analizzare la complessità dell’algoritmo utilizzato nella funzione DoppioRowCol.
+</ul>
+<!--
+<p>
+
+<li>
+<font size="4"> 
+<font color="#008000"><b>Laboratorio 25</b></font></a>:
+<font color="#008000" size="4">Esercizi assegnati
+<a name="lab22"> (Codice lab25_x): </font> </a>:  
+</font>
+<br>
+<ol>
+-->
+
+<li>
+
+Sia data una lista di interi.
+<ol>
+<li> Si implementi una funzione in C ListaMedie, che prende in input una lista di valori interi  (data come un puntatore
+al suo primo nodo) A= a<sub>1</sub>, a<sub>2</sub>, .... ,a<sub>n </sub>e un intero positivo k. Questa deve restituire una lista
+M=m<sub>1</sub>,m<sub>2</sub>,.....,m <sub>n-k+1</sub> tale che m<sub>i</sub> = (a<sub>i</sub> + a<sub>i+1</sub> + .... + a<sub>i+k-1</sub>)/k.
+<li> La lista M contiene valori 
+float che vanno poi stampati con 2 cifre decimali. A questo scopo deve
+essere definito un tipo nodo opportuno e la corripospondente funzione StampaMedie per la stampa.
+<li> Si inseriscano tali funzioni nel codice fornito <tt><a href="./ListeBaseInsiemi.c"> ListaBase.cpp </a></tt>ListaBase.c  rinominando il file come
+CognomeNomeLab25.c
+Si calcoli il costo computazionale della funzione definita (sarebbe auspicabile una funzione lineare!) rispetto
+alla lunghezza della lista in input. Inserire il costo computazionale come commento alla fine del file.
+</ol>
+<li>
+Sia L una lista di interi.
+<ol>
+<li> Si scriva una funzione EstraiSottolista che prende in input una lista L e due interi k1 e k2 e
+restituisce la sottosequenza di L composta dai nodi compresi tra il primo nodo, n1, contenente la
+chiave k1 ed il primo nodo, n2, contenente la chiave k2. Il nodo n2 non deve precedere n1. I nodi
+estremi sono compresi, ovvero n1 ed n2 devono far parte della sotto-lista di output. Al termine della
+funzione i nodi della sottolista estratta non faranno più parte di L. Se uno dei due nodi, n1 o n2, non
+esiste deve essere restituita la lista iniziale non modificata.
+<li> Si inserisca la funzione EstraiSottolista nel codice   <tt><a href="./ListeBaseInsiemi.c"> ListaBase.cpp </a></tt>ListaBase.c . Il main dovrà chiedere
+all'utente i due valori k1 e k2 , eseguire EstraiSottolista e poi stampare in output la sottolista estratta
+e la lista originale modificata.
+<li> Si discuta la complessità degli algoritmi utilizzati in funzione della lunghezza della lista L. (inserirlo
+allafine del file .C come commento).
+<p>
+Versione Semplificata: Non prevedere il caso in cui i nodi n1 o n2 non esistono.
+
+</BODY>
+
+</HTML>
+</li></ol></li></font></font></font></font></font></ul></body></html>
