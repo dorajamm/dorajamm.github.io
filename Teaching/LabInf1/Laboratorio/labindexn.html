@@ -63,18 +63,8 @@ Programma&nbsp;</font></a>
 </font></a>
 
 </div>
-
-
-  
-
-
- 
-   <title> Programmazione in C</title> 
-  
-
-
-
-<br>
+ <title> Programmazione in C</title> 
+  <br>
 
 <a href="http://www.uniroma2.it/" target="_blank">
 <img src="../Tor-Vergata_logo2.png" border="0" height="80"></a> 
@@ -85,8 +75,6 @@ Programma&nbsp;</font></a>
 <font color="#008000"> Laboratorio di Programmazione &amp; Informatica 1</font><br>
 <font color="#008000"> Laboratorio di Programmazione Strutturata</font><br>
 <font size="4" color="#008000">A.A. 2026-27</font></h2>
-
-
 </center>
 <h2 align="CENTER"><b><font color="#800080" size="4">ESERCITAZIONI IN LABORATORIO</font></b><font color="#800080">
 </font>
@@ -97,19 +85,13 @@ Programma&nbsp;</font></a>
       laboratorio. Le soluzioni degli esercizi discussi in aula saranno poi raccolte 
 	nella cartella Teams <b>SoluzioniEseLab</b>.
 <!--	  Gli esercizi di laboratorio possono essere consegnati nella cartella <b>ConsegnaEsercizi</b> della scheda <b>File</b> del canale <b>Generale</b>. Ogni esercizio va scritto in un file distinto (no cartelle, no zip) e deve avere il nome del codice dell'esercizio seguito dal cognome, Ad esempio se io volessi consegnare l'esercizio 3 del Laboratorio 2 dovrei chiamare il file <tt>lab02_3Giammarresi.c</tt>. 
-	  
-	  
-	  <p>Alcuni degli esercizi consegnati verranno selezionati per essere discussi durante la lezione di laboratorio e poi trasferiti da me nella cartella <b>EserciziCorrettiInAula</b> del canale <b> Generale </b> come riferimento per tutti gli studenti. 
+	   <p>Alcuni degli esercizi consegnati verranno selezionati per essere discussi durante la lezione di laboratorio e poi trasferiti da me nella cartella <b>EserciziCorrettiInAula</b> del canale <b> Generale </b> come riferimento per tutti gli studenti. 
 -->
 </p><hr>	  
 <!--	  <br>Le soluzioni degli esercizi (proposte da voi studenti e corrette in aula) si trovano nella scheda <b> file </b> del canale <b> Laboratorio </b> del corso su Teams.
 
-	  Di alcuni esercizi sono presenti delle
-      soluzioni  realizzate
- dagli studenti che frequentano il corso 
+Di alcuni esercizi sono presenti delle soluzioni  realizzate dagli studenti che frequentano il corso 
 e raccolte in questa
-
-
 <a  style="color: #FF0000; font-weight: bold "href="
 https://drive.google.com/open?id=1XcZQ-QOk4LgRMXMEMkWxgp2pnDXNFOn0">   
 CARTELLA DELLE SOLUZIONI</a> (Scaricare su un'altra scheda usando il tasto destro del mouse). Il codice e il numero fanno
@@ -144,29 +126,7 @@ Le <b>
 
 <hr>
 -->
-<p>
-
-</p><p>
-
-
-</p><ul>
-<!-- DA RICOPIARE
-<li>
-<font size="4"> <font color="#008000"><b>Laboratorio 3</b></font></a>
-	    del <font  color="#800080">17 marzo </font>:
-<font color="#008000" size="4">Esercizi assegnati  (Codice lab3_x):
-</font>
-<br>
-
-<ol>
-<li>
-<li>
-Scrivere un programma che produce in output (scritte una sotto l'altra) tutte le permutazioni dei numeri 1,2,3,4,5.
-</ol>
-<br>
-</li>
--->
-
+<ul>
 
  
  <br>
@@ -234,7 +194,87 @@ altezza 7. Come qui di sotto:
 				      somma. Il
 				      programma dovra' utilizzare <u>solo
 				      due variabili </u>.
-		
+	</li>
+</ol>
+
+	<li>
+<font size="4"> <font color="#008000"><b>Laboratorio 2</b></font>
+	     <font color="#800080"> </font>:
+<font color="#008000" size="4">Esercizi assegnati  
+<a name="lab02"> (Codice lab02_x):</a>
+</font>
+
+<br>
+Si ricorda, con un esempio, la sintassi delle istruzioni if e while.
+<pre>			if(x&gt;0){  //istruzione if
+			   a=a+x;
+			}	
+		----------------------------------------------	
+			if(x&gt;0){   //istruzione if...else
+			   a=a+x;
+			}
+			else{
+			   a=a-x
+			}
+		-----------------------------------------------	
+			while(x&gt;0){    //istruzione while
+			   x=x-b;
+			}
+			
+</pre>
+<ol>
+
+
+<li> Scrivere un programma che richiede all'utente un numero intero x e poi scrive sullo schermo una linea composta da x asterischi seguiti da x pallini. 
+	Esempio: se l'utente inserisce 4, allora il programma dovrà stampare <kbd>****oooo </kbd> <br>					  
+</li>
+	
+<li>	Rifare l'esercizio Lab01_4 usando un ciclo while. Cioè: <br>
+	Scrivere un programma che legge da tastiera 7 numeri interi
+	e scrive sullo schermo la loro somma.
+</li>
+	
+<li> Scrivere un programma che legge da tastiera 7 numeri interi
+	e scrive sullo schermo qual'è qual'è il più piccolo dei numeri inseriti.
+</li>
+	
+<li> Scrivere un programma che richiede l'inserimento di 7 numeri interi e
+alla fine scrive sullo schermo quanti numeri pari sono stati inseriti. <br>
+</li>
+	
+	<li> Scrivere un programma che richiede l'inserimento di  una serie di numeri interi positivi; 
+l'inserimento termina quando l'utente inserisce 0 o un valore negativo.
+Al termine dell'inserimento, sullo schermo viene scritta la somma e  la media dei numeri inseriti. ATTENZIONE: organizzare il ciclo in modo che il numero &lt;=0 non venga sommato al totale e al contatore.
+</li>
+	
+<li>  Scrivere un programma che richiede all'utente di inserire 7
+numeri interi compresi tra 1 e 100 (estremi inclusi),
+ne calcola la somma e la scrive sullo schermo. <br> Attenzione: ogni volta che  l'utente
+inserisce un  valore errato (fuori dall'intervallo previsto) il programma
+ dovra' segnalare l'errore e richiedere un altro numero... il ciclo di immissione termina 
+SOLO quando sono stati immessi 7 numeri VALIDI.
+</li>
+	
+ <li> Scrivere un programma che chiede all'utente di inserire  da tastiera un numero intero di 5
+cifre e lo riscrive "in verticale" cioe' mettendo un accapo dopo ogni 
+cifra. (Sugg. usare l'operatore % che calcola il resto della divisione intera. 
+	 NON servono istruzioni if o while)	
+</li>
+
+</ol>
+ </font></li>
+
+<!--
+	ESERCIZI AVANZATI
+</li><li> Scrivere un programma che prende in input 3 numeri interi e li riscrive in ordine crescente.
+
+
+-->
+
+	
+
+</font>
+</ul>
 
 
 	
