@@ -570,8 +570,8 @@ Scrivere un programma che chiede all'utente un valore di lunghezza lato x e un c
          printf("%c", simb);
  }
 </pre>
-Ridisegna i triangoli del Lab04_1 di lato x e utilizzando il simbolo c  (quindi non necessariamente *)
-	e in aggiunta stampa un triangolo come il seguente (in questo caso x=4  e c =o).
+Ridisegna i triangoli del Lab04_1 di lato x e utilizzando il simbolo c  (quindi non necessariamente *). 
+	Inoltre stampa un triangolo come il seguente di altezza x (in questo caso x=4  e c =o).
 <pre>   o           
   ooo          
  ooooo
@@ -599,36 +599,25 @@ schermo tutti i numeri perfetti &lt;10000.
 	(Riprendendo l'esercizio Lab03_5.) <br>Scrivere una funzione <kbd> int Fibonacci( int x) </kbd> che dato un intero x, calcola l'x-esimo numero di Fibonacci fib(x) e lo restituisce.  
  Scrivere poi un programma (funzione main) che chiede all'utente di inserire una sequenza di numeri positivi (la sequenza termina quando l'utente inserisce 0) e, per ogni numero inserito, usando la funzione Fibonacci, stampa se è un numero di Fibonacci con l'eventuale corrispondente valore x. <br>
  Esempio: se l'utente inserisce il valore 13, il programma scrive: 
- <pre>Il valore 13 è il numero di Fibonacci uguale a fib(7).
+ <pre>Il valore 13 è il numero di Fibonacci corrispondente a fib(7).
   </pre>
-se l'utente inserisce il valore 20, il programma scrive: 
+Se l'utente inserisce il valore 20, il programma scrive: 
  <pre>Il valore 20 non è un numero di Fibonacci.
   </pre>
 </li>
-<li> <i>Congettura di Collatz ver.1  </i> <br>
-La <a style="color: #990099; font-weight:
-   bold " href="https://it.wikipedia.org/wiki/Congettura_di_Collatz" target="_blank"> congettura di Collatz </a> è una delle più semplici congetture matematiche non ancora risolte.
-  La congettura riguarda il seguente algoritmo:
-<br>
-Si prenda un intero positivo n.
-<br>
-<pre> 1.Se n = 1, l'algoritmo termina.</pre>
-<pre> 2.Se n è pari, si divida per due; altrimenti si moltiplichi per 3 e si aggiunga 1.</pre> 
-<pre> 3.Si ripete l'algoritmo da 1. sul numero ottenuto.</pre>
-   Per esempio, iniziando con n = 6, otteniamo la successione 6, 3, 10, 5, 16, 8, 4, 2, 1.
-<br>
-La congettura di Collatz asserisce che questo algoritmo giunge sempre a termine, indipendentemente dal valore di partenza. <br>
-Scrivere una funzione <kbd> int Collatz( int x) </kbd> che prende in input un numero intero x (restituisce void) e stampa sullo schermo la sequenza di Collatz da x a 1.(La stampa in questo caso è fatta all'interno della funzione). Scrivere poi un programma (funzione main) che chiede all'utente di inserire una sequenza di numeri positivi (la sequenza termina quando l'utente inserisce 0) e, per ogni numero inserito, usando la funzione Collatz, stampa la corrispondente sequenza. 
-</li>
-<br>
- 
+
 
 	
 	<li> <i>Congettura di Collatz ver.2  </i> <br>
 In riferimento alla Congettura di Collatz (EseLab07_5),
 chiamiamo <i>lunghezza di Collatz (Lc)</i> il numero di elementi della successione per arrivare ad 1. Dall'esempio precedente Lc(6)= 9.<br>
-Scrivere una funzione Collatz  che prende in input un numero intero x  e restituisce la sua lunghezza di Collatz Lc(x). Scrivere poi un programma che, usando tale funzione, calcola la lunghezza di Collatz di tutti i numeri tra 1 e 1000 e li scrive in un array. Calcola poi il valore massimo di tale lunghezza tra quelli ottenuti e 
-		stampa sullo schermo quali sono i numeri interi che hanno tale lunghezza di Collatz massima.
+Scrivere una funzione Collatz  che prende in input un numero intero x  e restituisce la sua lunghezza 
+		di Collatz Lc(x). 
+Scrivere poi un programma che, usando tale funzione, calcola la lunghezza di Collatz di tutti i numeri 
+tra 1 e 1000, calcola  il valore massimo tra tali lunghezze e alla fine scrive sullo schermo tale lunghezza 
+		massima massima e
+il numero più piccolo che ha tale lunghezza di Collatz massima.
+		
 <!--   --**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**
 	ESERCIZI AVANZATI
 </li><li> Scrivere un programma che prende in input 3 numeri interi e li riscrive in ordine crescente.
