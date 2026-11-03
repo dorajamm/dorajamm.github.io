@@ -795,6 +795,48 @@ I vari punti <u>devono</u> essere svolti come funzioni. (Scaricare il file
 <a href="https://www.mat.uniroma2.it/~giammarr/Teaching/LabInf1/Laboratorio/array2dim.c"> array2dim.c</a>) .
 </li>
 
+	
+<li><i> Riga di Taglio </i><br>
+Data una matrice mxn a valori interi, la riga t è un taglio orizzontale se la somma di tutti i valori nelle posizioni
+dalla riga 0 alla riga t differisce al più di 10 dalla somma di tutti i valori nelle posizioni dalla riga t + 1 alla riga
+m − 1.
+<ul>
+<li>Scrivere una funzione int RigaTaglio(int a[][SIZE], int * somma) che, data una matrice a restituisce
+l’indice t della riga taglio, se esiste, altrimenti restituisce -1. Se la riga taglio esiste mette nella variabile
+somma il valore della somma dei valori dalla riga 0 alla riga t.
+</li><li> Scrivere un programma in C che: <br>
+1. Genera una matrice 15x15 a valori interi random tra -17 e 173 tali che non ci siano elementi uguali sulla
+stessa riga.
+<br>
+2. Stampa la matrice ben formattata sullo schermo
+<br>
+3. Utilizza la funzione RigaTaglio per individuare l’eventuale riga taglio.
+<br>
+4. Stampa le informazioni calcolate dalla funzione precedente. .
+NOTA: la stampa non deve essere effettuata all’interno della funzione, ma nel main.
+</li>
+</ul>
+<li>
+<i> Matrice dell'Amicizia </i> <br>
+Scrivere un programma in C che:
+<ol>
+  <li> Genera una matrice <i>M</i> quadrata simmetrica di 10
+	      righe (colonne) con valori random tra 0 e 1.
+  </li><li> Stampa la matrice sullo schermo.
+</li><li> Interpretando la matrice con il significato <i>M(i,j)=1</i>
+ se e solo se
+  <i> i </i> è amico di <i>j</i>, elencare sullo
+   schermo tutte le triple <i>(r,s,t)</i> in cui <i>r, s</i> e <i>t</i>
+	      sono tutti amici.
+  </li><li> (Difficile)Trovare il gruppo più grande in cui
+ sono tutti amici.  NOTA: Per questo punto sarebbe utile
+ generare una matrice con molti 1. Un modo di
+  realizzarlo potrebbe essere di generare valori random tra 0 e 3 e
+   poi trascrivere i valori &gt;0 come tutti 1.
+   </li></ol>
+   
+  </li>
+	
 <!--   --**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**--**
 	ESERCIZI AVANZATI
 </li><li> Scrivere un programma che prende in input 3 numeri interi e li riscrive in ordine crescente.
